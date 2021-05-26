@@ -1,6 +1,91 @@
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="/scores.js"></script>
 
-<div id="hello">Hello World!</div>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:title" content="Exodus Altater Cup Leaderboard">
+<meta property="og:description" content="How do you stack up to other potatoes?">
+<meta property="og:url" content="https://neokat.github.io/ac2">
+<style>
+html, body {
+  overflow-x: hidden;
+}
+body {
+  background-image: url("https://i.imgur.com/Q1ImfNW.png");
+  background-repeat: repeat;
+}
+#rats {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
 
-<div id="text"></div>
+#rats td, #rats th {
+  border: 1px solid #4f4f4f;
+  padding: 8px;
+text-align: right !important;
+}
+
+#rats tr:nth-child(even) {
+ background-color: #f2f2f2;
+}
+#rats tr:nth-child(odd) {
+ background-color: #d9d9d9;
+}
+
+
+#rats th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #1E56AD;
+  color: white;
+}
+
+@media only screen and (max-width: 640px) {
+    #rats td:nth-child(3),
+    #rats th:nth-child(3),
+    #rats td:nth-child(4),
+    #rats th:nth-child(4),
+    #rats td:nth-child(5),
+    #rats th:nth-child(5),
+    #rats td:nth-child(6),
+    #rats th:nth-child(6),
+    #rats td:nth-child(7),
+    #rats th:nth-child(7) {display: none;}
+}
+</style>
+</head>
+<body>
+<center>
+<img src="http://i.imgur.com/oUSxtvh.png" width="60%"><br>
+    Last updated:
+    <div id="last_updated"></div>
+<table id="rats">
+<tr>
+<th style="text-align: center !important;">
+TEAM</th>
+<th>
+USERNAME</th>
+<th>
+YYB WINS</th>
+<th>
+YYB DRAWS</th>
+<th>
+SLSL PLAYS</th>
+<th>
+MSN PLAYS</th>
+<th>
+SOSD PLAYS</th>
+<th>
+TOTAL POINTS</th>
+<th>
+RANK</th>
+</tr>
+<div id="score_contents"></div>
+</table>
+
+</body>
+</html>
