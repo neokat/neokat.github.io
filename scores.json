@@ -1,0 +1,27 @@
+{
+  "last_updated": "May 26, 2021 at 1:36:29 PM",
+  "scores": [
+    {
+      "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
+      "username": "superkathiee",
+      "yyb_wins": 520,
+      "yyb_draws": 1,
+      "slsl_wins": 100,
+      "msn_plays": 370,
+      "sosd_plays": 3500,
+      "total_score": 10714,
+      "rank": "All-Star"
+    },
+    {
+      "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/terrormountain/logo.png",
+      "username": "imgonnageta",
+      "yyb_wins": 51,
+      "yyb_draws": 0,
+      "slsl_wins": 2,
+      "msn_plays": 0,
+      "sosd_plays": 586,
+      "total_score": 1210,
+      "rank": "Level 5"
+    }
+  ]
+}
