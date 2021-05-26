@@ -4,7 +4,7 @@ $().ready(function(){
     $("#last_updated").html(data["last_updated"]);
 
     let scores_html = build_table(data["scores"]);
-
+    console.log(scores_html);
     $("#score_contents").html(scores_html);
 
   });
@@ -14,6 +14,8 @@ function build_table(score_data) {
     let table_string = "";
     for (let i = 0; i < score_data.length; i++) {
         let score = score_data[i];
+        console.log(score);
+        console.log(i);
         table_string.concat(
             "<tr><td style=\"text-align: center !important;\"><img src=\"",
             score["team_logo"],
