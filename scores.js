@@ -24,4 +24,5 @@ function build_table(score_data) {
             "</td><td>1</td><td>100</td><td>370</td><td>3,500</td><td>10,714</td><td>All-Star</td></tr>\n"
         );
     }
+    return table_string;
 }
