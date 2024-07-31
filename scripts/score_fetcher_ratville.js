@@ -22,7 +22,10 @@
             "kat_bus",
             "rawbeee",
             "blumaroocrazy21",
-            "sunbathr"
+            "sunbathr",
+            "darkroast",
+            "d_a_r_e",
+            "the_gecko_dude_ii"
         ]
 
         const data = {};
@@ -92,23 +95,6 @@
                         const scores = JSON.parse(atob(responseData.content));
 
                         const total_score = (data.yyb_wins * 14) + (data.slsl_games_played * 10) + (data.msn_games_played * 3) + (data.sosd_games_played * 3);
-
-                        let userFound = false;
-                        for (let i = 0; i < scores.length; i++) {
-                            if (scores[i].username === data.username) {
-                                scores[i].rank = data.rank;
-                                scores[i].yyb_wins = data.yyb_wins;
-                                scores[i].yyb_draws = data.yyb_draws;
-                                scores[i].slsl_wins = data.slsl_games_played;
-                                scores[i].msn_plays = data.msn_games_played;
-                                scores[i].sosd_plays = data.sosd_games_played;
-                                scores[i].total_score = total_score;
-                                scores[i].last_updated = timestamp;
-                                userFound = true;
-                                break;
-                            }
-                        }
-
                         const team_logo = {
                             "roo island": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
                             "krawk island": "https://images.neopets.com/altador/altadorcup/2010/popups/krawkisland/logo.png",
@@ -131,6 +117,27 @@
                             "kiko lake": "https://images.neopets.com/altador/altadorcup/2010/popups/kikolake/logo.png",
                             "manually update": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png"
                         }
+
+
+
+                        let userFound = false;
+                        for (let i = 0; i < scores.length; i++) {
+                            if (scores[i].username === data.username) {
+                                scores[i].rank = data.rank;
+                                scores[i].team_logo = team_logo[data.team_name];
+                                scores[i].yyb_wins = data.yyb_wins;
+                                scores[i].yyb_draws = data.yyb_draws;
+                                scores[i].slsl_wins = data.slsl_games_played;
+                                scores[i].msn_plays = data.msn_games_played;
+                                scores[i].sosd_plays = data.sosd_games_played;
+                                scores[i].total_score = total_score;
+                                scores[i].last_updated = timestamp;
+                                userFound = true;
+                                break;
+                            }
+                        }
+
+
 
                         if (!userFound) {
                             scores.push({

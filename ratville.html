@@ -115,7 +115,7 @@
                         cellTeamLogo.appendChild(img);
 
                         const cellUsername = row.insertCell();
-                        cellUsername.textContent = score.username;
+                        cellUsername.textContent = '<a href="https://www.neopets.com/altador/colosseum/userstats.phtml?username=' + score.username + '">' + score.username + '</a>';
 
                         const cellYybWins = row.insertCell();
                         cellYybWins.textContent = score.yyb_wins;
