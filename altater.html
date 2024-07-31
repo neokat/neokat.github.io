@@ -84,12 +84,35 @@ TOTAL POINTS</th>
 <th>
 RANK</th>
 </tr>
-<tr><td style="text-align: center !important;"><img src="https://images.neopets.com/altador/altadorcup/2010/popups/maraqua/logo.png" height="50px"></td><td>nostalgia</td><td>770</td><td>0</td><td>117</td><td>5,418</td><td>6,020</td><td>21,380</td><td>All-Star</td></tr>
-<tr><td style="text-align: center !important;"><img src="https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png" height="50px"></td><td>superkathiee</td><td>341</td><td>0</td><td>51</td><td>180</td><td>2,075</td><td>6,653</td><td>All-Star</td></tr>
-<tr><td style="text-align: center !important;"><img src="https://images.neopets.com/altador/altadorcup/2010/popups/tyrannia/logo.png" height="50px"></td><td>goosesticks</td><td>80</td><td>0</td><td>4</td><td>115</td><td>341</td><td>1,440</td><td>Level 7</td></tr>
+<tr><img src="https://images.neopets.com/altador/altadorcup/2010/popups/maraqua/logo.png" height="50px"></td><td>testjfklsdjflkds</td><td>770</td><td>0</td><td>117</td><td>5,418</td><td>6,020</td><td>21,380</td><td>All-Star</td></tr>
 
 </table>
-<script>
+<script type="text/javascript">
+// build table body
+    $(function() {
+   var scores = [];
+
+   $.getJSON('scores.json', function(data) {
+       $.each(data.scores, function(i, user) {
+          var tblRow = "<tr>" +
+            "<td><img src=\"" + user.team_logo + "\" height=\"50px\"</td>" +
+            "<td>" + user.username + "</td>" +
+            "<td>" + user.yyb_wins + "</td>" +
+            "<td>" + user.yyb_draws + "</td>" +
+            "<td>" + user.slsl_wins + "</td>" +
+            "<td>" + user.msn_plays + "</td>" +
+            "<td>" + user.sosd_plays + "</td>" +
+            "<td>" + user.total_score + "</td>" +
+            "<td>" + user.rank + "</td>" +
+            "<td>" + user.last_updated + "</td>" +
+            "</tr>"
+          $(tblRow).appendTo("#spuds tbody");
+     });
+   });
+
+});
+
+// calculate last update time
   var seconds = 1000;
   var minutes = seconds * 60;
   var hours = minutes * 60;
@@ -127,5 +150,8 @@ RANK</th>
   document.getElementById("lu").innerHTML = 'Last update: ' + z + ' days ago';
 }
 </script>
+
+
+</center>
 </body>
 </html>
