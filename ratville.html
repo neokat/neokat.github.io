@@ -48,6 +48,12 @@
             color: white;
         }
 
+        h1 {
+            font-family: Verdana, Helvetica, sans-serif;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
         @media only screen and (max-width: 730px) {
             #spuds td:nth-child(3),
             #spuds th:nth-child(3),
@@ -66,7 +72,7 @@
 </head>
 <body>
 <center>
-    WELCOME TO THE SEWER, RATS!
+    <h1>WELCOME TO THE SEWER, RATS!</h1>
     <table id="spuds">
         <thead>
         <tr>
@@ -90,7 +96,7 @@
         // build table body
 
         document.addEventListener('DOMContentLoaded', function () {
-            fetch('scores.json')
+            fetch('ratville_scores.json')
                 .then(response => response.json())
                 .then(scores => {
                     scores.sort((a, b) => b.total_score - a.total_score);
