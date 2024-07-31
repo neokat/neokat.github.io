@@ -1,4 +1,22 @@
 {
-  "last_updated": "7/31/2024, 8:19:59 AM",
-  "scores": []
+  "last_updated": "7/31/2024, 8:48:46 AM",
+  "scores": [
+    {
+      "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
+      "team_name": "Lost Roorawkuudor Mountain",
+      "username": "superkathiee",
+      "yyb_wins": 4,
+      "yyb_draws": 0,
+      "yyb_high_score": 19,
+      "slsl_wins": 4,
+      "slsl_high_score": 900,
+      "msn_plays": 10,
+      "msn_high_score": 5,
+      "sosd_plays": 27,
+      "sosd_high_score": 1,
+      "total_score": 207,
+      "rank": "Level 1",
+      "last_updated": "7/31/2024, 8:48:46 AM"
+    }
+  ]
 }
