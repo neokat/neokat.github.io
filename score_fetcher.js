@@ -132,12 +132,12 @@
                             "tyrannia": "Haunted Darfennia Virtumyst",
                             "virtupets": "Haunted Darfennia Virtumyst",
                             "mystery island": "Haunted Darfennia Virtumyst",
-                            "kreludor": "Krelutarqua da’Merivale",
-                            "moltara": "Krelutarqua da’Merivale",
-                            "maraqua": "Krelutarqua da’Merivale",
-                            "dacardia": "Krelutarqua da’Merivale",
-                            "meridell": "Krelutarqua da’Merivale",
-                            "brightvale": "Krelutarqua da’Merivale",
+                            "kreludor": "Krelutarqua da'Merivale",
+                            "moltara": "Krelutarqua da'Merivale",
+                            "maraqua": "Krelutarqua da'Merivale",
+                            "dacardia": "Krelutarqua da'Merivale",
+                            "meridell": "Krelutarqua da'Merivale",
+                            "brightvale": "Krelutarqua da'Merivale",
                             "kiko lake": "Traitor Potaters",
                             "manually update": "Traitor Potaters"
                         }
@@ -145,7 +145,7 @@
                         const team_logo_dict = {
                             "Lost Roorawkuudor Mountain": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
                             "Haunted Darfennia Virtumyst": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
-                            "Krelutarqua da’Merivale": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
+                            "Krelutarqua da'Merivale": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
                             "Traitor Potaters": "https://images.neopets.com/games/betterthanyou/contestant402.gif"
                         }
 
