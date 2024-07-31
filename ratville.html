@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Ratville Altador Cup Leaderboard">
+    <meta property="og:description" content="How do you stack up to other RATS?">
+    <meta property="og:url" content="https://neokat.github.io/ratville">
+    <title>Exodus Altater Cup Leaderboard</title>
+
+    <link rel="icon" href="https://imagizer.imageshack.com/img922/9420/eRxVah.png " type="image/x-icon">
+
+    <style>
+        html, body {
+            overflow-x: hidden;
+        }
+
+        body {
+            background-image: url("https://i.imgur.com/Q1ImfNW.png");
+            background-repeat: repeat;
+        }
+
+        #spuds {
+            font-family: Verdana, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 85%;
+        }
+
+        #spuds td, #spuds th {
+            border: 1px solid #4f4f4f;
+            padding: 8px;
+            text-align: right !important;
+        }
+
+        #spuds tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #spuds tr:nth-child(odd) {
+            background-color: #d9d9d9;
+        }
+
+
+        #spuds th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #F8AE28;
+            color: white;
+        }
+
+        @media only screen and (max-width: 730px) {
+            #spuds td:nth-child(3),
+            #spuds th:nth-child(3),
+            #spuds td:nth-child(4),
+            #spuds th:nth-child(4),
+            #spuds td:nth-child(5),
+            #spuds th:nth-child(5),
+            #spuds td:nth-child(6),
+            #spuds th:nth-child(6),
+            #spuds td:nth-child(9),
+            #spuds th:nth-child(9) {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+<center>
+    WELCOME TO THE SEWER, RATS!
+    <table id="spuds">
+        <thead>
+        <tr>
+            <th>TEAM</th>
+            <th>USERNAME</th>
+            <th>YYB WINS</th>
+            <th>SLSL PLAYS</th>
+            <th>MSN PLAYS</th>
+            <th>SOSD PLAYS</th>
+            <th>TOTAL POINTS</th>
+            <th>RANK</th>
+            <th>LAST UPDATED (NST)</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- Data will be populated here -->
+        </tbody>
+
+    </table>
+    <script>
+        // build table body
+
+        document.addEventListener('DOMContentLoaded', function () {
+            fetch('scores.json')
+                .then(response => response.json())
+                .then(scores => {
+                    scores.sort((a, b) => b.total_score - a.total_score);
+
+                    const scoresTableBody = document.getElementById('spuds').getElementsByTagName('tbody')[0];
+
+                    scores.forEach(score => {
+                        const row = scoresTableBody.insertRow();
+
+                        const cellTeamLogo = row.insertCell();
+                        const img = document.createElement('img');
+                        img.src = score.team_logo;
+                        img.height = 50;
+                        img.alt = score.team_name;
+                        cellTeamLogo.appendChild(img);
+
+                        const cellUsername = row.insertCell();
+                        cellUsername.textContent = score.username;
+
+                        const cellYybWins = row.insertCell();
+                        cellYybWins.textContent = score.yyb_wins;
+
+                        const cellSlslGames = row.insertCell();
+                        cellSlslGames.textContent = score.slsl_wins;
+
+                        const cellMsnPlays = row.insertCell();
+                        cellMsnPlays.textContent = score.msn_plays;
+
+                        const cellSosdPlays = row.insertCell();
+                        cellSosdPlays.textContent = score.sosd_plays;
+
+                        const cellTotalScore = row.insertCell();
+                        cellTotalScore.textContent = score.total_score;
+
+                        const cellRank = row.insertCell();
+                        cellRank.textContent = score.rank;
+
+                        const cellLastUpdated = row.insertCell();
+                        cellLastUpdated.textContent = score.last_updated;
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching the JSON data you are such a loser:', error);
+                });
+        });
+    </script>
+
+
+</center>
+</body>
+</html>
