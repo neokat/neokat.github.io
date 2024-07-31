@@ -49,24 +49,24 @@
 
             // Get Yooyuball stats
             const yybSection = document.querySelector('section.gamestats:nth-of-type(1)');
-            data.yyb_goals_scored = parseInt(yybSection.querySelector('li:nth-of-type(1) span').textContent.trim());
-            data.yyb_wins = parseInt(yybSection.querySelector('li:nth-of-type(7) span').textContent.trim());
-            data.yyb_draws = parseInt(yybSection.querySelector('li:nth-of-type(8) span').textContent.trim());
+            data.yyb_goals_scored = parseInt(yybSection.querySelector('li:nth-of-type(1) span').textContent.trim().replace(/,/g, ''));
+            data.yyb_wins = parseInt(yybSection.querySelector('li:nth-of-type(7) span').textContent.trim().replace(/,/g, ''));
+            data.yyb_draws = parseInt(yybSection.querySelector('li:nth-of-type(8) span').textContent.trim().replace(/,/g, ''));
 
             // Get Slushie Slinger stats
             const slsSection = document.querySelector('section.gamestats:nth-of-type(2)');
-            data.slsl_games_played = parseInt(slsSection.querySelector('li:nth-of-type(1) span').textContent.trim());
-            data.slsl_top_score = parseInt(slsSection.querySelector('li:nth-of-type(2) span').textContent.trim());
+            data.slsl_games_played = parseInt(slsSection.querySelector('li:nth-of-type(1) span').textContent.trim().replace(/,/g, ''));
+            data.slsl_top_score = parseInt(slsSection.querySelector('li:nth-of-type(2) span').textContent.trim().replace(/,/g, ''));
 
             // Get Make Some Noise stats
             const msnSection = document.querySelector('section.gamestats:nth-of-type(3)');
-            data.msn_games_played = parseInt(msnSection.querySelector('li:nth-of-type(1) span').textContent.trim());
-            data.msn_top_score = parseInt(msnSection.querySelector('li:nth-of-type(2) span').textContent.trim());
+            data.msn_games_played = parseInt(msnSection.querySelector('li:nth-of-type(1) span').textContent.trim().replace(/,/g, ''));
+            data.msn_top_score = parseInt(msnSection.querySelector('li:nth-of-type(2) span').textContent.trim().replace(/,/g, ''));
 
             // Get Shootout Showdown stats
             const sosdSection = document.querySelector('section.gamestats:nth-of-type(4)');
-            data.sosd_games_played = parseInt(sosdSection.querySelector('li:nth-of-type(1) span').textContent.trim());
-            data.sosd_top_score = parseInt(sosdSection.querySelector('li:nth-of-type(2) span').textContent.trim());
+            data.sosd_games_played = parseInt(sosdSection.querySelector('li:nth-of-type(1) span').textContent.trim().replace(/,/g, ''));
+            data.sosd_top_score = parseInt(sosdSection.querySelector('li:nth-of-type(2) span').textContent.trim().replace(/,/g, ''));
 
             // Get current timestamp
             const timestamp = new Date().toLocaleString('en-US', {timeZone: 'America/Los_Angeles'});
@@ -148,7 +148,7 @@
                         }
 
                         if (!userFound) {
-                            scoresData.scores.push({
+                            scores.push({
                                 "team_logo": team_logo_dict[team_name_dict[data.team_name]],
                                 "team_name": team_name_dict[data.team_name],
                                 "username": data.username,
@@ -167,7 +167,7 @@
                             });
                         }
 
-                        const fileContent = JSON.stringify(scoresData, null, 2);
+                        const fileContent = JSON.stringify(scores, null, 2);
                         const base64Content = btoa(unescape(encodeURIComponent(fileContent)));
 
 
