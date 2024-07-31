@@ -141,6 +141,7 @@
                     if (!userFound) {
                         scoresData.scores.push({
                             "team_logo": team_logo_dict[team_name_dict[data.team_name]],
+                            "team_name": team_name_dict[data.team_name],
                             "username": data.username,
                             "yyb_wins": data.yyb_wins,
                             "yyb_draws": data.yyb_draws,
