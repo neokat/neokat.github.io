@@ -13,13 +13,16 @@
 (function () {
         'use strict';
 
-        const data = {};
+        // FIRST TIME USERS MUST FILL IN THESE DETAILS!!!!
         const SECRET_GITHUB_TOKEN = 'abcdefghijklmnopqrstuvwxyz1234567890'
+        const MY_USERNAME = 'superkathiee'
+
+        const data = {};
 
         // Get level
         const h2Text = document.querySelector('.team-title h2').textContent.trim().toLowerCase();
         if (h2Text === 'your stats') {
-            data.username = 'superkathiee';
+            data.username = MY_USERNAME;
         } else {
             data.username = h2Text;
         }
