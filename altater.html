@@ -96,10 +96,10 @@
         document.addEventListener('DOMContentLoaded', function () {
             fetch('scores.json')
                 .then(response => response.json())
-                .then(data => {
+                .then(scores => {
                     const scoresTableBody = document.getElementById('spuds').getElementsByTagName('tbody')[0];
 
-                    data.scores.forEach(score => {
+                    scores.forEach(score => {
                         const row = scoresTableBody.insertRow();
 
                         const cellTeamLogo = row.insertCell();

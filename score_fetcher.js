@@ -36,8 +36,7 @@
             data.username = h2Text;
         }
 
-        if (data.username in PARTICIPANTS) {
-
+        if (PARTICIPANTS.includes(data.username)) {
             data.rank = document.querySelector('.team-title p').textContent.trim();
 
             const team_title_html = document.querySelector('.team-title').innerHTML;
@@ -47,7 +46,6 @@
             } else {
                 data.team_name = "manually update"
             }
-
 
             // Get Yooyuball stats
             const yybSection = document.querySelector('section.gamestats:nth-of-type(1)');
@@ -95,25 +93,25 @@
                 .then(response => {
                         const responseData = JSON.parse(response.responseText);
                         const git_sha = responseData.sha;
-                        const scoresData = JSON.parse(atob(responseData.content));
+                        const scores = JSON.parse(atob(responseData.content));
 
                         const total_score = (data.yyb_wins * 14) + (data.slsl_games_played * 10) + (data.msn_games_played * 3) + (data.sosd_games_played * 3);
 
                         let userFound = false;
-                        for (let i = 0; i < scoresData.scores.length; i++) {
-                            if (scoresData.scores[i].username === data.username) {
-                                scoresData.scores[i].rank = data.rank;
-                                scoresData.scores[i].yyb_wins = data.yyb_wins;
-                                scoresData.scores[i].yyb_draws = data.yyb_draws;
-                                scoresData.scores[i].yyb_high_score = data.yyb_goals_scored;
-                                scoresData.scores[i].slsl_wins = data.slsl_games_played;
-                                scoresData.scores[i].slsl_high_score = data.slsl_top_score;
-                                scoresData.scores[i].msn_plays = data.msn_games_played;
-                                scoresData.scores[i].msn_high_score = data.msn_top_score;
-                                scoresData.scores[i].sosd_plays = data.sosd_games_played;
-                                scoresData.scores[i].sosd_high_score = data.sosd_top_score;
-                                scoresData.scores[i].total_score = total_score;
-                                scoresData.scores[i].last_updated = timestamp;
+                        for (let i = 0; i < scores.length; i++) {
+                            if (scores[i].username === data.username) {
+                                scores[i].rank = data.rank;
+                                scores[i].yyb_wins = data.yyb_wins;
+                                scores[i].yyb_draws = data.yyb_draws;
+                                scores[i].yyb_high_score = data.yyb_goals_scored;
+                                scores[i].slsl_wins = data.slsl_games_played;
+                                scores[i].slsl_high_score = data.slsl_top_score;
+                                scores[i].msn_plays = data.msn_games_played;
+                                scores[i].msn_high_score = data.msn_top_score;
+                                scores[i].sosd_plays = data.sosd_games_played;
+                                scores[i].sosd_high_score = data.sosd_top_score;
+                                scores[i].total_score = total_score;
+                                scores[i].last_updated = timestamp;
                                 userFound = true;
                                 break;
                             }
@@ -132,12 +130,12 @@
                             "tyrannia": "Haunted Darfennia Virtumyst",
                             "virtupets": "Haunted Darfennia Virtumyst",
                             "mystery island": "Haunted Darfennia Virtumyst",
-                            "kreludor": "Krelutarqua da'Merivale",
-                            "moltara": "Krelutarqua da'Merivale",
-                            "maraqua": "Krelutarqua da'Merivale",
-                            "dacardia": "Krelutarqua da'Merivale",
-                            "meridell": "Krelutarqua da'Merivale",
-                            "brightvale": "Krelutarqua da'Merivale",
+                            "kreludor": "Krelutarqua daMerivale",
+                            "moltara": "Krelutarqua daMerivale",
+                            "maraqua": "Krelutarqua daMerivale",
+                            "dacardia": "Krelutarqua daMerivale",
+                            "meridell": "Krelutarqua daMerivale",
+                            "brightvale": "Krelutarqua daMerivale",
                             "kiko lake": "Traitor Potaters",
                             "manually update": "Traitor Potaters"
                         }
@@ -145,7 +143,7 @@
                         const team_logo_dict = {
                             "Lost Roorawkuudor Mountain": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
                             "Haunted Darfennia Virtumyst": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
-                            "Krelutarqua da'Merivale": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
+                            "Krelutarqua daMerivale": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
                             "Traitor Potaters": "https://images.neopets.com/games/betterthanyou/contestant402.gif"
                         }
 
@@ -196,13 +194,15 @@
                                 }, JSON.stringify(updateData));
                             })
                             .then(response => {
-                                console.log('File updated successfully:', JSON.parse(response.responseText));
+                                console.log(`File updated successfully for ${data.username}`, JSON.parse(response.responseText));
                             })
                             .catch(error => {
                                 console.error('Error updating file:', error.response ? JSON.parse(error.responseText) : error.message);
                             });
                     }
                 )
+        } else {
+            console.log(`User ${data.username} is not a participant in the 2024 Altater Cup`)
         }
     }
 )
