@@ -1,5 +1,5 @@
 {
-  "last_updated": "7/31/2024, 8:49:00 AM",
+  "last_updated": "7/31/2024, 8:49:26 AM",
   "scores": [
     {
       "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
@@ -20,7 +20,7 @@
     },
     {
       "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
-      "team_name": "Krelutarqua daÃ¢ÂÂMerivale",
+      "team_name": "Krelutarqua daÃÂ¢ÃÂÃÂMerivale",
       "username": "nostalgia",
       "yyb_wins": 0,
       "yyb_draws": 0,
@@ -68,6 +68,23 @@
       "total_score": 924,
       "rank": "Level 6",
       "last_updated": "7/31/2024, 8:49:00 AM"
+    },
+    {
+      "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
+      "team_name": "Krelutarqua da’Merivale",
+      "username": "hunni_bun_137",
+      "yyb_wins": 0,
+      "yyb_draws": 0,
+      "yyb_high_score": 0,
+      "slsl_wins": 0,
+      "slsl_high_score": 0,
+      "msn_plays": 0,
+      "msn_high_score": 0,
+      "sosd_plays": 0,
+      "sosd_high_score": 0,
+      "total_score": 0,
+      "rank": "Beginner",
+      "last_updated": "7/31/2024, 8:49:26 AM"
     }
   ]
 }
