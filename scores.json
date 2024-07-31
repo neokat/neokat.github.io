@@ -1,5 +1,5 @@
 {
-  "last_updated": "7/31/2024, 8:48:56 AM",
+  "last_updated": "7/31/2024, 8:49:00 AM",
   "scores": [
     {
       "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
@@ -20,7 +20,7 @@
     },
     {
       "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
-      "team_name": "Krelutarqua daâMerivale",
+      "team_name": "Krelutarqua daÃ¢ÂÂMerivale",
       "username": "nostalgia",
       "yyb_wins": 0,
       "yyb_draws": 0,
@@ -51,6 +51,23 @@
       "total_score": 0,
       "rank": "Beginner",
       "last_updated": "7/31/2024, 8:48:56 AM"
+    },
+    {
+      "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
+      "team_name": "Lost Roorawkuudor Mountain",
+      "username": "hilary_duff_fan_16",
+      "yyb_wins": 0,
+      "yyb_draws": 0,
+      "yyb_high_score": 0,
+      "slsl_wins": 0,
+      "slsl_high_score": 0,
+      "msn_plays": 7,
+      "msn_high_score": 2,
+      "sosd_plays": 301,
+      "sosd_high_score": 105,
+      "total_score": 924,
+      "rank": "Level 6",
+      "last_updated": "7/31/2024, 8:49:00 AM"
     }
   ]
 }
