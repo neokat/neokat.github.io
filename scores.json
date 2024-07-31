@@ -1,5 +1,5 @@
 {
-  "last_updated": "7/31/2024, 8:48:51 AM",
+  "last_updated": "7/31/2024, 8:48:56 AM",
   "scores": [
     {
       "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
@@ -20,7 +20,7 @@
     },
     {
       "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
-      "team_name": "Krelutarqua da’Merivale",
+      "team_name": "Krelutarqua daâMerivale",
       "username": "nostalgia",
       "yyb_wins": 0,
       "yyb_draws": 0,
@@ -34,6 +34,23 @@
       "total_score": 231,
       "rank": "Level 1",
       "last_updated": "7/31/2024, 8:48:51 AM"
+    },
+    {
+      "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
+      "team_name": "Haunted Darfennia Virtumyst",
+      "username": "goosesticks",
+      "yyb_wins": 0,
+      "yyb_draws": 0,
+      "yyb_high_score": 0,
+      "slsl_wins": 0,
+      "slsl_high_score": 0,
+      "msn_plays": 0,
+      "msn_high_score": 0,
+      "sosd_plays": 0,
+      "sosd_high_score": 0,
+      "total_score": 0,
+      "rank": "Beginner",
+      "last_updated": "7/31/2024, 8:48:56 AM"
     }
   ]
 }
