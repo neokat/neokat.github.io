@@ -1,5 +1,5 @@
 {
-  "last_updated": "7/31/2024, 8:05:01 AM",
+  "last_updated": "7/31/2024, 8:05:06 AM",
   "scores": [
     {
       "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
@@ -36,14 +36,18 @@
     {
       "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/tyrannia/logo.png",
       "username": "goosesticks",
-      "yyb_wins": 5,
+      "yyb_wins": 0,
       "yyb_draws": 0,
-      "slsl_wins": 2,
+      "slsl_wins": 0,
       "msn_plays": 0,
-      "sosd_plays": 586,
-      "total_score": 121,
-      "rank": "Level 1",
-      "last_updated": "July 31, 2024 at 1:36:29 PM"
+      "sosd_plays": 0,
+      "total_score": 0,
+      "rank": "Level undefined",
+      "last_updated": "7/31/2024, 8:05:06 AM",
+      "yyb_high_score": 0,
+      "slsl_high_score": 0,
+      "msn_high_score": 0,
+      "sosd_high_score": 0
     }
   ]
 }
