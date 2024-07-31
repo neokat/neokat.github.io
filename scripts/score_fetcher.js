@@ -17,7 +17,7 @@
         const SECRET_GITHUB_TOKEN = 'abcdefghijklmnopqrstuvwxyz1234567890'
         const MY_USERNAME = 'superkathiee'
 
-        const PARTICIPANTS = [
+        const EXODUS_PLAYERS = [
             "superkathiee",
             "nostalgia",
             "goosesticks",
@@ -25,6 +25,70 @@
             "honorrolle",
             "hilary_duff_fan_16"
         ]
+
+        const RATVILLE_PLAYERS = [
+            "superkathiee",
+            "kat_bus",
+            "rawbeee",
+            "blumaroocrazy21",
+            "sunbathr",
+            "darkroast",
+            "d_a_r_e",
+            "the_gecko_dude_ii"
+        ]
+
+        const ALTATER_TEAMS = {
+            "roo island": "Lost Roorawkuudor Mountain",
+            "krawk island": "Lost Roorawkuudor Mountain",
+            "terror mountain": "Lost Roorawkuudor Mountain",
+            "shenkuu": "Lost Roorawkuudor Mountain",
+            "altador": "Lost Roorawkuudor Mountain",
+            "lost desert": "Lost Roorawkuudor Mountain",
+            "haunted woods": "Haunted Darfennia Virtumyst",
+            "darigan citadel": "Haunted Darfennia Virtumyst",
+            "faerieland": "Haunted Darfennia Virtumyst",
+            "tyrannia": "Haunted Darfennia Virtumyst",
+            "virtupets": "Haunted Darfennia Virtumyst",
+            "mystery island": "Haunted Darfennia Virtumyst",
+            "kreludor": "Krelutarqua daMerivale",
+            "moltara": "Krelutarqua daMerivale",
+            "maraqua": "Krelutarqua daMerivale",
+            "dacardia": "Krelutarqua daMerivale",
+            "meridell": "Krelutarqua daMerivale",
+            "brightvale": "Krelutarqua daMerivale",
+            "kiko lake": "Traitor Potaters",
+            "manually update": "Traitor Potaters"
+        }
+
+        const ALTATER_LOGOS = {
+            "Lost Roorawkuudor Mountain": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
+            "Haunted Darfennia Virtumyst": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
+            "Krelutarqua daMerivale": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
+            "Traitor Potaters": "https://images.neopets.com/games/betterthanyou/contestant402.gif"
+        }
+
+        const CLASSIC_LOGOS = {
+            "roo island": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
+            "krawk island": "https://images.neopets.com/altador/altadorcup/2010/popups/krawkisland/logo.png",
+            "terror mountain": "https://images.neopets.com/altador/altadorcup/2010/popups/terrormountain/logo.png",
+            "shenkuu": "https://images.neopets.com/altador/altadorcup/2010/popups/skenkuu/logo.png",
+            "altador": "https://images.neopets.com/altador/altadorcup/2010/popups/altador/logo.png",
+            "lost desert": "https://images.neopets.com/altador/altadorcup/2010/popups/lostdesert/logo.png",
+            "haunted woods": "https://images.neopets.com/altador/altadorcup/2010/popups/hauntedwoods/logo.png",
+            "darigan citadel": "https://images.neopets.com/altador/altadorcup/2010/popups/darigan/logo.png",
+            "faerieland": "https://images.neopets.com/altador/altadorcup/2010/popups/faerieland/logo.png",
+            "tyrannia": "https://images.neopets.com/altador/altadorcup/2010/popups/tyrannia/logo.png",
+            "virtupets": "https://images.neopets.com/altador/altadorcup/2010/popups/virtupets/logo.png",
+            "mystery island": "https://images.neopets.com/altador/altadorcup/2010/popups/mysteryisland/logo.png",
+            "kreludor": "https://images.neopets.com/altador/altadorcup/2010/popups/kreludor/logo.png",
+            "moltara": "https://images.neopets.com/altador/altadorcup/2010/popups/moltara/logo.png",
+            "maraqua": "https://images.neopets.com/altador/altadorcup/2010/popups/maraqua/logo.png",
+            "dacardia": "https://images.neopets.com/altador/altadorcup/2010/popups/dacardia/logo.png",
+            "meridell": "https://images.neopets.com/altador/altadorcup/2010/popups/meridell/logo.png",
+            "brightvale": "https://images.neopets.com/altador/altadorcup/2010/popups/brightvale/logo.png",
+            "kiko lake": "https://images.neopets.com/altador/altadorcup/2010/popups/kikolake/logo.png",
+            "manually update": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png"
+        }
 
         const data = {};
 
@@ -36,7 +100,7 @@
             data.username = h2Text;
         }
 
-        if (PARTICIPANTS.includes(data.username)) {
+        if (EXODUS_PLAYERS.includes(data.username) || RATVILLE_PLAYERS.includes(data.username)) {
             data.rank = document.querySelector('.team-title p').textContent.trim();
 
             const team_title_html = document.querySelector('.team-title').innerHTML;
@@ -72,7 +136,12 @@
             const timestamp = new Date().toLocaleString('en-US', {timeZone: 'America/Los_Angeles'});
 
             // Helper function to make HTTP requests with GM.xmlHttpRequest
-            function gmXhrRequest(method, url, headers, data) {
+            function gmXhrRequest(method, fileName, data) {
+                let url = `https://api.github.com/repos/neokat/neokat.github.io/contents/${fileName}`
+                let headers = {
+                    Authorization: `token ${SECRET_GITHUB_TOKEN}`,
+                    Accept: 'application/vnd.github.v3+json'
+                }
                 return new Promise((resolve, reject) => {
                     GM.xmlHttpRequest({
                         method: method,
@@ -85,124 +154,105 @@
                 });
             }
 
-            // Get the SHA and content of the existing file
-            gmXhrRequest('GET', `https://api.github.com/repos/neokat/neokat.github.io/contents/scores.json`, {
-                Authorization: `token ${SECRET_GITHUB_TOKEN}`,
-                Accept: 'application/vnd.github.v3+json'
-            })
-                .then(response => {
-                        const responseData = JSON.parse(response.responseText);
-                        const git_sha = responseData.sha;
-                        const scores = JSON.parse(atob(responseData.content));
+            function removeByUsername(scores, username) {
+                const index = scores.findIndex(entry => entry.username === username);
+                if (index !== -1) {
+                    scores.splice(index, 1);
+                    console.log(`Removed user ${username}, will append stats`);
+                } else {
+                    console.log(`User ${username} not found, will add from scratch`);
+                }
+                return scores;
+            }
 
-                        const total_score = (data.yyb_wins * 14) + (data.slsl_games_played * 10) + (data.msn_games_played * 3) + (data.sosd_games_played * 3);
+            if (EXODUS_PLAYERS.includes(data.username)) {
+                const fileName = 'exodus_scores.json'
+                gmXhrRequest('GET', fileName).then(response => {
+                    const responseData = JSON.parse(response.responseText);
+                    const gitSha = responseData.sha;
+                    const scores = JSON.parse(atob(responseData.content));
+                    removeByUsername(scores, data.username);
 
-                        let userFound = false;
-                        for (let i = 0; i < scores.length; i++) {
-                            if (scores[i].username === data.username) {
-                                scores[i].rank = data.rank;
-                                scores[i].yyb_wins = data.yyb_wins;
-                                scores[i].yyb_draws = data.yyb_draws;
-                                scores[i].yyb_high_score = data.yyb_goals_scored;
-                                scores[i].slsl_wins = data.slsl_games_played;
-                                scores[i].slsl_high_score = data.slsl_top_score;
-                                scores[i].msn_plays = data.msn_games_played;
-                                scores[i].msn_high_score = data.msn_top_score;
-                                scores[i].sosd_plays = data.sosd_games_played;
-                                scores[i].sosd_high_score = data.sosd_top_score;
-                                scores[i].total_score = total_score;
-                                scores[i].last_updated = timestamp;
-                                userFound = true;
-                                break;
-                            }
-                        }
+                    const total_score = (data.yyb_wins * 14) + (data.slsl_games_played * 10) + (data.msn_games_played * 3) + (data.sosd_games_played * 3);
 
-                        const team_name_dict = {
-                            "roo island": "Lost Roorawkuudor Mountain",
-                            "krawk island": "Lost Roorawkuudor Mountain",
-                            "terror mountain": "Lost Roorawkuudor Mountain",
-                            "shenkuu": "Lost Roorawkuudor Mountain",
-                            "altador": "Lost Roorawkuudor Mountain",
-                            "lost desert": "Lost Roorawkuudor Mountain",
-                            "haunted woods": "Haunted Darfennia Virtumyst",
-                            "darigan citadel": "Haunted Darfennia Virtumyst",
-                            "faerieland": "Haunted Darfennia Virtumyst",
-                            "tyrannia": "Haunted Darfennia Virtumyst",
-                            "virtupets": "Haunted Darfennia Virtumyst",
-                            "mystery island": "Haunted Darfennia Virtumyst",
-                            "kreludor": "Krelutarqua daMerivale",
-                            "moltara": "Krelutarqua daMerivale",
-                            "maraqua": "Krelutarqua daMerivale",
-                            "dacardia": "Krelutarqua daMerivale",
-                            "meridell": "Krelutarqua daMerivale",
-                            "brightvale": "Krelutarqua daMerivale",
-                            "kiko lake": "Traitor Potaters",
-                            "manually update": "Traitor Potaters"
-                        }
+                    scores.push({
+                        "team_logo": ALTATER_LOGOS[ALTATER_TEAMS[data.team_name]],
+                        "team_name": ALTATER_TEAMS[data.team_name],
+                        "username": data.username,
+                        "yyb_wins": data.yyb_wins,
+                        "yyb_draws": data.yyb_draws,
+                        "yyb_high_score": data.yyb_goals_scored,
+                        "slsl_wins": data.slsl_games_played,
+                        "slsl_high_score": data.slsl_top_score,
+                        "msn_plays": data.msn_games_played,
+                        "msn_high_score": data.msn_top_score,
+                        "sosd_plays": data.sosd_games_played,
+                        "sosd_high_score": data.sosd_top_score,
+                        "total_score": total_score,
+                        "rank": data.rank,
+                        "last_updated": timestamp
+                    });
 
-                        const team_logo_dict = {
-                            "Lost Roorawkuudor Mountain": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
-                            "Haunted Darfennia Virtumyst": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
-                            "Krelutarqua daMerivale": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
-                            "Traitor Potaters": "https://images.neopets.com/games/betterthanyou/contestant402.gif"
-                        }
+                    const fileContent = JSON.stringify(scores, null, 2);
+                    const base64Content = btoa(unescape(encodeURIComponent(fileContent)));
 
-                        if (!userFound) {
-                            scores.push({
-                                "team_logo": team_logo_dict[team_name_dict[data.team_name]],
-                                "team_name": team_name_dict[data.team_name],
-                                "username": data.username,
-                                "yyb_wins": data.yyb_wins,
-                                "yyb_draws": data.yyb_draws,
-                                "yyb_high_score": data.yyb_goals_scored,
-                                "slsl_wins": data.slsl_games_played,
-                                "slsl_high_score": data.slsl_top_score,
-                                "msn_plays": data.msn_games_played,
-                                "msn_high_score": data.msn_top_score,
-                                "sosd_plays": data.sosd_games_played,
-                                "sosd_high_score": data.sosd_top_score,
-                                "total_score": total_score,
-                                "rank": data.rank,
-                                "last_updated": timestamp
-                            });
-                        }
+                    // Prepare the data to update the JSON file
+                    const updateData = {
+                        message: `Update scores.json for ${data.username} in ${fileName} at ${timestamp} NST`,
+                        content: base64Content,
+                        branch: `main`,
+                        sha: gitSha
+                    };
+                    gmXhrRequest('PUT', fileName, JSON.stringify(updateData)).then(response => {
+                        console.log(`File updated successfully for ${data.username} in the Altater Cup`, JSON.parse(response.responseText));
+                    }).catch(error => {
+                        console.error('Error updating file:', error.response ? JSON.parse(error.responseText) : error.message);
+                    });
+                })
+            }
+            if(RATVILLE_PLAYERS.includes(data.username)){
+                const fileName = 'ratville_scores.json'
+                gmXhrRequest('GET', fileName).then(response => {
+                    const responseData = JSON.parse(response.responseText);
+                    const gitSha = responseData.sha;
+                    const scores = JSON.parse(atob(responseData.content));
+                    removeByUsername(scores, data.username);
 
-                        const fileContent = JSON.stringify(scores, null, 2);
-                        const base64Content = btoa(unescape(encodeURIComponent(fileContent)));
+                    const total_score = (data.yyb_wins * 14) + (data.slsl_games_played * 10) + (data.msn_games_played * 3) + (data.sosd_games_played * 3);
 
+                    scores.push({
+                        "team_logo": CLASSIC_LOGOS[data.team_name],
+                        "username": data.username,
+                        "yyb_wins": data.yyb_wins,
+                        "yyb_draws": data.yyb_draws,
+                        "slsl_wins": data.slsl_games_played,
+                        "msn_plays": data.msn_games_played,
+                        "sosd_plays": data.sosd_games_played,
+                        "total_score": total_score,
+                        "rank": data.rank,
+                        "last_updated": timestamp
+                    });
 
-                        // Prepare the data to update the JSON file
-                        const updateData = {
-                            message: `Update scores.json for ${data.username} at ${timestamp} NST`,
-                            content: base64Content,
-                            branch: `main`
-                        };
+                    const fileContent = JSON.stringify(scores, null, 2);
+                    const base64Content = btoa(unescape(encodeURIComponent(fileContent)));
 
-                        // Get the SHA of the file to be updated
-                        gmXhrRequest('GET', `https://api.github.com/repos/neokat/neokat.github.io/contents/scores.json`, {
-                            Authorization: `token ${SECRET_GITHUB_TOKEN}`,
-                            Accept: 'application/vnd.github.v3+json'
-                        })
-                            .then(response => {
-                                const responseData = JSON.parse(response.responseText);
-                                updateData.sha = git_sha;
+                    // Prepare the data to update the JSON file
+                    const updateData = {
+                        message: `Update scores.json for ${data.username} in ${fileName} at ${timestamp} NST`,
+                        content: base64Content,
+                        branch: `main`,
+                        sha: gitSha
+                    };
+                    gmXhrRequest('PUT', fileName, JSON.stringify(updateData)).then(response => {
+                        console.log(`File updated successfully for ${data.username} in the Ratville Scoreboard`, JSON.parse(response.responseText));
+                    }).catch(error => {
+                        console.error('Error updating file:', error.response ? JSON.parse(error.responseText) : error.message);
+                    });
+                })
+            }
 
-                                // Update the file in the repository
-                                return gmXhrRequest('PUT', `https://api.github.com/repos/neokat/neokat.github.io/contents/scores.json`, {
-                                    Authorization: `token ${SECRET_GITHUB_TOKEN}`,
-                                    Accept: 'application/vnd.github.v3+json'
-                                }, JSON.stringify(updateData));
-                            })
-                            .then(response => {
-                                console.log(`File updated successfully for ${data.username} in the Altater Cup`, JSON.parse(response.responseText));
-                            })
-                            .catch(error => {
-                                console.error('Error updating file:', error.response ? JSON.parse(error.responseText) : error.message);
-                            });
-                    }
-                )
         } else {
-            console.log(`User ${data.username} is not a participant in the 2024 Altater Cup`)
+            console.log(`User ${data.username} is not a participant in either the 2024 Altater Cup or the 2024 Ratville Scoreboard`)
         }
     }
 )

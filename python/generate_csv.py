@@ -2,7 +2,7 @@ import pandas as pd
 import json
 from datetime import datetime
 
-input_file = '../scores.json'
+input_file = '../altater_scores.json'
 
 # Generate filename with today's date
 today_date = datetime.now().strftime('%m-%d-%Y')

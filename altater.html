@@ -93,7 +93,7 @@
         // build table body
 
         document.addEventListener('DOMContentLoaded', function () {
-            fetch('scores.json')
+            fetch('altater_scores.json')
                 .then(response => response.json())
                 .then(scores => {
                     scores.sort((a, b) => b.total_score - a.total_score);
