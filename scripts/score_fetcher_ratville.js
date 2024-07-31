@@ -111,24 +111,24 @@
 
                         const team_logo = {
                             "roo island": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
-                            "krawk island": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
-                            "terror mountain": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
-                            "shenkuu": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
-                            "altador": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
-                            "lost desert": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
-                            "haunted woods": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
-                            "darigan citadel": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
-                            "faerieland": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
-                            "tyrannia": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
-                            "virtupets": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
-                            "mystery island": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
-                            "kreludor": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
-                            "moltara": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
-                            "maraqua": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
-                            "dacardia": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
-                            "meridell": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
-                            "brightvale": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
-                            "kiko lake": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
+                            "krawk island": "https://images.neopets.com/altador/altadorcup/2010/popups/krawkisland/logo.png",
+                            "terror mountain": "https://images.neopets.com/altador/altadorcup/2010/popups/terrormountain/logo.png",
+                            "shenkuu": "https://images.neopets.com/altador/altadorcup/2010/popups/skenkuu/logo.png",
+                            "altador": "https://images.neopets.com/altador/altadorcup/2010/popups/altador/logo.png",
+                            "lost desert": "https://images.neopets.com/altador/altadorcup/2010/popups/lostdesert/logo.png",
+                            "haunted woods": "https://images.neopets.com/altador/altadorcup/2010/popups/hauntedwoods/logo.png",
+                            "darigan citadel": "https://images.neopets.com/altador/altadorcup/2010/popups/darigan/logo.png",
+                            "faerieland": "https://images.neopets.com/altador/altadorcup/2010/popups/faerieland/logo.png",
+                            "tyrannia": "https://images.neopets.com/altador/altadorcup/2010/popups/tyrannia/logo.png",
+                            "virtupets": "https://images.neopets.com/altador/altadorcup/2010/popups/virtupets/logo.png",
+                            "mystery island": "https://images.neopets.com/altador/altadorcup/2010/popups/mysteryisland/logo.png",
+                            "kreludor": "https://images.neopets.com/altador/altadorcup/2010/popups/kreludor/logo.png",
+                            "moltara": "https://images.neopets.com/altador/altadorcup/2010/popups/moltara/logo.png",
+                            "maraqua": "https://images.neopets.com/altador/altadorcup/2010/popups/maraqua/logo.png",
+                            "dacardia": "https://images.neopets.com/altador/altadorcup/2010/popups/dacardia/logo.png",
+                            "meridell": "https://images.neopets.com/altador/altadorcup/2010/popups/meridell/logo.png",
+                            "brightvale": "https://images.neopets.com/altador/altadorcup/2010/popups/brightvale/logo.png",
+                            "kiko lake": "https://images.neopets.com/altador/altadorcup/2010/popups/kikolake/logo.png",
                             "manually update": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png"
                         }
 
@@ -174,7 +174,7 @@
                                 }, JSON.stringify(updateData));
                             })
                             .then(response => {
-                                console.log(`File updated successfully for ${data.username}`, JSON.parse(response.responseText));
+                                console.log(`File updated successfully for ${data.username} in the Ratville Altador Cup`, JSON.parse(response.responseText));
                             })
                             .catch(error => {
                                 console.error('Error updating file:', error.response ? JSON.parse(error.responseText) : error.message);

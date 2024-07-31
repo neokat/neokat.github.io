@@ -194,7 +194,7 @@
                                 }, JSON.stringify(updateData));
                             })
                             .then(response => {
-                                console.log(`File updated successfully for ${data.username}`, JSON.parse(response.responseText));
+                                console.log(`File updated successfully for ${data.username} in the Altater Cup`, JSON.parse(response.responseText));
                             })
                             .catch(error => {
                                 console.error('Error updating file:', error.response ? JSON.parse(error.responseText) : error.message);
