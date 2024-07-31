@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Altater Cup Score Fetcher
+// @name         Altador Cup Score Fetcher
 // @version      0.1
-// @description  Writes scores to json file
+// @description  Writes scores to json file for Altater Cup and Ratville Scoreboard
 // @author       Kat
 // @match        *www.neopets.com/altador/colosseum/userstats.phtml?username=*
 // @grant        GM.xmlHttpRequest
@@ -34,7 +34,9 @@
             "sunbathr",
             "darkroast",
             "d_a_r_e",
-            "the_gecko_dude_ii"
+            "the_gecko_dude_ii",
+            "theguy2020",
+            "ssushami"
         ]
 
         const ALTATER_TEAMS = {
@@ -165,9 +167,8 @@
                 return scores;
             }
 
-            if (EXODUS_PLAYERS.includes(data.username)) {
-                const fileName = 'exodus_scores.json'
-                gmXhrRequest('GET', fileName).then(response => {
+            function updateScores(fileName, data, logos, teamName) {
+                return gmXhrRequest('GET', fileName).then(response => {
                     const responseData = JSON.parse(response.responseText);
                     const gitSha = responseData.sha;
                     const scores = JSON.parse(atob(responseData.content));
@@ -176,8 +177,8 @@
                     const total_score = (data.yyb_wins * 14) + (data.slsl_games_played * 10) + (data.msn_games_played * 3) + (data.sosd_games_played * 3);
 
                     scores.push({
-                        "team_logo": ALTATER_LOGOS[ALTATER_TEAMS[data.team_name]],
-                        "team_name": ALTATER_TEAMS[data.team_name],
+                        "team_logo": logos[teamName],
+                        "team_name": teamName,
                         "username": data.username,
                         "yyb_wins": data.yyb_wins,
                         "yyb_draws": data.yyb_draws,
@@ -196,60 +197,29 @@
                     const fileContent = JSON.stringify(scores, null, 2);
                     const base64Content = btoa(unescape(encodeURIComponent(fileContent)));
 
-                    // Prepare the data to update the JSON file
                     const updateData = {
                         message: `Update scores.json for ${data.username} in ${fileName} at ${timestamp} NST`,
                         content: base64Content,
                         branch: `main`,
                         sha: gitSha
                     };
-                    gmXhrRequest('PUT', fileName, JSON.stringify(updateData)).then(response => {
-                        console.log(`File updated successfully for ${data.username} in the Altater Cup`, JSON.parse(response.responseText));
+                    return gmXhrRequest('PUT', fileName, JSON.stringify(updateData)).then(response => {
+                        console.log(`Updated successfully for ${data.username} in ${fileName}`, JSON.parse(response.responseText));
                     }).catch(error => {
                         console.error('Error updating file:', error.response ? JSON.parse(error.responseText) : error.message);
                     });
-                })
+                });
             }
-            if(RATVILLE_PLAYERS.includes(data.username)){
-                const fileName = 'ratville_scores.json'
-                gmXhrRequest('GET', fileName).then(response => {
-                    const responseData = JSON.parse(response.responseText);
-                    const gitSha = responseData.sha;
-                    const scores = JSON.parse(atob(responseData.content));
-                    removeByUsername(scores, data.username);
 
-                    const total_score = (data.yyb_wins * 14) + (data.slsl_games_played * 10) + (data.msn_games_played * 3) + (data.sosd_games_played * 3);
-
-                    scores.push({
-                        "team_logo": CLASSIC_LOGOS[data.team_name],
-                        "username": data.username,
-                        "yyb_wins": data.yyb_wins,
-                        "yyb_draws": data.yyb_draws,
-                        "slsl_wins": data.slsl_games_played,
-                        "msn_plays": data.msn_games_played,
-                        "sosd_plays": data.sosd_games_played,
-                        "total_score": total_score,
-                        "rank": data.rank,
-                        "last_updated": timestamp
-                    });
-
-                    const fileContent = JSON.stringify(scores, null, 2);
-                    const base64Content = btoa(unescape(encodeURIComponent(fileContent)));
-
-                    // Prepare the data to update the JSON file
-                    const updateData = {
-                        message: `Update scores.json for ${data.username} in ${fileName} at ${timestamp} NST`,
-                        content: base64Content,
-                        branch: `main`,
-                        sha: gitSha
-                    };
-                    gmXhrRequest('PUT', fileName, JSON.stringify(updateData)).then(response => {
-                        console.log(`File updated successfully for ${data.username} in the Ratville Scoreboard`, JSON.parse(response.responseText));
-                    }).catch(error => {
-                        console.error('Error updating file:', error.response ? JSON.parse(error.responseText) : error.message);
-                    });
-                })
-            }
+            const updateIfParticipant = async () => {
+                if (EXODUS_PLAYERS.includes(data.username)) {
+                    await updateScores('altater_scores.json', data, ALTATER_LOGOS, ALTATER_TEAMS[data.team_name]);
+                }
+                if (RATVILLE_PLAYERS.includes(data.username)) {
+                    await updateScores('ratville_scores.json', data, CLASSIC_LOGOS, data.team_name);
+                }
+            };
+            updateIfParticipant().catch(error => console.error('Error in updateIfParticipant:', error));
 
         } else {
             console.log(`User ${data.username} is not a participant in either the 2024 Altater Cup or the 2024 Ratville Scoreboard`)
