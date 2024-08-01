@@ -68,23 +68,6 @@
     "last_updated": "7/31/2024, 7:41:42 PM"
   },
   {
-    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
-    "team_name": "Krelutarqua daMerivale",
-    "username": "nostalgia",
-    "yyb_wins": 29,
-    "yyb_draws": 0,
-    "yyb_high_score": 338,
-    "slsl_wins": 0,
-    "slsl_high_score": 0,
-    "msn_plays": 54,
-    "msn_high_score": 8021,
-    "sosd_plays": 233,
-    "sosd_high_score": 1171,
-    "total_score": 1267,
-    "rank": "Level 8",
-    "last_updated": "7/31/2024, 7:41:57 PM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
     "team_name": "Lost Roorawkuudor Mountain",
     "username": "hilary_duff_fan_16",
@@ -100,5 +83,22 @@
     "total_score": 1384,
     "rank": "Level 8",
     "last_updated": "8/1/2024, 8:29:56 AM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
+    "team_name": "Krelutarqua daMerivale",
+    "username": "nostalgia",
+    "yyb_wins": 29,
+    "yyb_draws": 0,
+    "yyb_high_score": 338,
+    "slsl_wins": 3,
+    "slsl_high_score": 1185,
+    "msn_plays": 317,
+    "msn_high_score": 8021,
+    "sosd_plays": 343,
+    "sosd_high_score": 1177,
+    "total_score": 2416,
+    "rank": "Level 12",
+    "last_updated": "8/1/2024, 8:30:01 AM"
   }
 ]
