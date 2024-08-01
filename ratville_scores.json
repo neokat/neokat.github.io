@@ -1,22 +1,5 @@
 [
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/faerieland/logo.png",
-    "team_name": "faerieland",
-    "username": "the_gecko_dude_ii",
-    "yyb_wins": 0,
-    "yyb_draws": 0,
-    "yyb_high_score": 0,
-    "slsl_wins": 0,
-    "slsl_high_score": 0,
-    "msn_plays": 0,
-    "msn_high_score": 0,
-    "sosd_plays": 0,
-    "sosd_high_score": 0,
-    "total_score": 0,
-    "rank": "Beginner",
-    "last_updated": "7/31/2024, 1:35:33 PM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/krawkisland/logo.png",
     "team_name": "krawk island",
     "username": "d_a_r_e",
@@ -151,5 +134,22 @@
     "total_score": 0,
     "rank": "Beginner",
     "last_updated": "7/31/2024, 5:25:06 PM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/faerieland/logo.png",
+    "team_name": "faerieland",
+    "username": "the_gecko_dude_ii",
+    "yyb_wins": 0,
+    "yyb_draws": 0,
+    "yyb_high_score": 0,
+    "slsl_wins": 0,
+    "slsl_high_score": 0,
+    "msn_plays": 0,
+    "msn_high_score": 0,
+    "sosd_plays": 0,
+    "sosd_high_score": 0,
+    "total_score": 0,
+    "rank": "Beginner",
+    "last_updated": "7/31/2024, 5:25:23 PM"
   }
 ]
