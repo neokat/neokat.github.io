@@ -34,23 +34,6 @@
     "last_updated": "7/31/2024, 5:24:09 PM"
   },
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/hauntedwoods/logo.png",
-    "team_name": "haunted woods",
-    "username": "blumaroocrazy21",
-    "yyb_wins": 0,
-    "yyb_draws": 0,
-    "yyb_high_score": 0,
-    "slsl_wins": 0,
-    "slsl_high_score": 0,
-    "msn_plays": 0,
-    "msn_high_score": 0,
-    "sosd_plays": 50,
-    "sosd_high_score": 1187,
-    "total_score": 150,
-    "rank": "Level 1",
-    "last_updated": "7/31/2024, 5:24:18 PM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/shenkuu/logo.png",
     "team_name": "shenkuu",
     "username": "ssushami",
@@ -151,5 +134,22 @@
     "total_score": 24,
     "rank": "Beginner",
     "last_updated": "8/1/2024, 8:31:04 AM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/hauntedwoods/logo.png",
+    "team_name": "haunted woods",
+    "username": "blumaroocrazy21",
+    "yyb_wins": 0,
+    "yyb_draws": 0,
+    "yyb_high_score": 0,
+    "slsl_wins": 0,
+    "slsl_high_score": 0,
+    "msn_plays": 0,
+    "msn_high_score": 0,
+    "sosd_plays": 64,
+    "sosd_high_score": 1187,
+    "total_score": 192,
+    "rank": "Level 1",
+    "last_updated": "8/1/2024, 8:31:13 AM"
   }
 ]
