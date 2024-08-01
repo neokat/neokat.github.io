@@ -23,7 +23,15 @@
             "goosesticks",
             "hunni_bun_137",
             "honorrolle",
-            "hilary_duff_fan_16"
+            "hilary_duff_fan_16",
+            "classicmess",
+            "d_a_r_e",
+            "elhiwe",
+            "lennekegirl123",
+            "painted_neo_faerie",
+            "puppylover9161",
+            "_new_cassalla_",
+            "callisto2002"
         ]
 
         const RATVILLE_PLAYERS = [
@@ -36,7 +44,8 @@
             "d_a_r_e",
             "the_gecko_dude_ii",
             "theguy2020",
-            "ssushami"
+            "ssushami",
+            "roxi2rox"
         ]
 
         const ALTATER_TEAMS = {
@@ -73,11 +82,11 @@
             "roo island": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
             "krawk island": "https://images.neopets.com/altador/altadorcup/2010/popups/krawkisland/logo.png",
             "terror mountain": "https://images.neopets.com/altador/altadorcup/2010/popups/terrormountain/logo.png",
-            "shenkuu": "https://images.neopets.com/altador/altadorcup/2010/popups/skenkuu/logo.png",
+            "shenkuu": "https://images.neopets.com/altador/altadorcup/2010/popups/shenkuu/logo.png",
             "altador": "https://images.neopets.com/altador/altadorcup/2010/popups/altador/logo.png",
             "lost desert": "https://images.neopets.com/altador/altadorcup/2010/popups/lostdesert/logo.png",
             "haunted woods": "https://images.neopets.com/altador/altadorcup/2010/popups/hauntedwoods/logo.png",
-            "darigan citadel": "https://images.neopets.com/altador/altadorcup/2010/popups/darigan/logo.png",
+            "darigan citadel": "https://images.neopets.com/altador/altadorcup/2010/popups/darigancitadel/logo.png",
             "faerieland": "https://images.neopets.com/altador/altadorcup/2010/popups/faerieland/logo.png",
             "tyrannia": "https://images.neopets.com/altador/altadorcup/2010/popups/tyrannia/logo.png",
             "virtupets": "https://images.neopets.com/altador/altadorcup/2010/popups/virtupets/logo.png",
