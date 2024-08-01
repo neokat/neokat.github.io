@@ -51,23 +51,6 @@
     "last_updated": "8/1/2024, 8:30:07 AM"
   },
   {
-    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
-    "team_name": "Lost Roorawkuudor Mountain",
-    "username": "superkathiee",
-    "yyb_wins": 29,
-    "yyb_draws": 0,
-    "yyb_high_score": 201,
-    "slsl_wins": 5,
-    "slsl_high_score": 900,
-    "msn_plays": 20,
-    "msn_high_score": 5556,
-    "sosd_plays": 242,
-    "sosd_high_score": 1179,
-    "total_score": 1242,
-    "rank": "Level 8",
-    "last_updated": "8/1/2024, 8:30:14 AM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
     "team_name": "Krelutarqua daMerivale",
     "username": "hunni_bun_137",
@@ -100,5 +83,22 @@
     "total_score": 182,
     "rank": "Level 1",
     "last_updated": "8/1/2024, 8:30:26 AM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
+    "team_name": "Lost Roorawkuudor Mountain",
+    "username": "superkathiee",
+    "yyb_wins": 29,
+    "yyb_draws": 0,
+    "yyb_high_score": 201,
+    "slsl_wins": 5,
+    "slsl_high_score": 900,
+    "msn_plays": 20,
+    "msn_high_score": 5556,
+    "sosd_plays": 242,
+    "sosd_high_score": 1179,
+    "total_score": 1242,
+    "rank": "Level 8",
+    "last_updated": "8/1/2024, 8:31:28 AM"
   }
 ]
