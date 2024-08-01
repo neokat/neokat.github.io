@@ -85,23 +85,6 @@
     "last_updated": "7/31/2024, 5:24:32 PM"
   },
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/krawkisland/logo.png",
-    "team_name": "krawk island",
-    "username": "theguy2020",
-    "yyb_wins": 0,
-    "yyb_draws": 0,
-    "yyb_high_score": 0,
-    "slsl_wins": 0,
-    "slsl_high_score": 0,
-    "msn_plays": 0,
-    "msn_high_score": 0,
-    "sosd_plays": 0,
-    "sosd_high_score": 0,
-    "total_score": 0,
-    "rank": "Beginner",
-    "last_updated": "7/31/2024, 5:25:06 PM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
     "team_name": "roo island",
     "username": "superkathiee",
@@ -151,5 +134,22 @@
     "total_score": 0,
     "rank": "Beginner",
     "last_updated": "8/1/2024, 8:30:47 AM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/krawkisland/logo.png",
+    "team_name": "krawk island",
+    "username": "theguy2020",
+    "yyb_wins": 0,
+    "yyb_draws": 0,
+    "yyb_high_score": 0,
+    "slsl_wins": 0,
+    "slsl_high_score": 0,
+    "msn_plays": 0,
+    "msn_high_score": 0,
+    "sosd_plays": 242,
+    "sosd_high_score": 900,
+    "total_score": 726,
+    "rank": "Level 5",
+    "last_updated": "8/1/2024, 8:30:55 AM"
   }
 ]
