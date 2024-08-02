@@ -18,20 +18,37 @@
         const MY_USERNAME = 'superkathiee'
 
         const EXODUS_PLAYERS = [
-            "superkathiee",
-            "nostalgia",
             "goosesticks",
-            "hunni_bun_137",
-            "honorrolle",
-            "hilary_duff_fan_16",
             "classicmess",
+            "ckgknyangel",
+            "nella_fantasia",
+            "polarnights",
+            "tinyroses18",
+            "angel709317",
+            "beckyx191",
+            "howlsilver",
+            "kio______lake",
+            "macosten",
+            "superkathiee",
             "d_a_r_e",
             "elhiwe",
             "lennekegirl123",
             "painted_neo_faerie",
             "puppylover9161",
+            "honorrolle",
+            "midnightswish",
+            "claimedxscribblez",
+            "hilary_duff_fan_16",
+            "nostalgia",
             "_new_cassalla_",
-            "callisto2002"
+            "aangchan",
+            "hunni_bun_137",
+            "orlytheowl",
+            "ris1994",
+            "catchinglights",
+            "juliadoglover11405",
+            "nurnurnur199",
+            "zilaena"
         ]
 
         const RATVILLE_PLAYERS = [
