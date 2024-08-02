@@ -26,7 +26,7 @@
         }
 
         #spuds td, #spuds th {
-            border: 1px solid #4f4f4f;
+            border: 2px solid #4f4f4f;
             padding: 8px;
             text-align: right !important;
         }
@@ -44,7 +44,7 @@
             padding-top: 12px;
             padding-bottom: 12px;
             text-align: left;
-            background-color: #F8AE28;
+            background-color: #EBC84D;
             color: white;
         }
 
@@ -62,11 +62,26 @@
                 display: none;
             }
         }
+
+        .yellow-box {
+            background-color: #EBC84D;
+            padding: 10px;
+            display: inline-block;
+            font-family: Verdana, Helvetica, sans-serif;
+            width: 25%;
+            box-sizing: border-box;
+
+        }
     </style>
 </head>
 <body>
 <center>
     <img src="https://imagizer.imageshack.com/img924/9630/m2LMWs.png" width="60%"><br>
+
+    <div class="yellow-box">
+        NOTE: This scoreboard is updated semi-automatically! Every time Kat* visits your stats page, the data is scraped and populates on the scoreboard. The "last updated" column tells when the data was last pulled for each person. If you aren't seeing up-to-date stats, first try to do a hard refresh (<b> command + shift + R</b> on mac or <b> ctrl + shift + R</b> on windows) to make your browser pull fresh data. If it's still out-of-date, bug Kat to refresh it :P (*Kat is taking a couple volunteers to be 'link-clickers' throughout the day if you want to help. You will need a Github account and tampermonkey installed in your browser, can only be done on desktop, not mobile. DM her if interested!)
+    </div>
+
     <table id="spuds">
         <!--        <tr>-->
         <!--            <th id="lu" colspan="9" style="text-align: center !important;"></th>-->
