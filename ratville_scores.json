@@ -1,22 +1,5 @@
 [
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/shenkuu/logo.png",
-    "team_name": "shenkuu",
-    "username": "ssushami",
-    "yyb_wins": 22,
-    "yyb_draws": 0,
-    "yyb_high_score": 127,
-    "slsl_wins": 0,
-    "slsl_high_score": 0,
-    "msn_plays": 222,
-    "msn_high_score": 8879,
-    "sosd_plays": 175,
-    "sosd_high_score": 1166,
-    "total_score": 1499,
-    "rank": "Level 9",
-    "last_updated": "8/2/2024, 7:20:37 AM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/krawkisland/logo.png",
     "team_name": "krawk island",
     "username": "theguy2020",
@@ -168,5 +151,22 @@
     "total_score": 1839,
     "rank": "Level 10",
     "last_updated": "8/2/2024, 4:08:27 PM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/shenkuu/logo.png",
+    "team_name": "shenkuu",
+    "username": "ssushami",
+    "yyb_wins": 51,
+    "yyb_draws": 0,
+    "yyb_high_score": 329,
+    "slsl_wins": 0,
+    "slsl_high_score": 0,
+    "msn_plays": 300,
+    "msn_high_score": 8879,
+    "sosd_plays": 207,
+    "sosd_high_score": 1166,
+    "total_score": 2235,
+    "rank": "Level 12",
+    "last_updated": "8/2/2024, 4:08:31 PM"
   }
 ]
