@@ -48,7 +48,10 @@
             "catchinglights",
             "juliadoglover11405",
             "nurnurnur199",
-            "zilaena"
+            "zilaena",
+            "mizsango",
+            "justiquen",
+            "scizor07"
         ]
 
         const RATVILLE_PLAYERS = [
