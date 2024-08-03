@@ -51,7 +51,12 @@
             "zilaena",
             "mizsango",
             "justiquen",
-            "scizor07"
+            "scizor07",
+            "idlegoth",
+            "eleganza_lights",
+            "sosunub",
+            "rhianafaeriedoll",
+            "cyancias"
         ]
 
         const RATVILLE_PLAYERS = [
