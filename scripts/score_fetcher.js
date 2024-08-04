@@ -56,7 +56,10 @@
             "eleganza_lights",
             "sosunub",
             "rhianafaeriedoll",
-            "cyancias"
+            "cyancias",
+            "yerimiese",
+            "mbug1991",
+            "moonzywolfgirl"
         ]
 
         const RATVILLE_PLAYERS = [
