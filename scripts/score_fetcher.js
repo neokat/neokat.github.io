@@ -59,7 +59,8 @@
             "cyancias",
             "yerimiese",
             "mbug1991",
-            "moonzywolfgirl"
+            "moonzywolfgirl",
+            "gamemaster32792"
         ]
 
         const RATVILLE_PLAYERS = [
