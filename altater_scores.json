@@ -1,22 +1,5 @@
 [
   {
-    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
-    "team_name": "Krelutarqua daMerivale",
-    "username": "sosunub",
-    "yyb_wins": 0,
-    "yyb_draws": 0,
-    "yyb_high_score": 0,
-    "slsl_wins": 13,
-    "slsl_high_score": 856,
-    "msn_plays": 67,
-    "msn_high_score": 6395,
-    "sosd_plays": 15,
-    "sosd_high_score": 1170,
-    "total_score": 376,
-    "rank": "Level 3",
-    "last_updated": "8/4/2024, 11:23:57 AM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
     "team_name": "Lost Roorawkuudor Mountain",
     "username": "painted_neo_faerie",
@@ -729,5 +712,22 @@
     "total_score": 382,
     "rank": "Level 2",
     "last_updated": "8/5/2024, 8:36:31 AM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
+    "team_name": "Krelutarqua daMerivale",
+    "username": "sosunub",
+    "yyb_wins": 0,
+    "yyb_draws": 0,
+    "yyb_high_score": 0,
+    "slsl_wins": 13,
+    "slsl_high_score": 856,
+    "msn_plays": 72,
+    "msn_high_score": 6395,
+    "sosd_plays": 15,
+    "sosd_high_score": 1170,
+    "total_score": 391,
+    "rank": "Level 3",
+    "last_updated": "8/5/2024, 8:36:37 AM"
   }
 ]
