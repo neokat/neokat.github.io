@@ -85,23 +85,6 @@
     "last_updated": "8/4/2024, 11:27:46 AM"
   },
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/krawkisland/logo.png",
-    "team_name": "krawk island",
-    "username": "theguy2020",
-    "yyb_wins": 0,
-    "yyb_draws": 0,
-    "yyb_high_score": 0,
-    "slsl_wins": 0,
-    "slsl_high_score": 0,
-    "msn_plays": 0,
-    "msn_high_score": 0,
-    "sosd_plays": 726,
-    "sosd_high_score": 1174,
-    "total_score": 2178,
-    "rank": "Level 11",
-    "last_updated": "8/4/2024, 11:44:35 AM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/maraqua/logo.png",
     "team_name": "maraqua",
     "username": "dolphindancer789",
@@ -202,5 +185,22 @@
     "total_score": 2990,
     "rank": "Level 14",
     "last_updated": "8/5/2024, 8:20:57 AM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/krawkisland/logo.png",
+    "team_name": "krawk island",
+    "username": "theguy2020",
+    "yyb_wins": 0,
+    "yyb_draws": 0,
+    "yyb_high_score": 0,
+    "slsl_wins": 0,
+    "slsl_high_score": 0,
+    "msn_plays": 0,
+    "msn_high_score": 0,
+    "sosd_plays": 912,
+    "sosd_high_score": 1174,
+    "total_score": 2736,
+    "rank": "Level 13",
+    "last_updated": "8/5/2024, 8:21:01 AM"
   }
 ]
