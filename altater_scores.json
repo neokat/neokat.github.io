@@ -1,22 +1,5 @@
 [
   {
-    "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
-    "team_name": "Haunted Darfennia Virtumyst",
-    "username": "macosten",
-    "yyb_wins": 0,
-    "yyb_draws": 0,
-    "yyb_high_score": 0,
-    "slsl_wins": 0,
-    "slsl_high_score": 0,
-    "msn_plays": 1,
-    "msn_high_score": 4432,
-    "sosd_plays": 41,
-    "sosd_high_score": 1189,
-    "total_score": 126,
-    "rank": "Level 1",
-    "last_updated": "8/5/2024, 11:17:22 AM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
     "team_name": "Lost Roorawkuudor Mountain",
     "username": "mizsango",
@@ -763,5 +746,22 @@
     "total_score": 262,
     "rank": "Level 2",
     "last_updated": "8/5/2024, 12:58:28 PM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
+    "team_name": "Haunted Darfennia Virtumyst",
+    "username": "macosten",
+    "yyb_wins": 0,
+    "yyb_draws": 0,
+    "yyb_high_score": 0,
+    "slsl_wins": 0,
+    "slsl_high_score": 0,
+    "msn_plays": 1,
+    "msn_high_score": 4432,
+    "sosd_plays": 41,
+    "sosd_high_score": 1189,
+    "total_score": 126,
+    "rank": "Level 1",
+    "last_updated": "8/5/2024, 12:58:33 PM"
   }
 ]
