@@ -1,22 +1,5 @@
 [
   {
-    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
-    "team_name": "Krelutarqua daMerivale",
-    "username": "eleganza_lights",
-    "yyb_wins": 102,
-    "yyb_draws": 0,
-    "yyb_high_score": 944,
-    "slsl_wins": 1,
-    "slsl_high_score": 324,
-    "msn_plays": 1,
-    "msn_high_score": 4082,
-    "sosd_plays": 489,
-    "sosd_high_score": 1187,
-    "total_score": 2908,
-    "rank": "Level 14",
-    "last_updated": "8/5/2024, 11:15:52 AM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
     "team_name": "Haunted Darfennia Virtumyst",
     "username": "kio______lake",
@@ -763,5 +746,22 @@
     "total_score": 2998,
     "rank": "Level 14",
     "last_updated": "8/5/2024, 12:57:00 PM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
+    "team_name": "Krelutarqua daMerivale",
+    "username": "eleganza_lights",
+    "yyb_wins": 102,
+    "yyb_draws": 0,
+    "yyb_high_score": 944,
+    "slsl_wins": 1,
+    "slsl_high_score": 324,
+    "msn_plays": 1,
+    "msn_high_score": 4082,
+    "sosd_plays": 489,
+    "sosd_high_score": 1187,
+    "total_score": 2908,
+    "rank": "Level 14",
+    "last_updated": "8/5/2024, 12:57:12 PM"
   }
 ]
