@@ -1,22 +1,5 @@
 [
   {
-    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
-    "team_name": "Lost Roorawkuudor Mountain",
-    "username": "elhiwe",
-    "yyb_wins": 54,
-    "yyb_draws": 0,
-    "yyb_high_score": 435,
-    "slsl_wins": 0,
-    "slsl_high_score": 0,
-    "msn_plays": 37,
-    "msn_high_score": 7551,
-    "sosd_plays": 0,
-    "sosd_high_score": 0,
-    "total_score": 867,
-    "rank": "Level 6",
-    "last_updated": "8/5/2024, 11:16:51 AM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
     "team_name": "Krelutarqua daMerivale",
     "username": "ris1994",
@@ -763,5 +746,22 @@
     "total_score": 1052,
     "rank": "Level 7",
     "last_updated": "8/5/2024, 12:58:00 PM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
+    "team_name": "Lost Roorawkuudor Mountain",
+    "username": "elhiwe",
+    "yyb_wins": 54,
+    "yyb_draws": 0,
+    "yyb_high_score": 435,
+    "slsl_wins": 0,
+    "slsl_high_score": 0,
+    "msn_plays": 37,
+    "msn_high_score": 7551,
+    "sosd_plays": 0,
+    "sosd_high_score": 0,
+    "total_score": 867,
+    "rank": "Level 6",
+    "last_updated": "8/5/2024, 12:58:02 PM"
   }
 ]
