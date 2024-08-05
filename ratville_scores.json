@@ -34,23 +34,6 @@
     "last_updated": "8/5/2024, 8:19:22 AM"
   },
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/krawkisland/logo.png",
-    "team_name": "krawk island",
-    "username": "theguy2020",
-    "yyb_wins": 0,
-    "yyb_draws": 0,
-    "yyb_high_score": 0,
-    "slsl_wins": 0,
-    "slsl_high_score": 0,
-    "msn_plays": 0,
-    "msn_high_score": 0,
-    "sosd_plays": 912,
-    "sosd_high_score": 1174,
-    "total_score": 2736,
-    "rank": "Level 13",
-    "last_updated": "8/5/2024, 8:21:01 AM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/darigancitadel/logo.png",
     "team_name": "darigan citadel",
     "username": "roxi2rox",
@@ -202,5 +185,22 @@
     "total_score": 3101,
     "rank": "Level 14",
     "last_updated": "8/5/2024, 11:18:12 AM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/krawkisland/logo.png",
+    "team_name": "krawk island",
+    "username": "theguy2020",
+    "yyb_wins": 0,
+    "yyb_draws": 0,
+    "yyb_high_score": 0,
+    "slsl_wins": 0,
+    "slsl_high_score": 0,
+    "msn_plays": 0,
+    "msn_high_score": 0,
+    "sosd_plays": 968,
+    "sosd_high_score": 1191,
+    "total_score": 2904,
+    "rank": "Level 14",
+    "last_updated": "8/5/2024, 11:18:16 AM"
   }
 ]
