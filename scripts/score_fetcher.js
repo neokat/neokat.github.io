@@ -60,7 +60,9 @@
             "yerimiese",
             "mbug1991",
             "moonzywolfgirl",
-            "gamemaster32792"
+            "gamemaster32792",
+            "callisto2002",
+            "atritas"
         ]
 
         const RATVILLE_PLAYERS = [
