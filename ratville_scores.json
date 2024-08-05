@@ -1,22 +1,5 @@
 [
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/maraqua/logo.png",
-    "team_name": "maraqua",
-    "username": "dolphindancer789",
-    "yyb_wins": 25,
-    "yyb_draws": 0,
-    "yyb_high_score": 173,
-    "slsl_wins": 2,
-    "slsl_high_score": 466,
-    "msn_plays": 0,
-    "msn_high_score": 0,
-    "sosd_plays": 57,
-    "sosd_high_score": 890,
-    "total_score": 541,
-    "rank": "Level 4",
-    "last_updated": "8/5/2024, 8:19:12 AM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/lostdesert/logo.png",
     "team_name": "lost desert",
     "username": "sunbathr",
@@ -202,5 +185,22 @@
     "total_score": 636,
     "rank": "Level 4",
     "last_updated": "8/5/2024, 11:18:26 AM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/maraqua/logo.png",
+    "team_name": "maraqua",
+    "username": "dolphindancer789",
+    "yyb_wins": 25,
+    "yyb_draws": 0,
+    "yyb_high_score": 173,
+    "slsl_wins": 2,
+    "slsl_high_score": 466,
+    "msn_plays": 0,
+    "msn_high_score": 0,
+    "sosd_plays": 57,
+    "sosd_high_score": 890,
+    "total_score": 541,
+    "rank": "Level 4",
+    "last_updated": "8/5/2024, 11:18:39 AM"
   }
 ]
