@@ -74,7 +74,9 @@
             "the_gecko_dude_ii",
             "theguy2020",
             "ssushami",
-            "roxi2rox"
+            "roxi2rox",
+            "dolphindancer789",
+            "layces"
         ]
 
         const ALTATER_TEAMS = {
