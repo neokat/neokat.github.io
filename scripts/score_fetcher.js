@@ -62,7 +62,8 @@
             "moonzywolfgirl",
             "gamemaster32792",
             "callisto2002",
-            "atritas"
+            "atritas",
+            "doglover99_8"
         ]
 
         const RATVILLE_PLAYERS = [
