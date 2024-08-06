@@ -580,23 +580,6 @@
   {
     "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
     "team_name": "Lost Roorawkuudor Mountain",
-    "username": "honorrolle",
-    "yyb_wins": 109,
-    "yyb_draws": 0,
-    "yyb_high_score": 1111,
-    "slsl_wins": 49,
-    "slsl_high_score": 937,
-    "msn_plays": 355,
-    "msn_high_score": 6203,
-    "sosd_plays": 926,
-    "sosd_high_score": 1186,
-    "total_score": 5859,
-    "rank": "All-Star",
-    "last_updated": "8/6/2024, 10:49:38 AM"
-  },
-  {
-    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
-    "team_name": "Lost Roorawkuudor Mountain",
     "username": "lennekegirl123",
     "yyb_wins": 5,
     "yyb_draws": 0,
@@ -780,5 +763,22 @@
     "total_score": 6168,
     "rank": "All-Star",
     "last_updated": "8/6/2024, 12:10:39 PM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
+    "team_name": "Lost Roorawkuudor Mountain",
+    "username": "honorrolle",
+    "yyb_wins": 109,
+    "yyb_draws": 0,
+    "yyb_high_score": 1111,
+    "slsl_wins": 49,
+    "slsl_high_score": 937,
+    "msn_plays": 355,
+    "msn_high_score": 6203,
+    "sosd_plays": 973,
+    "sosd_high_score": 1186,
+    "total_score": 6000,
+    "rank": "All-Star",
+    "last_updated": "8/6/2024, 12:10:42 PM"
   }
 ]
