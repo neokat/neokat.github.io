@@ -17,23 +17,6 @@
     "last_updated": "8/5/2024, 12:56:23 PM"
   },
   {
-    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
-    "team_name": "Lost Roorawkuudor Mountain",
-    "username": "midnightswish",
-    "yyb_wins": 48,
-    "yyb_draws": 1,
-    "yyb_high_score": 266,
-    "slsl_wins": 30,
-    "slsl_high_score": 685,
-    "msn_plays": 28,
-    "msn_high_score": 5173,
-    "sosd_plays": 96,
-    "sosd_high_score": 1173,
-    "total_score": 1344,
-    "rank": "Level 8",
-    "last_updated": "8/5/2024, 12:57:49 PM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
     "team_name": "Haunted Darfennia Virtumyst",
     "username": "nella_fantasia",
@@ -763,5 +746,22 @@
     "total_score": 2017,
     "rank": "Level 11",
     "last_updated": "8/5/2024, 5:19:23 PM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
+    "team_name": "Lost Roorawkuudor Mountain",
+    "username": "midnightswish",
+    "yyb_wins": 54,
+    "yyb_draws": 1,
+    "yyb_high_score": 298,
+    "slsl_wins": 33,
+    "slsl_high_score": 685,
+    "msn_plays": 31,
+    "msn_high_score": 5173,
+    "sosd_plays": 135,
+    "sosd_high_score": 1173,
+    "total_score": 1584,
+    "rank": "Level 9",
+    "last_updated": "8/5/2024, 5:19:26 PM"
   }
 ]
