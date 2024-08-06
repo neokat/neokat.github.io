@@ -51,23 +51,6 @@
     "last_updated": "8/5/2024, 12:56:47 PM"
   },
   {
-    "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
-    "team_name": "Haunted Darfennia Virtumyst",
-    "username": "justiquen",
-    "yyb_wins": 70,
-    "yyb_draws": 0,
-    "yyb_high_score": 707,
-    "slsl_wins": 15,
-    "slsl_high_score": 824,
-    "msn_plays": 125,
-    "msn_high_score": 6695,
-    "sosd_plays": 884,
-    "sosd_high_score": 1189,
-    "total_score": 4157,
-    "rank": "Level 17",
-    "last_updated": "8/5/2024, 12:56:53 PM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
     "team_name": "Krelutarqua daMerivale",
     "username": "juliadoglover11405",
@@ -763,5 +746,22 @@
     "total_score": 4619,
     "rank": "Level 19",
     "last_updated": "8/5/2024, 5:17:31 PM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
+    "team_name": "Haunted Darfennia Virtumyst",
+    "username": "justiquen",
+    "yyb_wins": 70,
+    "yyb_draws": 0,
+    "yyb_high_score": 707,
+    "slsl_wins": 15,
+    "slsl_high_score": 824,
+    "msn_plays": 125,
+    "msn_high_score": 6695,
+    "sosd_plays": 1005,
+    "sosd_high_score": 1189,
+    "total_score": 4520,
+    "rank": "Level 18",
+    "last_updated": "8/5/2024, 5:17:34 PM"
   }
 ]
