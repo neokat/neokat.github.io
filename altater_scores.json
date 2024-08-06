@@ -2,23 +2,6 @@
   {
     "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
     "team_name": "Krelutarqua daMerivale",
-    "username": "catchinglights",
-    "yyb_wins": 19,
-    "yyb_draws": 1,
-    "yyb_high_score": 186,
-    "slsl_wins": 24,
-    "slsl_high_score": 345,
-    "msn_plays": 50,
-    "msn_high_score": 4073,
-    "sosd_plays": 1210,
-    "sosd_high_score": 1180,
-    "total_score": 4286,
-    "rank": "Level 18",
-    "last_updated": "8/5/2024, 5:18:07 PM"
-  },
-  {
-    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
-    "team_name": "Krelutarqua daMerivale",
     "username": "juliadoglover11405",
     "yyb_wins": 3,
     "yyb_draws": 1,
@@ -763,5 +746,22 @@
     "total_score": 4595,
     "rank": "Level 19",
     "last_updated": "8/6/2024, 1:04:32 AM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
+    "team_name": "Krelutarqua daMerivale",
+    "username": "catchinglights",
+    "yyb_wins": 43,
+    "yyb_draws": 1,
+    "yyb_high_score": 402,
+    "slsl_wins": 24,
+    "slsl_high_score": 345,
+    "msn_plays": 50,
+    "msn_high_score": 4073,
+    "sosd_plays": 1210,
+    "sosd_high_score": 1180,
+    "total_score": 4622,
+    "rank": "Level 19",
+    "last_updated": "8/6/2024, 1:04:39 AM"
   }
 ]
