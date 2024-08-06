@@ -206,23 +206,6 @@
   {
     "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
     "team_name": "Krelutarqua daMerivale",
-    "username": "sosunub",
-    "yyb_wins": 0,
-    "yyb_draws": 0,
-    "yyb_high_score": 0,
-    "slsl_wins": 16,
-    "slsl_high_score": 856,
-    "msn_plays": 100,
-    "msn_high_score": 6439,
-    "sosd_plays": 124,
-    "sosd_high_score": 1206,
-    "total_score": 832,
-    "rank": "Level 5",
-    "last_updated": "8/6/2024, 9:39:19 AM"
-  },
-  {
-    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
-    "team_name": "Krelutarqua daMerivale",
     "username": "ris1994",
     "yyb_wins": 16,
     "yyb_draws": 0,
@@ -780,5 +763,22 @@
     "total_score": 965,
     "rank": "Level 6",
     "last_updated": "8/6/2024, 12:12:25 PM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
+    "team_name": "Krelutarqua daMerivale",
+    "username": "sosunub",
+    "yyb_wins": 0,
+    "yyb_draws": 0,
+    "yyb_high_score": 0,
+    "slsl_wins": 16,
+    "slsl_high_score": 856,
+    "msn_plays": 100,
+    "msn_high_score": 6439,
+    "sosd_plays": 124,
+    "sosd_high_score": 1206,
+    "total_score": 832,
+    "rank": "Level 5",
+    "last_updated": "8/6/2024, 12:12:31 PM"
   }
 ]
