@@ -1,22 +1,5 @@
 [
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/hauntedwoods/logo.png",
-    "team_name": "haunted woods",
-    "username": "blumaroocrazy21",
-    "yyb_wins": 0,
-    "yyb_draws": 0,
-    "yyb_high_score": 0,
-    "slsl_wins": 0,
-    "slsl_high_score": 0,
-    "msn_plays": 0,
-    "msn_high_score": 0,
-    "sosd_plays": 212,
-    "sosd_high_score": 1187,
-    "total_score": 636,
-    "rank": "Level 4",
-    "last_updated": "8/5/2024, 11:18:26 AM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/maraqua/logo.png",
     "team_name": "maraqua",
     "username": "dolphindancer789",
@@ -202,5 +185,22 @@
     "total_score": 1400,
     "rank": "Level 8",
     "last_updated": "8/6/2024, 12:05:31 PM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/hauntedwoods/logo.png",
+    "team_name": "haunted woods",
+    "username": "blumaroocrazy21",
+    "yyb_wins": 0,
+    "yyb_draws": 0,
+    "yyb_high_score": 0,
+    "slsl_wins": 0,
+    "slsl_high_score": 0,
+    "msn_plays": 0,
+    "msn_high_score": 0,
+    "sosd_plays": 222,
+    "sosd_high_score": 1187,
+    "total_score": 666,
+    "rank": "Level 4",
+    "last_updated": "8/6/2024, 12:05:42 PM"
   }
 ]
