@@ -1,22 +1,5 @@
 [
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/kreludor/logo.png",
-    "team_name": "kreludor",
-    "username": "rawbeee",
-    "yyb_wins": 180,
-    "yyb_draws": 0,
-    "yyb_high_score": 2003,
-    "slsl_wins": 30,
-    "slsl_high_score": 1081,
-    "msn_plays": 0,
-    "msn_high_score": 0,
-    "sosd_plays": 1511,
-    "sosd_high_score": 1178,
-    "total_score": 7353,
-    "rank": "All-Star",
-    "last_updated": "8/6/2024, 12:04:40 PM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/krawkisland/logo.png",
     "team_name": "krawk island",
     "username": "d_a_r_e",
@@ -202,5 +185,22 @@
     "total_score": 7129,
     "rank": "All-Star",
     "last_updated": "8/6/2024, 9:55:24 PM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/kreludor/logo.png",
+    "team_name": "kreludor",
+    "username": "rawbeee",
+    "yyb_wins": 180,
+    "yyb_draws": 0,
+    "yyb_high_score": 2003,
+    "slsl_wins": 30,
+    "slsl_high_score": 1081,
+    "msn_plays": 0,
+    "msn_high_score": 0,
+    "sosd_plays": 1511,
+    "sosd_high_score": 1178,
+    "total_score": 7353,
+    "rank": "All-Star",
+    "last_updated": "8/6/2024, 10:03:46 PM"
   }
 ]
