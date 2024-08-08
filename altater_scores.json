@@ -1,22 +1,5 @@
 [
   {
-    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
-    "team_name": "Lost Roorawkuudor Mountain",
-    "username": "cyancias",
-    "yyb_wins": 75,
-    "yyb_draws": 0,
-    "yyb_high_score": 633,
-    "slsl_wins": 75,
-    "slsl_high_score": 1111,
-    "msn_plays": 200,
-    "msn_high_score": 6586,
-    "sosd_plays": 492,
-    "sosd_high_score": 1165,
-    "total_score": 3876,
-    "rank": "Level 16",
-    "last_updated": "8/6/2024, 9:56:14 PM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
     "team_name": "Krelutarqua daMerivale",
     "username": "nurnurnur199",
@@ -780,5 +763,22 @@
     "total_score": 4858,
     "rank": "Level 19",
     "last_updated": "8/8/2024, 7:28:12 AM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
+    "team_name": "Lost Roorawkuudor Mountain",
+    "username": "cyancias",
+    "yyb_wins": 100,
+    "yyb_draws": 0,
+    "yyb_high_score": 895,
+    "slsl_wins": 85,
+    "slsl_high_score": 1111,
+    "msn_plays": 200,
+    "msn_high_score": 6586,
+    "sosd_plays": 505,
+    "sosd_high_score": 1165,
+    "total_score": 4365,
+    "rank": "Level 18",
+    "last_updated": "8/8/2024, 7:28:16 AM"
   }
 ]
