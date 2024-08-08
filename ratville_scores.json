@@ -1,22 +1,5 @@
 [
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/shenkuu/logo.png",
-    "team_name": "shenkuu",
-    "username": "ssushami",
-    "yyb_wins": 109,
-    "yyb_draws": 0,
-    "yyb_high_score": 769,
-    "slsl_wins": 0,
-    "slsl_high_score": 0,
-    "msn_plays": 750,
-    "msn_high_score": 8879,
-    "sosd_plays": 400,
-    "sosd_high_score": 1166,
-    "total_score": 4976,
-    "rank": "All-Star",
-    "last_updated": "8/6/2024, 10:04:05 PM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
     "team_name": "roo island",
     "username": "kat_bus",
@@ -202,5 +185,22 @@
     "total_score": 7626,
     "rank": "All-Star",
     "last_updated": "8/8/2024, 7:21:22 AM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/shenkuu/logo.png",
+    "team_name": "shenkuu",
+    "username": "ssushami",
+    "yyb_wins": 112,
+    "yyb_draws": 0,
+    "yyb_high_score": 789,
+    "slsl_wins": 0,
+    "slsl_high_score": 0,
+    "msn_plays": 750,
+    "msn_high_score": 8879,
+    "sosd_plays": 400,
+    "sosd_high_score": 1166,
+    "total_score": 5018,
+    "rank": "All-Star",
+    "last_updated": "8/8/2024, 7:21:31 AM"
   }
 ]
