@@ -53,23 +53,6 @@
   {
     "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
     "team_name": "Lost Roorawkuudor Mountain",
-    "username": "mizsango",
-    "yyb_wins": 0,
-    "yyb_draws": 0,
-    "yyb_high_score": 0,
-    "slsl_wins": 0,
-    "slsl_high_score": 0,
-    "msn_plays": 6,
-    "msn_high_score": 4494,
-    "sosd_plays": 0,
-    "sosd_high_score": 0,
-    "total_score": 18,
-    "rank": "Beginner",
-    "last_updated": "8/6/2024, 9:58:53 PM"
-  },
-  {
-    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
-    "team_name": "Lost Roorawkuudor Mountain",
     "username": "superkathiee",
     "yyb_wins": 154,
     "yyb_draws": 0,
@@ -780,5 +763,22 @@
     "total_score": 48,
     "rank": "Beginner",
     "last_updated": "8/8/2024, 7:35:22 AM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
+    "team_name": "Lost Roorawkuudor Mountain",
+    "username": "mizsango",
+    "yyb_wins": 0,
+    "yyb_draws": 0,
+    "yyb_high_score": 0,
+    "slsl_wins": 0,
+    "slsl_high_score": 0,
+    "msn_plays": 6,
+    "msn_high_score": 4494,
+    "sosd_plays": 0,
+    "sosd_high_score": 0,
+    "total_score": 18,
+    "rank": "Beginner",
+    "last_updated": "8/8/2024, 7:35:40 AM"
   }
 ]
