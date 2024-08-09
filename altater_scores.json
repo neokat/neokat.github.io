@@ -1,22 +1,5 @@
 [
   {
-    "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
-    "team_name": "Haunted Darfennia Virtumyst",
-    "username": "ckgknyangel",
-    "yyb_wins": 67,
-    "yyb_draws": 0,
-    "yyb_high_score": 562,
-    "slsl_wins": 10,
-    "slsl_high_score": 700,
-    "msn_plays": 545,
-    "msn_high_score": 6845,
-    "sosd_plays": 1312,
-    "sosd_high_score": 1186,
-    "total_score": 6609,
-    "rank": "All-Star",
-    "last_updated": "8/8/2024, 7:22:25 AM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
     "team_name": "Lost Roorawkuudor Mountain",
     "username": "honorrolle",
@@ -780,5 +763,22 @@
     "total_score": 7392,
     "rank": "All-Star",
     "last_updated": "8/9/2024, 12:43:22 AM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
+    "team_name": "Haunted Darfennia Virtumyst",
+    "username": "ckgknyangel",
+    "yyb_wins": 67,
+    "yyb_draws": 0,
+    "yyb_high_score": 562,
+    "slsl_wins": 10,
+    "slsl_high_score": 700,
+    "msn_plays": 545,
+    "msn_high_score": 6845,
+    "sosd_plays": 1436,
+    "sosd_high_score": 1186,
+    "total_score": 6981,
+    "rank": "All-Star",
+    "last_updated": "8/9/2024, 12:43:28 AM"
   }
 ]
