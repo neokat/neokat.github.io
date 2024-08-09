@@ -2,23 +2,6 @@
   {
     "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
     "team_name": "Lost Roorawkuudor Mountain",
-    "username": "midnightswish",
-    "yyb_wins": 60,
-    "yyb_draws": 1,
-    "yyb_high_score": 329,
-    "slsl_wins": 34,
-    "slsl_high_score": 685,
-    "msn_plays": 77,
-    "msn_high_score": 5585,
-    "sosd_plays": 138,
-    "sosd_high_score": 1173,
-    "total_score": 1825,
-    "rank": "Level 10",
-    "last_updated": "8/8/2024, 7:28:59 AM"
-  },
-  {
-    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
-    "team_name": "Lost Roorawkuudor Mountain",
     "username": "elhiwe",
     "yyb_wins": 74,
     "yyb_draws": 0,
@@ -780,5 +763,22 @@
     "total_score": 2400,
     "rank": "Level 12",
     "last_updated": "8/9/2024, 12:45:12 AM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
+    "team_name": "Lost Roorawkuudor Mountain",
+    "username": "midnightswish",
+    "yyb_wins": 60,
+    "yyb_draws": 1,
+    "yyb_high_score": 329,
+    "slsl_wins": 34,
+    "slsl_high_score": 685,
+    "msn_plays": 77,
+    "msn_high_score": 5585,
+    "sosd_plays": 138,
+    "sosd_high_score": 1173,
+    "total_score": 1825,
+    "rank": "Level 10",
+    "last_updated": "8/9/2024, 12:45:18 AM"
   }
 ]
