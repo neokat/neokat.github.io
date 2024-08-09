@@ -51,23 +51,6 @@
     "last_updated": "8/9/2024, 12:44:53 AM"
   },
   {
-    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
-    "team_name": "Krelutarqua daMerivale",
-    "username": "rhianafaeriedoll",
-    "yyb_wins": 29,
-    "yyb_draws": 0,
-    "yyb_high_score": 140,
-    "slsl_wins": 1,
-    "slsl_high_score": 452,
-    "msn_plays": 12,
-    "msn_high_score": 4610,
-    "sosd_plays": 138,
-    "sosd_high_score": 1158,
-    "total_score": 866,
-    "rank": "Level 6",
-    "last_updated": "8/9/2024, 12:46:40 AM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
     "team_name": "Haunted Darfennia Virtumyst",
     "username": "moonzywolfgirl",
@@ -780,5 +763,22 @@
     "total_score": 198,
     "rank": "Level 1",
     "last_updated": "8/9/2024, 7:11:09 AM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
+    "team_name": "Krelutarqua daMerivale",
+    "username": "rhianafaeriedoll",
+    "yyb_wins": 29,
+    "yyb_draws": 0,
+    "yyb_high_score": 140,
+    "slsl_wins": 1,
+    "slsl_high_score": 452,
+    "msn_plays": 12,
+    "msn_high_score": 4610,
+    "sosd_plays": 138,
+    "sosd_high_score": 1158,
+    "total_score": 866,
+    "rank": "Level 6",
+    "last_updated": "8/9/2024, 7:11:12 AM"
   }
 ]
