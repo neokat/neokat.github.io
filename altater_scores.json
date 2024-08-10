@@ -70,23 +70,6 @@
   {
     "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
     "team_name": "Haunted Darfennia Virtumyst",
-    "username": "kio______lake",
-    "yyb_wins": 121,
-    "yyb_draws": 0,
-    "yyb_high_score": 1071,
-    "slsl_wins": 15,
-    "slsl_high_score": 322,
-    "msn_plays": 5,
-    "msn_high_score": 4591,
-    "sosd_plays": 715,
-    "sosd_high_score": 1185,
-    "total_score": 4004,
-    "rank": "Level 17",
-    "last_updated": "8/9/2024, 7:10:13 AM"
-  },
-  {
-    "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
-    "team_name": "Haunted Darfennia Virtumyst",
     "username": "angel709317",
     "yyb_wins": 149,
     "yyb_draws": 0,
@@ -780,5 +763,22 @@
     "total_score": 4650,
     "rank": "Level 19",
     "last_updated": "8/10/2024, 5:37:30 AM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
+    "team_name": "Haunted Darfennia Virtumyst",
+    "username": "kio______lake",
+    "yyb_wins": 150,
+    "yyb_draws": 0,
+    "yyb_high_score": 1312,
+    "slsl_wins": 15,
+    "slsl_high_score": 322,
+    "msn_plays": 10,
+    "msn_high_score": 4591,
+    "sosd_plays": 775,
+    "sosd_high_score": 1187,
+    "total_score": 4605,
+    "rank": "Level 19",
+    "last_updated": "8/10/2024, 5:37:35 AM"
   }
 ]
