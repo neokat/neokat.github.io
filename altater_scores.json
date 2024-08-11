@@ -68,23 +68,6 @@
     "last_updated": "8/10/2024, 5:37:35 AM"
   },
   {
-    "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
-    "team_name": "Haunted Darfennia Virtumyst",
-    "username": "tinyroses18",
-    "yyb_wins": 37,
-    "yyb_draws": 0,
-    "yyb_high_score": 295,
-    "slsl_wins": 0,
-    "slsl_high_score": 0,
-    "msn_plays": 100,
-    "msn_high_score": 4872,
-    "sosd_plays": 570,
-    "sosd_high_score": 140,
-    "total_score": 2528,
-    "rank": "Level 12",
-    "last_updated": "8/10/2024, 5:38:05 AM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
     "team_name": "Krelutarqua daMerivale",
     "username": "hunni_bun_137",
@@ -780,5 +763,22 @@
     "total_score": 3000,
     "rank": "Level 14",
     "last_updated": "8/11/2024, 12:08:05 AM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
+    "team_name": "Haunted Darfennia Virtumyst",
+    "username": "tinyroses18",
+    "yyb_wins": 37,
+    "yyb_draws": 0,
+    "yyb_high_score": 295,
+    "slsl_wins": 0,
+    "slsl_high_score": 0,
+    "msn_plays": 100,
+    "msn_high_score": 4872,
+    "sosd_plays": 570,
+    "sosd_high_score": 140,
+    "total_score": 2528,
+    "rank": "Level 12",
+    "last_updated": "8/11/2024, 12:08:08 AM"
   }
 ]
