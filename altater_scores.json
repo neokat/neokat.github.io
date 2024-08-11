@@ -70,23 +70,6 @@
   {
     "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
     "team_name": "Haunted Darfennia Virtumyst",
-    "username": "justiquen",
-    "yyb_wins": 100,
-    "yyb_draws": 0,
-    "yyb_high_score": 1033,
-    "slsl_wins": 24,
-    "slsl_high_score": 824,
-    "msn_plays": 201,
-    "msn_high_score": 6695,
-    "sosd_plays": 1608,
-    "sosd_high_score": 1189,
-    "total_score": 7067,
-    "rank": "All-Star",
-    "last_updated": "8/10/2024, 5:36:50 AM"
-  },
-  {
-    "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
-    "team_name": "Haunted Darfennia Virtumyst",
     "username": "ckgknyangel",
     "yyb_wins": 67,
     "yyb_draws": 0,
@@ -780,5 +763,22 @@
     "total_score": 8241,
     "rank": "All-Star",
     "last_updated": "8/11/2024, 12:07:17 AM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
+    "team_name": "Haunted Darfennia Virtumyst",
+    "username": "justiquen",
+    "yyb_wins": 100,
+    "yyb_draws": 0,
+    "yyb_high_score": 1033,
+    "slsl_wins": 24,
+    "slsl_high_score": 824,
+    "msn_plays": 201,
+    "msn_high_score": 6695,
+    "sosd_plays": 1608,
+    "sosd_high_score": 1189,
+    "total_score": 7067,
+    "rank": "All-Star",
+    "last_updated": "8/11/2024, 12:07:21 AM"
   }
 ]
