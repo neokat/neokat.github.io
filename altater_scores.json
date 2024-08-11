@@ -87,23 +87,6 @@
   {
     "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
     "team_name": "Lost Roorawkuudor Mountain",
-    "username": "claimedxscribblez",
-    "yyb_wins": 8,
-    "yyb_draws": 0,
-    "yyb_high_score": 63,
-    "slsl_wins": 8,
-    "slsl_high_score": 696,
-    "msn_plays": 86,
-    "msn_high_score": 5367,
-    "sosd_plays": 116,
-    "sosd_high_score": 1145,
-    "total_score": 798,
-    "rank": "Level 5",
-    "last_updated": "8/11/2024, 12:09:20 AM"
-  },
-  {
-    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
-    "team_name": "Lost Roorawkuudor Mountain",
     "username": "callisto2002",
     "yyb_wins": 0,
     "yyb_draws": 0,
@@ -780,5 +763,22 @@
     "total_score": 1173,
     "rank": "Level 7",
     "last_updated": "8/11/2024, 4:06:29 PM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
+    "team_name": "Lost Roorawkuudor Mountain",
+    "username": "claimedxscribblez",
+    "yyb_wins": 8,
+    "yyb_draws": 0,
+    "yyb_high_score": 63,
+    "slsl_wins": 8,
+    "slsl_high_score": 696,
+    "msn_plays": 86,
+    "msn_high_score": 5367,
+    "sosd_plays": 116,
+    "sosd_high_score": 1145,
+    "total_score": 798,
+    "rank": "Level 5",
+    "last_updated": "8/11/2024, 4:07:02 PM"
   }
 ]
