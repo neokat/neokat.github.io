@@ -51,23 +51,6 @@
     "last_updated": "8/11/2024, 12:07:15 AM"
   },
   {
-    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
-    "team_name": "Krelutarqua daMerivale",
-    "username": "sosunub",
-    "yyb_wins": 0,
-    "yyb_draws": 0,
-    "yyb_high_score": 0,
-    "slsl_wins": 28,
-    "slsl_high_score": 1020,
-    "msn_plays": 120,
-    "msn_high_score": 6439,
-    "sosd_plays": 374,
-    "sosd_high_score": 1208,
-    "total_score": 1762,
-    "rank": "Level 10",
-    "last_updated": "8/11/2024, 12:08:16 AM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
     "team_name": "Lost Roorawkuudor Mountain",
     "username": "hilary_duff_fan_16",
@@ -780,5 +763,22 @@
     "total_score": 1825,
     "rank": "Level 10",
     "last_updated": "8/11/2024, 4:05:51 PM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
+    "team_name": "Krelutarqua daMerivale",
+    "username": "sosunub",
+    "yyb_wins": 0,
+    "yyb_draws": 0,
+    "yyb_high_score": 0,
+    "slsl_wins": 28,
+    "slsl_high_score": 1020,
+    "msn_plays": 120,
+    "msn_high_score": 6439,
+    "sosd_plays": 374,
+    "sosd_high_score": 1208,
+    "total_score": 1762,
+    "rank": "Level 10",
+    "last_updated": "8/11/2024, 4:05:53 PM"
   }
 ]
