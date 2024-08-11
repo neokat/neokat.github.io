@@ -53,23 +53,6 @@
   {
     "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
     "team_name": "Krelutarqua daMerivale",
-    "username": "eleganza_lights",
-    "yyb_wins": 242,
-    "yyb_draws": 0,
-    "yyb_high_score": 2319,
-    "slsl_wins": 1,
-    "slsl_high_score": 324,
-    "msn_plays": 1,
-    "msn_high_score": 4082,
-    "sosd_plays": 891,
-    "sosd_high_score": 1188,
-    "total_score": 6074,
-    "rank": "All-Star",
-    "last_updated": "8/10/2024, 5:37:08 AM"
-  },
-  {
-    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
-    "team_name": "Krelutarqua daMerivale",
     "username": "juliadoglover11405",
     "yyb_wins": 3,
     "yyb_draws": 1,
@@ -780,5 +763,22 @@
     "total_score": 6835,
     "rank": "All-Star",
     "last_updated": "8/11/2024, 12:07:26 AM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
+    "team_name": "Krelutarqua daMerivale",
+    "username": "eleganza_lights",
+    "yyb_wins": 271,
+    "yyb_draws": 0,
+    "yyb_high_score": 2624,
+    "slsl_wins": 1,
+    "slsl_high_score": 324,
+    "msn_plays": 1,
+    "msn_high_score": 4082,
+    "sosd_plays": 901,
+    "sosd_high_score": 1188,
+    "total_score": 6510,
+    "rank": "All-Star",
+    "last_updated": "8/11/2024, 12:07:32 AM"
   }
 ]
