@@ -17,23 +17,6 @@
     "last_updated": "8/11/2024, 4:03:47 PM"
   },
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/meridell/logo.png",
-    "team_name": "meridell",
-    "username": "layces",
-    "yyb_wins": 203,
-    "yyb_draws": 0,
-    "yyb_high_score": 1921,
-    "slsl_wins": 0,
-    "slsl_high_score": 0,
-    "msn_plays": 0,
-    "msn_high_score": 0,
-    "sosd_plays": 0,
-    "sosd_high_score": 0,
-    "total_score": 2842,
-    "rank": "Level 13",
-    "last_updated": "8/11/2024, 4:10:59 PM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/hauntedwoods/logo.png",
     "team_name": "haunted woods",
     "username": "blumaroocrazy21",
@@ -202,5 +185,22 @@
     "total_score": 4197,
     "rank": "Level 17",
     "last_updated": "8/12/2024, 3:15:24 PM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/meridell/logo.png",
+    "team_name": "meridell",
+    "username": "layces",
+    "yyb_wins": 203,
+    "yyb_draws": 0,
+    "yyb_high_score": 1921,
+    "slsl_wins": 0,
+    "slsl_high_score": 0,
+    "msn_plays": 0,
+    "msn_high_score": 0,
+    "sosd_plays": 0,
+    "sosd_high_score": 0,
+    "total_score": 2842,
+    "rank": "Level 13",
+    "last_updated": "8/12/2024, 3:15:26 PM"
   }
 ]
