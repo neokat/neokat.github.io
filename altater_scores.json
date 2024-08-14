@@ -1,22 +1,5 @@
 [
   {
-    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
-    "team_name": "Lost Roorawkuudor Mountain",
-    "username": "lennekegirl123",
-    "yyb_wins": 5,
-    "yyb_draws": 0,
-    "yyb_high_score": 39,
-    "slsl_wins": 35,
-    "slsl_high_score": 722,
-    "msn_plays": 355,
-    "msn_high_score": 6401,
-    "sosd_plays": 2845,
-    "sosd_high_score": 1197,
-    "total_score": 10020,
-    "rank": "All-Star",
-    "last_updated": "8/13/2024, 11:31:01 AM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
     "team_name": "Krelutarqua daMerivale",
     "username": "catchinglights",
@@ -780,5 +763,22 @@
     "total_score": 11742,
     "rank": "All-Star",
     "last_updated": "8/14/2024, 4:52:39 PM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
+    "team_name": "Lost Roorawkuudor Mountain",
+    "username": "lennekegirl123",
+    "yyb_wins": 5,
+    "yyb_draws": 0,
+    "yyb_high_score": 39,
+    "slsl_wins": 35,
+    "slsl_high_score": 722,
+    "msn_plays": 355,
+    "msn_high_score": 6401,
+    "sosd_plays": 3179,
+    "sosd_high_score": 1198,
+    "total_score": 11022,
+    "rank": "All-Star",
+    "last_updated": "8/14/2024, 4:52:43 PM"
   }
 ]
