@@ -34,23 +34,6 @@
     "last_updated": "8/13/2024, 11:31:21 AM"
   },
   {
-    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
-    "team_name": "Lost Roorawkuudor Mountain",
-    "username": "superkathiee",
-    "yyb_wins": 220,
-    "yyb_draws": 0,
-    "yyb_high_score": 1745,
-    "slsl_wins": 72,
-    "slsl_high_score": 1367,
-    "msn_plays": 400,
-    "msn_high_score": 6428,
-    "sosd_plays": 1630,
-    "sosd_high_score": 1200,
-    "total_score": 9890,
-    "rank": "All-Star",
-    "last_updated": "8/13/2024, 11:31:25 AM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
     "team_name": "Krelutarqua daMerivale",
     "username": "aangchan",
@@ -780,5 +763,22 @@
     "total_score": 11022,
     "rank": "All-Star",
     "last_updated": "8/14/2024, 4:52:43 PM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
+    "team_name": "Lost Roorawkuudor Mountain",
+    "username": "superkathiee",
+    "yyb_wins": 229,
+    "yyb_draws": 0,
+    "yyb_high_score": 1805,
+    "slsl_wins": 80,
+    "slsl_high_score": 1367,
+    "msn_plays": 400,
+    "msn_high_score": 6428,
+    "sosd_plays": 1822,
+    "sosd_high_score": 1200,
+    "total_score": 10672,
+    "rank": "All-Star",
+    "last_updated": "8/14/2024, 4:52:46 PM"
   }
 ]
