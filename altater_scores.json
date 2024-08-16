@@ -1,22 +1,5 @@
 [
   {
-    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
-    "team_name": "Lost Roorawkuudor Mountain",
-    "username": "mbug1991",
-    "yyb_wins": 82,
-    "yyb_draws": 0,
-    "yyb_high_score": 442,
-    "slsl_wins": 23,
-    "slsl_high_score": 840,
-    "msn_plays": 325,
-    "msn_high_score": 6517,
-    "sosd_plays": 900,
-    "sosd_high_score": 1184,
-    "total_score": 5053,
-    "rank": "All-Star",
-    "last_updated": "8/14/2024, 5:03:48 PM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
     "team_name": "Krelutarqua daMerivale",
     "username": "hunni_bun_137",
@@ -780,5 +763,22 @@
     "total_score": 5115,
     "rank": "All-Star",
     "last_updated": "8/16/2024, 12:38:53 AM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
+    "team_name": "Lost Roorawkuudor Mountain",
+    "username": "mbug1991",
+    "yyb_wins": 82,
+    "yyb_draws": 0,
+    "yyb_high_score": 442,
+    "slsl_wins": 23,
+    "slsl_high_score": 840,
+    "msn_plays": 325,
+    "msn_high_score": 6517,
+    "sosd_plays": 900,
+    "sosd_high_score": 1184,
+    "total_score": 5053,
+    "rank": "All-Star",
+    "last_updated": "8/16/2024, 12:38:58 AM"
   }
 ]
