@@ -17,23 +17,6 @@
     "last_updated": "8/14/2024, 6:04:15 PM"
   },
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/lostdesert/logo.png",
-    "team_name": "lost desert",
-    "username": "sunbathr",
-    "yyb_wins": 0,
-    "yyb_draws": 0,
-    "yyb_high_score": 0,
-    "slsl_wins": 0,
-    "slsl_high_score": 0,
-    "msn_plays": 4,
-    "msn_high_score": 6103,
-    "sosd_plays": 576,
-    "sosd_high_score": 1144,
-    "total_score": 1740,
-    "rank": "Level 10",
-    "last_updated": "8/14/2024, 6:04:28 PM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/hauntedwoods/logo.png",
     "team_name": "haunted woods",
     "username": "blumaroocrazy21",
@@ -202,5 +185,22 @@
     "total_score": 4060,
     "rank": "Level 17",
     "last_updated": "8/16/2024, 4:08:28 PM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/lostdesert/logo.png",
+    "team_name": "lost desert",
+    "username": "sunbathr",
+    "yyb_wins": 0,
+    "yyb_draws": 0,
+    "yyb_high_score": 0,
+    "slsl_wins": 0,
+    "slsl_high_score": 0,
+    "msn_plays": 4,
+    "msn_high_score": 6103,
+    "sosd_plays": 609,
+    "sosd_high_score": 1144,
+    "total_score": 1839,
+    "rank": "Level 10",
+    "last_updated": "8/16/2024, 4:08:32 PM"
   }
 ]
