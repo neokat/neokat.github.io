@@ -19,23 +19,6 @@
   {
     "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
     "team_name": "Lost Roorawkuudor Mountain",
-    "username": "mbug1991",
-    "yyb_wins": 82,
-    "yyb_draws": 0,
-    "yyb_high_score": 442,
-    "slsl_wins": 23,
-    "slsl_high_score": 840,
-    "msn_plays": 325,
-    "msn_high_score": 6517,
-    "sosd_plays": 900,
-    "sosd_high_score": 1184,
-    "total_score": 5053,
-    "rank": "All-Star",
-    "last_updated": "8/16/2024, 12:39:12 AM"
-  },
-  {
-    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
-    "team_name": "Lost Roorawkuudor Mountain",
     "username": "idlegoth",
     "yyb_wins": 0,
     "yyb_draws": 0,
@@ -780,5 +763,22 @@
     "total_score": 5218,
     "rank": "All-Star",
     "last_updated": "8/16/2024, 3:03:01 PM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
+    "team_name": "Lost Roorawkuudor Mountain",
+    "username": "mbug1991",
+    "yyb_wins": 82,
+    "yyb_draws": 0,
+    "yyb_high_score": 442,
+    "slsl_wins": 23,
+    "slsl_high_score": 840,
+    "msn_plays": 325,
+    "msn_high_score": 6517,
+    "sosd_plays": 900,
+    "sosd_high_score": 1184,
+    "total_score": 5053,
+    "rank": "All-Star",
+    "last_updated": "8/16/2024, 3:03:04 PM"
   }
 ]
