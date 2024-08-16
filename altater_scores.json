@@ -1,22 +1,5 @@
 [
   {
-    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
-    "team_name": "Krelutarqua daMerivale",
-    "username": "zilaena",
-    "yyb_wins": 141,
-    "yyb_draws": 0,
-    "yyb_high_score": 1288,
-    "slsl_wins": 354,
-    "slsl_high_score": 2157,
-    "msn_plays": 43,
-    "msn_high_score": 4083,
-    "sosd_plays": 1707,
-    "sosd_high_score": 1136,
-    "total_score": 10764,
-    "rank": "All-Star",
-    "last_updated": "8/14/2024, 4:52:52 PM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
     "team_name": "Lost Roorawkuudor Mountain",
     "username": "honorrolle",
@@ -780,5 +763,22 @@
     "total_score": 11888,
     "rank": "All-Star",
     "last_updated": "8/16/2024, 12:38:00 AM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
+    "team_name": "Krelutarqua daMerivale",
+    "username": "zilaena",
+    "yyb_wins": 187,
+    "yyb_draws": 0,
+    "yyb_high_score": 1689,
+    "slsl_wins": 418,
+    "slsl_high_score": 2157,
+    "msn_plays": 53,
+    "msn_high_score": 4083,
+    "sosd_plays": 1949,
+    "sosd_high_score": 1136,
+    "total_score": 12804,
+    "rank": "All-Star",
+    "last_updated": "8/16/2024, 12:38:03 AM"
   }
 ]
