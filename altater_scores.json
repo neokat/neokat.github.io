@@ -17,23 +17,6 @@
     "last_updated": "8/16/2024, 3:02:20 PM"
   },
   {
-    "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
-    "team_name": "Haunted Darfennia Virtumyst",
-    "username": "kio______lake",
-    "yyb_wins": 191,
-    "yyb_draws": 0,
-    "yyb_high_score": 1689,
-    "slsl_wins": 15,
-    "slsl_high_score": 322,
-    "msn_plays": 15,
-    "msn_high_score": 4684,
-    "sosd_plays": 885,
-    "sosd_high_score": 1187,
-    "total_score": 5524,
-    "rank": "All-Star",
-    "last_updated": "8/16/2024, 3:02:52 PM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
     "team_name": "Krelutarqua daMerivale",
     "username": "nurnurnur199",
@@ -814,5 +797,22 @@
     "total_score": 6789,
     "rank": "All-Star",
     "last_updated": "8/18/2024, 1:17:09 AM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
+    "team_name": "Haunted Darfennia Virtumyst",
+    "username": "kio______lake",
+    "yyb_wins": 193,
+    "yyb_draws": 0,
+    "yyb_high_score": 1706,
+    "slsl_wins": 15,
+    "slsl_high_score": 322,
+    "msn_plays": 15,
+    "msn_high_score": 4684,
+    "sosd_plays": 887,
+    "sosd_high_score": 1187,
+    "total_score": 5558,
+    "rank": "All-Star",
+    "last_updated": "8/18/2024, 1:17:13 AM"
   }
 ]
