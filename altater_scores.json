@@ -17,23 +17,6 @@
     "last_updated": "8/16/2024, 3:02:20 PM"
   },
   {
-    "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
-    "team_name": "Haunted Darfennia Virtumyst",
-    "username": "beckyx191",
-    "yyb_wins": 105,
-    "yyb_draws": 0,
-    "yyb_high_score": 813,
-    "slsl_wins": 43,
-    "slsl_high_score": 2449,
-    "msn_plays": 493,
-    "msn_high_score": 8029,
-    "sosd_plays": 613,
-    "sosd_high_score": 1171,
-    "total_score": 5218,
-    "rank": "All-Star",
-    "last_updated": "8/16/2024, 3:03:01 PM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
     "team_name": "Lost Roorawkuudor Mountain",
     "username": "mbug1991",
@@ -814,5 +797,22 @@
     "total_score": 5253,
     "rank": "All-Star",
     "last_updated": "8/18/2024, 1:17:24 AM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
+    "team_name": "Haunted Darfennia Virtumyst",
+    "username": "beckyx191",
+    "yyb_wins": 105,
+    "yyb_draws": 0,
+    "yyb_high_score": 813,
+    "slsl_wins": 44,
+    "slsl_high_score": 2449,
+    "msn_plays": 493,
+    "msn_high_score": 8029,
+    "sosd_plays": 613,
+    "sosd_high_score": 1171,
+    "total_score": 5228,
+    "rank": "All-Star",
+    "last_updated": "8/18/2024, 1:17:26 AM"
   }
 ]
