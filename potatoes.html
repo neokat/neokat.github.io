@@ -42,7 +42,7 @@
         }
 
         .potato-box {
-            width: 125px;
+            width: 150px;
             background-color: #d9d9d9;
             margin: 2px;
             padding: 2px;
@@ -59,6 +59,7 @@
 
         .potato-box .text-content {
             text-align: left;
+            font-size: 12px;
         }
     </style>
 </head>
@@ -95,16 +96,11 @@
                         const textContent = document.createElement('div');
                         textContent.className = 'text-content';
 
-                        const username = document.createElement('p');
-                        username.textContent = player.username;
-
-                        const id = document.createElement('p');
-                        id.textContent = potato_id;
+                        const txt = document.createElement('p');
+                        txt.textContent = player.username + "<br><b>" + potato_id + "</b>";
                         potato_id++;
 
-                        textContent.appendChild(username);
-                        textContent.appendChild(id);
-
+                        textContent.appendChild(txt);
                         box.appendChild(img);
                         box.appendChild(textContent);
 
