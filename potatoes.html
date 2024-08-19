@@ -74,31 +74,49 @@
     <script>
         // build potatoes body
 
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]]; // swap elements
+            }
+            return array;
+        }
+
         document.addEventListener('DOMContentLoaded', function () {
             fetch('total_potatoes.json')
                 .then(response => response.json())
                 .then(scores => {
-                    scores.sort((a, b) => b.potatoes - a.potatoes);
+
+                    let potato_pile = []
+
+                    scores.forEach(player => {
+                        for (let i = 0; i < player.potatoes; i++) {
+                            potato_pile.push(player)
+                        }
+                    });
+
+                    console.log(potato_pile.length)
 
                     const spuds = document.getElementById('spuds');
                     let potato_id = 1
 
-                    scores.forEach(player => {
-                        for (let i = 0; i < player.potatoes; i++) {
-                            const box = document.createElement('div');
-                            box.className = 'potato-box';
+                    let shuffled_potato_pile = shuffleArray(potato_pile)
 
-                            const img = document.createElement('img');
-                            img.src = "https://neokat.github.io/potatoes/" + player.team + ".png";
+                    shuffled_potato_pile.forEach(potato => {
+                        const box = document.createElement('div');
+                        box.className = 'potato-box';
 
-                            const txt = document.createElement('div');
-                            txt.innerHTML = `${player.username}<br><b>${potato_id}</b>`;
-                            potato_id++;
+                        const img = document.createElement('img');
+                        img.src = "https://neokat.github.io/potatoes/" + potato.team + ".png";
 
-                            box.appendChild(img);
-                            box.appendChild(txt);
-                            spuds.appendChild(box);
-                        }
+                        const txt = document.createElement('div');
+                        txt.innerHTML = `${potato.username}<br><b>${potato_id}</b>`;
+                        potato_id++;
+
+                        box.appendChild(img);
+                        box.appendChild(txt);
+                        spuds.appendChild(box);
+
                     });
                 }).catch(error => {
                 console.error('Error fetching the JSON data you are such a loser:', error);
