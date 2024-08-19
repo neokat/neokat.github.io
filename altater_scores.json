@@ -1,22 +1,5 @@
 [
   {
-    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
-    "team_name": "Krelutarqua daMerivale",
-    "username": "rhianafaeriedoll",
-    "yyb_wins": 120,
-    "yyb_draws": 1,
-    "yyb_high_score": 621,
-    "slsl_wins": 1,
-    "slsl_high_score": 452,
-    "msn_plays": 12,
-    "msn_high_score": 4610,
-    "sosd_plays": 440,
-    "sosd_high_score": 1174,
-    "total_score": 3046,
-    "rank": "Level 14",
-    "last_updated": "8/18/2024, 7:19:29 PM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
     "team_name": "Lost Roorawkuudor Mountain",
     "username": "hilary_duff_fan_16",
@@ -814,5 +797,22 @@
     "total_score": 3062,
     "rank": "Level 14",
     "last_updated": "8/19/2024, 8:48:12 AM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
+    "team_name": "Krelutarqua daMerivale",
+    "username": "rhianafaeriedoll",
+    "yyb_wins": 120,
+    "yyb_draws": 1,
+    "yyb_high_score": 621,
+    "slsl_wins": 1,
+    "slsl_high_score": 452,
+    "msn_plays": 12,
+    "msn_high_score": 4610,
+    "sosd_plays": 440,
+    "sosd_high_score": 1174,
+    "total_score": 3046,
+    "rank": "Level 14",
+    "last_updated": "8/19/2024, 8:48:16 AM"
   }
 ]
