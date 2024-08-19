@@ -2,23 +2,6 @@
   {
     "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
     "team_name": "Lost Roorawkuudor Mountain",
-    "username": "idlegoth",
-    "yyb_wins": 0,
-    "yyb_draws": 0,
-    "yyb_high_score": 0,
-    "slsl_wins": 87,
-    "slsl_high_score": 1215,
-    "msn_plays": 0,
-    "msn_high_score": 0,
-    "sosd_plays": 1022,
-    "sosd_high_score": 1163,
-    "total_score": 3936,
-    "rank": "Level 17",
-    "last_updated": "8/18/2024, 7:18:47 PM"
-  },
-  {
-    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
-    "team_name": "Lost Roorawkuudor Mountain",
     "username": "painted_neo_faerie",
     "yyb_wins": 10,
     "yyb_draws": 2,
@@ -814,5 +797,22 @@
     "total_score": 4242,
     "rank": "Level 18",
     "last_updated": "8/19/2024, 8:48:01 AM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
+    "team_name": "Lost Roorawkuudor Mountain",
+    "username": "idlegoth",
+    "yyb_wins": 0,
+    "yyb_draws": 0,
+    "yyb_high_score": 0,
+    "slsl_wins": 87,
+    "slsl_high_score": 1215,
+    "msn_plays": 0,
+    "msn_high_score": 0,
+    "sosd_plays": 1023,
+    "sosd_high_score": 1163,
+    "total_score": 3939,
+    "rank": "Level 17",
+    "last_updated": "8/19/2024, 8:48:04 AM"
   }
 ]
