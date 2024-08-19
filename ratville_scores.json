@@ -17,23 +17,6 @@
     "last_updated": "8/16/2024, 4:06:33 PM"
   },
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/krawkisland/logo.png",
-    "team_name": "krawk island",
-    "username": "d_a_r_e",
-    "yyb_wins": 142,
-    "yyb_draws": 0,
-    "yyb_high_score": 1693,
-    "slsl_wins": 5,
-    "slsl_high_score": 826,
-    "msn_plays": 1410,
-    "msn_high_score": 7790,
-    "sosd_plays": 2904,
-    "sosd_high_score": 1178,
-    "total_score": 14980,
-    "rank": "All-Star",
-    "last_updated": "8/16/2024, 4:06:34 PM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
     "team_name": "roo island",
     "username": "kat_bus",
@@ -202,5 +185,22 @@
     "total_score": 12535,
     "rank": "All-Star",
     "last_updated": "8/16/2024, 5:02:30 PM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/krawkisland/logo.png",
+    "team_name": "krawk island",
+    "username": "d_a_r_e",
+    "yyb_wins": 174,
+    "yyb_draws": 0,
+    "yyb_high_score": 2068,
+    "slsl_wins": 5,
+    "slsl_high_score": 826,
+    "msn_plays": 1652,
+    "msn_high_score": 7790,
+    "sosd_plays": 3388,
+    "sosd_high_score": 1178,
+    "total_score": 17606,
+    "rank": "All-Star",
+    "last_updated": "8/18/2024, 5:02:54 PM"
   }
 ]
