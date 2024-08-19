@@ -1,22 +1,5 @@
 [
   {
-    "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
-    "team_name": "Haunted Darfennia Virtumyst",
-    "username": "howlsilver",
-    "yyb_wins": 104,
-    "yyb_draws": 0,
-    "yyb_high_score": 757,
-    "slsl_wins": 5,
-    "slsl_high_score": 856,
-    "msn_plays": 32,
-    "msn_high_score": 4929,
-    "sosd_plays": 96,
-    "sosd_high_score": 1098,
-    "total_score": 1890,
-    "rank": "Level 10",
-    "last_updated": "8/18/2024, 1:18:03 AM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
     "team_name": "Krelutarqua daMerivale",
     "username": "ris1994",
@@ -814,5 +797,22 @@
     "total_score": 2021,
     "rank": "Level 11",
     "last_updated": "8/18/2024, 7:19:56 PM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
+    "team_name": "Haunted Darfennia Virtumyst",
+    "username": "howlsilver",
+    "yyb_wins": 104,
+    "yyb_draws": 0,
+    "yyb_high_score": 757,
+    "slsl_wins": 5,
+    "slsl_high_score": 856,
+    "msn_plays": 32,
+    "msn_high_score": 4929,
+    "sosd_plays": 96,
+    "sosd_high_score": 1098,
+    "total_score": 1890,
+    "rank": "Level 10",
+    "last_updated": "8/18/2024, 7:19:59 PM"
   }
 ]
