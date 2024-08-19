@@ -56,6 +56,11 @@
             border-radius: 5px;
         }
 
+        /* Greyed out potato */
+        .grey-out {
+            opacity: 0.5;
+        }
+
     </style>
 </head>
 <body>
@@ -99,11 +104,24 @@
                         box.appendChild(txt);
                         spuds.appendChild(box);
 
+                        // Add click event listener to each potato box
+                        box.addEventListener('click', function () {
+                            toggleGreyOut(potato.username);
+                        });
+
                     });
                 }).catch(error => {
                 console.error('Error fetching the JSON data you are such a loser:', error);
             });
         });
+
+        // Function to toggle grey-out for all potatoes of a specific user
+        function toggleGreyOut(username) {
+            const allPotatoes = document.querySelectorAll(`[data-username="${username}"]`);
+            allPotatoes.forEach(potato => {
+                potato.classList.toggle('grey-out');
+            });
+        }
     </script>
 
 
