@@ -8,7 +8,7 @@
     <meta http-equiv='cache-control' content='no-cache'> 
     <meta http-equiv='expires' content='0'> 
     <meta http-equiv='pragma' content='no-cache'>
-    <title>Exodus Altater Cup Leaderboard</title>
+    <title>Altater Cup Final Potatoes</title>
 
     <link rel="icon" href="https://imagizer.imageshack.com/img922/9420/eRxVah.png " type="image/x-icon">
 
@@ -28,44 +28,6 @@
             width: 85%;
         }
 
-        #spuds td, #spuds th {
-            border: 2px solid #4f4f4f;
-            padding: 4px;
-            text-align: right !important;
-        }
-
-        #spuds tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-
-        #spuds tr:nth-child(odd) {
-            background-color: #d9d9d9;
-        }
-
-
-        #spuds th {
-            padding-top: 12px;
-            padding-bottom: 12px;
-            text-align: left;
-            background-color: #EBC84D;
-            color: #000000;
-        }
-
-        @media only screen and (max-width: 730px) {
-            #spuds td:nth-child(3),
-            #spuds th:nth-child(3),
-            #spuds td:nth-child(4),
-            #spuds th:nth-child(4),
-            #spuds td:nth-child(5),
-            #spuds th:nth-child(5),
-            #spuds td:nth-child(6),
-            #spuds th:nth-child(6),
-            #spuds td:nth-child(9),
-            #spuds th:nth-child(9) {
-                display: none;
-            }
-        }
-
         .yellow-box {
             background-color: #EBC84D;
             padding: 4px;
@@ -74,7 +36,6 @@
             width: 85%;
             box-sizing: border-box;
             font-size: 12px;
-
         }
     </style>
 </head>
@@ -83,89 +44,36 @@
     <img src="https://imagizer.imageshack.com/img924/9630/m2LMWs.png" width="60%"><br>
 
     <div class="yellow-box">
-        <b>NOTE: This scoreboard is updated semi-automatically!</b> Every time Kat<b>*</b> visits your stats page, the data is
-        scraped and populates on the scoreboard. The "last updated" column tells when the data was last pulled for each
-        person. If you aren't seeing up-to-date stats, first try to do a hard refresh (<b> command + shift + R</b> on
-        mac or <b> ctrl + shift + R</b> on windows) to make your browser pull fresh data. If it's still out-of-date, bug
-        Kat to refresh it :P <br><br>
-
-        <b>*</b>Kat is taking a few volunteers to be "link-clickers" throughout the day if you want to
-        help. You will need tampermonkey installed in your browser, can only be done on desktop, not 
-        mobile. DM her if interested!
+        <b>This is a work in progress</b>
     </div>
     <br><br><br><br>
-    <table id="spuds">
-        <!--        <tr>-->
-        <!--            <th id="lu" colspan="9" style="text-align: center !important;"></th>-->
-        <!--        </tr>-->
-        <thead>
-        <tr>
-            <th>TEAM</th>
-            <th>USERNAME</th>
-            <th>YYB WINS</th>
-            <th>SLSL PLAYS</th>
-            <th>MSN PLAYS</th>
-            <th>SOSD PLAYS</th>
-            <th>TOTAL POINTS</th>
-            <th>RANK</th>
-            <th>LAST UPDATED (NST)</th>
-        </tr>
-        </thead>
-        <tbody>
-        <!-- Data will be populated here -->
-        </tbody>
 
-    </table>
+    <div id="spuds">
+
+    </div>
+   
     <br><br><br><br>
     <script>
-        // build table body
+        // build potatoes body
 
         document.addEventListener('DOMContentLoaded', function () {
-            fetch('altater_scores.json')
+            fetch('total_potatoes.json')
                 .then(response => response.json())
                 .then(scores => {
-                    scores.sort((a, b) => b.total_score - a.total_score);
+                    scores.sort((a, b) => b.potatoes - a.potatoes);
 
-                    const scoresTableBody = document.getElementById('spuds').getElementsByTagName('tbody')[0];
+                    const spuds = document.getElementById('spuds');
 
-                    scores.forEach(score => {
-                        const row = scoresTableBody.insertRow();
+                    scores.forEach(player => {
 
-                        const cellTeamLogo = row.insertCell();
-                        const img = document.createElement('img');
-                        img.src = score.team_logo;
-                        img.height = 40;
-                        img.alt = score.team_name;
-                        cellTeamLogo.style.setProperty("text-align", "center", "important");
-                        cellTeamLogo.appendChild(img);
+                        for (let i = 0; i < player.potatoes; i++) {
+                            const img = document.createElement('img');
+                            img.src = "https://neokat.github.io/potatoes/" + player.username + ".png";
+                            img.height = 80;
+                            img.alt = score.team_name;
+                            spuds.appendChild(img);
+                        }
 
-                        const cellUsername = row.insertCell();
-                        const link = document.createElement('a');
-                        link.href = 'https://www.neopets.com/altador/colosseum/userstats.phtml?username=' + score.username;
-                        link.textContent = score.username;
-                        link.target = '_blank';
-                        cellUsername.appendChild(link);
-
-                        const cellYybWins = row.insertCell();
-                        cellYybWins.textContent = score.yyb_wins;
-
-                        const cellSlslGames = row.insertCell();
-                        cellSlslGames.textContent = score.slsl_wins;
-
-                        const cellMsnPlays = row.insertCell();
-                        cellMsnPlays.textContent = score.msn_plays;
-
-                        const cellSosdPlays = row.insertCell();
-                        cellSosdPlays.textContent = score.sosd_plays;
-
-                        const cellTotalScore = row.insertCell();
-                        cellTotalScore.textContent = score.total_score;
-
-                        const cellRank = row.insertCell();
-                        cellRank.textContent = score.rank;
-
-                        const cellLastUpdated = row.insertCell();
-                        cellLastUpdated.textContent = score.last_updated;
                     });
                 })
                 .catch(error => {
