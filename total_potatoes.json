@@ -1,5 +1,5 @@
-{
-"goosesticks": 49,
-"nostalgia": 72,
-"superkathiee": 61
-}
+[
+{"username": "goosesticks", "potatoes": 49},
+{"username": "nostalgia", "potatoes": 72},
+{"username":"superkathiee", "potatoes": 61}
+]
