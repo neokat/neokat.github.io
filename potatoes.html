@@ -92,6 +92,7 @@
                     potato_pile.forEach(potato => {
                         const box = document.createElement('div');
                         box.className = 'potato-box';
+                        box.dataset.username = potato.username;
 
                         const img = document.createElement('img');
                         img.src = `https://neokat.github.io/potatoes/${potato.team}${randomPotatoNumber()}.png`;
@@ -104,18 +105,16 @@
                         box.appendChild(txt);
                         spuds.appendChild(box);
 
-                        // Add click event listener to each potato box
+                        // add click event listener to each potato box
                         box.addEventListener('click', function () {
                             toggleGreyOut(potato.username);
                         });
-
                     });
                 }).catch(error => {
                 console.error('Error fetching the JSON data you are such a loser:', error);
             });
         });
 
-        // Function to toggle grey-out for all potatoes of a specific user
         function toggleGreyOut(username) {
             const allPotatoes = document.querySelectorAll(`[data-username="${username}"]`);
             allPotatoes.forEach(potato => {
