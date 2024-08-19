@@ -1,22 +1,5 @@
 [
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/shenkuu/logo.png",
-    "team_name": "shenkuu",
-    "username": "ssushami",
-    "yyb_wins": 116,
-    "yyb_draws": 0,
-    "yyb_high_score": 816,
-    "slsl_wins": 0,
-    "slsl_high_score": 0,
-    "msn_plays": 750,
-    "msn_high_score": 8879,
-    "sosd_plays": 400,
-    "sosd_high_score": 1166,
-    "total_score": 5074,
-    "rank": "All-Star",
-    "last_updated": "8/16/2024, 4:06:44 PM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/darigancitadel/logo.png",
     "team_name": "darigan citadel",
     "username": "roxi2rox",
@@ -202,5 +185,22 @@
     "total_score": 11616,
     "rank": "All-Star",
     "last_updated": "8/19/2024, 11:16:09 AM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/shenkuu/logo.png",
+    "team_name": "shenkuu",
+    "username": "ssushami",
+    "yyb_wins": 116,
+    "yyb_draws": 0,
+    "yyb_high_score": 816,
+    "slsl_wins": 0,
+    "slsl_high_score": 0,
+    "msn_plays": 750,
+    "msn_high_score": 8879,
+    "sosd_plays": 400,
+    "sosd_high_score": 1166,
+    "total_score": 5074,
+    "rank": "All-Star",
+    "last_updated": "8/19/2024, 11:16:12 AM"
   }
 ]
