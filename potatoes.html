@@ -46,7 +46,6 @@
             background-color: #d9d9d9;
             margin: 2px;
             padding: 2px;
-            display: flex;
             align-items: center;
             gap: 10px; /* space between image and text */
             text-align: center;
@@ -54,7 +53,7 @@
         }
 
         .potato-box img {
-            width: 50px;
+            width: 60px;
             object-fit: cover;
             border-radius: 5px;
         }
@@ -92,8 +91,8 @@
                             const img = document.createElement('img');
                             img.src = "https://neokat.github.io/potatoes/" + player.team + ".png";
 
-                            const txt = document.createElement('div');
-                            txt.innerHTML = `<br>${player.username}<br><b>${potato_id}</b>`;
+                            const txt = document.createElement('p');
+                            txt.innerHTML = `${player.username}<br><b>${potato_id}</b>`;
                             potato_id++;
 
                             box.appendChild(img);
