@@ -51,23 +51,6 @@
     "last_updated": "8/20/2024, 12:56:12 PM"
   },
   {
-    "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
-    "team_name": "Haunted Darfennia Virtumyst",
-    "username": "howlsilver",
-    "yyb_wins": 158,
-    "yyb_draws": 0,
-    "yyb_high_score": 1191,
-    "slsl_wins": 5,
-    "slsl_high_score": 856,
-    "msn_plays": 32,
-    "msn_high_score": 4929,
-    "sosd_plays": 101,
-    "sosd_high_score": 1098,
-    "total_score": 2661,
-    "rank": "Level 13",
-    "last_updated": "8/20/2024, 12:56:17 PM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
     "team_name": "Lost Roorawkuudor Mountain",
     "username": "atritas",
@@ -814,5 +797,22 @@
     "total_score": 3062,
     "rank": "Level 14",
     "last_updated": "8/20/2024, 3:58:23 PM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
+    "team_name": "Haunted Darfennia Virtumyst",
+    "username": "howlsilver",
+    "yyb_wins": 158,
+    "yyb_draws": 0,
+    "yyb_high_score": 1191,
+    "slsl_wins": 5,
+    "slsl_high_score": 856,
+    "msn_plays": 32,
+    "msn_high_score": 4929,
+    "sosd_plays": 101,
+    "sosd_high_score": 1098,
+    "total_score": 2661,
+    "rank": "Level 13",
+    "last_updated": "8/20/2024, 3:58:28 PM"
   }
 ]
