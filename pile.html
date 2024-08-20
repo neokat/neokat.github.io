@@ -76,8 +76,8 @@
 
         #username-order {
             position: absolute;
-            top: 10px;
-            left: 10px;
+            top: 20px;
+            left: 20px;
             background-color: #d9d9d9;
             padding: 10px;
             border: 1px solid #ccc;
@@ -91,8 +91,8 @@
 
         #random-number {
             position: absolute;
-            top: 10px;
-            right: 10px;
+            top: 20px;
+            right: 20px;
             background-color: #d9d9d9;
             padding: 10px;
             border: 1px solid #ccc;
@@ -107,19 +107,23 @@
             color: white;
             border: none;
             cursor: pointer;
-            font-size: 24px;
+            font-size: 18px;
+            font-family: Georgia, serif;
+            font-weight: bold;
         }
 
     </style>
 </head>
 <body>
 <center>
-    <div id="username-order"><b>Prize Selection Order:</b></div> <!-- Box to display the username order -->
+    <div id="username-order">
+        <div id="potato-count"><b>Potatoes Left in Pile:</b> 0</div>
+        <b>Prize Selection Order:</b></div> <!-- Box to display the username order -->
     <div id="random-number">Random Number: <span id="random-value">-</span><br>
         <button id="generate-number">Pick the Next Potato</button>
     </div> <!-- Box to display the random number -->
 
-    <br><br>
+    <br>
     <img src="https://images.neopets.com/neopedia/170_potato.gif">
     <h1>Alton's Potato Pile</h1>
 
@@ -128,6 +132,7 @@
     <script>
         let usernameOrder = [];
         let potatoBoxes = [];
+        let potatoCount = 0;
 
         function randomPotatoNumber() {
             return Math.floor(Math.random() * 4) + 1;
@@ -168,9 +173,11 @@
 
                         potatoBoxes.push(box);
                     });
+                    potatoCount = potatoBoxes.length;
+                    updatePotatoCountDisplay();
                 }).catch(error => {
-                    console.error('Error fetching the JSON data you are such a loser:', error);
-                });
+                console.error('Error fetching the JSON data you are such a loser:', error);
+            });
 
             document.getElementById('generate-number').addEventListener('click', generateRandomNumber);
         });
@@ -188,7 +195,8 @@
                 usernameOrder.push(username);
                 updateUsernameOrderDisplay();
             }
-
+            potatoCount = potatoBoxes.length;
+            updatePotatoCountDisplay();
             reNumberPotatoes();
         }
 
@@ -216,6 +224,10 @@
             } else {
                 document.getElementById('random-value').textContent = '-';
             }
+        }
+
+        function updatePotatoCountDisplay() {
+            document.getElementById('potato-count').innerHTML = `<b>Potatoes Left in Pile:</b> ${potatoCount}`;
         }
     </script>
 </center>
