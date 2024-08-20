@@ -21,6 +21,16 @@
             background-repeat: repeat;
         }
 
+        h1 {
+            font-family: Verdana, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 60px;
+            margin: 20px;
+            font-weight: bold;
+            color: #C67612;
+            width: 100%;
+        }
+
         #spuds {
             font-family: Verdana, Helvetica, sans-serif;
             display: flex;
@@ -51,8 +61,8 @@
             position: absolute;
             top: 2px;
             right: 2px;
-            background-color: red;
-            color: white;
+            background-color: #B8FD75;
+            color: #000000;
             border: none;
             border-radius: 50%;
             width: 20px;
@@ -60,29 +70,34 @@
             cursor: pointer;
         }
 
+        .highlight {
+            border: 3px solid #B8FD75;
+        }
+
         #username-order {
             position: absolute;
             top: 10px;
             left: 10px;
-            background-color: rgba(255, 255, 255, 0.8);
+            background-color: #d9d9d9;
             padding: 10px;
             border: 1px solid #ccc;
             font-family: Verdana, Helvetica, sans-serif;
-            font-size: 12px;
+            font-size: 16px;
             max-width: 150px;
             max-height: 200px;
             overflow-y: auto;
+            text-align: left;
         }
 
         #random-number {
             position: absolute;
             top: 10px;
             right: 10px;
-            background-color: rgba(255, 255, 255, 0.8);
+            background-color: #d9d9d9;
             padding: 10px;
             border: 1px solid #ccc;
             font-family: Verdana, Helvetica, sans-serif;
-            font-size: 12px;
+            font-size: 24px;
         }
 
         #generate-number {
@@ -99,9 +114,9 @@
 </head>
 <body>
 <center>
-    <div id="username-order">Username Order:</div> <!-- Box to display the username order -->
+    <div id="username-order"><b>Prize Selection Order:</b></div> <!-- Box to display the username order -->
     <div id="random-number">Random Number: <span id="random-value">-</span><br>
-        <button id="generate-number">Generate</button>
+        <button id="generate-number">Pick the Next Potato</button>
     </div> <!-- Box to display the random number -->
 
     <br><br>
@@ -188,14 +203,16 @@
 
         function updateUsernameOrderDisplay() {
             const orderDiv = document.getElementById('username-order');
-            orderDiv.innerHTML = 'Username Order:<br>' + usernameOrder.join('<br>');
+            orderDiv.innerHTML = 'Username Order:<br>' + usernameOrder.map((username, index) => `${index + 1}. ${username}`).join('<br>');
         }
 
         function generateRandomNumber() {
             const remainingPotatoes = potatoBoxes.length;
+            potatoBoxes.forEach(box => box.classList.remove('highlight')); // Remove any previous highlight
             if (remainingPotatoes > 0) {
                 const randomValue = crypto.getRandomValues(new Uint32Array(1))[0] % remainingPotatoes + 1;
                 document.getElementById('random-value').textContent = randomValue;
+                potatoBoxes[randomValue - 1].classList.add('highlight'); // Highlight the selected potato
             } else {
                 document.getElementById('random-value').textContent = '-';
             }
