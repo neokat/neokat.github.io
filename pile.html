@@ -61,7 +61,7 @@
             position: absolute;
             top: 2px;
             right: 2px;
-            background-color: #B8FD75;
+            background-color: #C67612;
             color: #000000;
             border: none;
             border-radius: 50%;
@@ -71,7 +71,7 @@
         }
 
         .highlight {
-            border: 3px solid #B8FD75;
+            border: 4px solid #C67612;
         }
 
         #username-order {
@@ -83,7 +83,7 @@
             border: 1px solid #ccc;
             font-family: Verdana, Helvetica, sans-serif;
             font-size: 16px;
-            max-width: 150px;
+            max-width: 200px;
             max-height: 200px;
             overflow-y: auto;
             text-align: left;
@@ -107,7 +107,7 @@
             color: white;
             border: none;
             cursor: pointer;
-            font-size: 12px;
+            font-size: 24px;
         }
 
     </style>
@@ -203,7 +203,7 @@
 
         function updateUsernameOrderDisplay() {
             const orderDiv = document.getElementById('username-order');
-            orderDiv.innerHTML = 'Username Order:<br>' + usernameOrder.map((username, index) => `${index + 1}. ${username}`).join('<br>');
+            orderDiv.innerHTML = '<b>Prize Selection Order:</b><br>' + usernameOrder.map((username, index) => `${index + 1}. ${username}`).join('<br>');
         }
 
         function generateRandomNumber() {
