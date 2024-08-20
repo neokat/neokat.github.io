@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Altater Cup Final Potatoes">
+    <meta property="og:description" content="Alton FINALLY finished counting them all!">
+    <meta property="og:url" content="https://neokat.github.io/potatoes.html">
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+    <title>Altater Cup Final Potatoes</title>
+
+    <link rel="icon" href="https://images.neopets.com/medieval/potato_welcome.gif" type="image/x-icon">
+
+    <style>
+        html, body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-image: url("https://i.imgur.com/Q1ImfNW.png");
+            background-repeat: repeat;
+        }
+
+        #spuds {
+            font-family: Verdana, Helvetica, sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            justify-content: center;
+            max-width: 100%;
+        }
+
+        .potato-box {
+            width: 105px;
+            background-color: #d9d9d9;
+            margin: 2px;
+            padding: 2px;
+            align-items: center;
+            text-align: center;
+            font-size: 11px;
+            position: relative;
+        }
+
+        .potato-box img {
+            height: 75px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .remove-btn {
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+
+        #username-order {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            border: 1px solid #ccc;
+            font-family: Verdana, Helvetica, sans-serif;
+            font-size: 12px;
+            max-width: 150px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        #random-number {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            border: 1px solid #ccc;
+            font-family: Verdana, Helvetica, sans-serif;
+            font-size: 12px;
+        }
+
+        #generate-number {
+            margin-top: 10px;
+            padding: 5px 10px;
+            background-color: #C67612;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 12px;
+        }
+
+    </style>
+</head>
+<body>
+<center>
+    <div id="username-order">Username Order:</div> <!-- Box to display the username order -->
+    <div id="random-number">Random Number: <span id="random-value">-</span><br>
+        <button id="generate-number">Generate</button>
+    </div> <!-- Box to display the random number -->
+
+    <br><br>
+    <img src="https://images.neopets.com/neopedia/170_potato.gif">
+    <h1>Alton's Potato Pile</h1>
+
+    <div id="spuds"></div>
+
+    <script>
+        let usernameOrder = [];
+        let potatoBoxes = [];
+
+        function randomPotatoNumber() {
+            return Math.floor(Math.random() * 4) + 1;
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+            fetch('data/potato_pile.json')
+                .then(response => response.json())
+                .then(potato_pile => {
+                    console.log(potato_pile.length);
+
+                    const spuds = document.getElementById('spuds');
+                    let potato_id = 1;
+
+                    potato_pile.forEach(potato => {
+                        const box = document.createElement('div');
+                        box.className = 'potato-box';
+                        box.dataset.username = potato.username;
+
+                        const img = document.createElement('img');
+                        img.src = `https://neokat.github.io/potatoes/${potato.team}${randomPotatoNumber()}.png`;
+
+                        const txt = document.createElement('div');
+                        txt.innerHTML = `${potato.username}<br><b>${potato_id}</b>`;
+                        potato_id++;
+
+                        const btn = document.createElement('button');
+                        btn.className = 'remove-btn';
+                        btn.innerText = 'X';
+                        btn.addEventListener('click', function () {
+                            removePotatoes(potato.username);
+                        });
+
+                        box.appendChild(img);
+                        box.appendChild(txt);
+                        box.appendChild(btn);
+                        spuds.appendChild(box);
+
+                        potatoBoxes.push(box);
+                    });
+                }).catch(error => {
+                    console.error('Error fetching the JSON data you are such a loser:', error);
+                });
+
+            document.getElementById('generate-number').addEventListener('click', generateRandomNumber);
+        });
+
+        function removePotatoes(username) {
+            potatoBoxes = potatoBoxes.filter(box => {
+                if (box.dataset.username === username) {
+                    box.remove();
+                    return false;
+                }
+                return true;
+            });
+
+            if (!usernameOrder.includes(username)) {
+                usernameOrder.push(username);
+                updateUsernameOrderDisplay();
+            }
+
+            reNumberPotatoes();
+        }
+
+        function reNumberPotatoes() {
+            let potato_id = 1;
+            potatoBoxes.forEach(box => {
+                const txt = box.querySelector('div');
+                txt.innerHTML = `${box.dataset.username}<br><b>${potato_id}</b>`;
+                potato_id++;
+            });
+        }
+
+        function updateUsernameOrderDisplay() {
+            const orderDiv = document.getElementById('username-order');
+            orderDiv.innerHTML = 'Username Order:<br>' + usernameOrder.join('<br>');
+        }
+
+        function generateRandomNumber() {
+            const remainingPotatoes = potatoBoxes.length;
+            if (remainingPotatoes > 0) {
+                const randomValue = crypto.getRandomValues(new Uint32Array(1))[0] % remainingPotatoes + 1;
+                document.getElementById('random-value').textContent = randomValue;
+            } else {
+                document.getElementById('random-value').textContent = '-';
+            }
+        }
+    </script>
+</center>
+</body>
+</html>
