@@ -306,23 +306,6 @@
     "last_updated": "8/19/2024, 8:47:51 AM"
   },
   {
-    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
-    "team_name": "Lost Roorawkuudor Mountain",
-    "username": "honorrolle",
-    "yyb_wins": 276,
-    "yyb_draws": 0,
-    "yyb_high_score": 2876,
-    "slsl_wins": 57,
-    "slsl_high_score": 937,
-    "msn_plays": 405,
-    "msn_high_score": 6203,
-    "sosd_plays": 2576,
-    "sosd_high_score": 1186,
-    "total_score": 13377,
-    "rank": "All-Star",
-    "last_updated": "8/19/2024, 8:47:55 AM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
     "team_name": "Haunted Darfennia Virtumyst",
     "username": "polarnights",
@@ -814,5 +797,22 @@
     "total_score": 14809,
     "rank": "All-Star",
     "last_updated": "8/20/2024, 12:13:43 PM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
+    "team_name": "Lost Roorawkuudor Mountain",
+    "username": "honorrolle",
+    "yyb_wins": 296,
+    "yyb_draws": 0,
+    "yyb_high_score": 3115,
+    "slsl_wins": 57,
+    "slsl_high_score": 937,
+    "msn_plays": 405,
+    "msn_high_score": 6203,
+    "sosd_plays": 2768,
+    "sosd_high_score": 1186,
+    "total_score": 14233,
+    "rank": "All-Star",
+    "last_updated": "8/20/2024, 12:13:52 PM"
   }
 ]
