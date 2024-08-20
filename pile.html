@@ -88,9 +88,9 @@
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
-            width: 100%;
             gap: 10px;
-            margin: 20px 100px;
+            max-width: calc(100% - 200px); /* subtract twice the margin (100px left + 100px right) */
+            margin: 20px auto; /* auto left/right margins to center the container horizontally */
         }
 
         #prize-selection, #random-number {
