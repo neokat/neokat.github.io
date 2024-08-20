@@ -5,9 +5,6 @@
     <meta property="og:title" content="Altater Cup Final Potatoes">
     <meta property="og:description" content="Alton FINALLY finished counting them all!">
     <meta property="og:url" content="https://neokat.github.io/potatoes.html">
-    <meta http-equiv='cache-control' content='no-cache'>
-    <meta http-equiv='expires' content='0'>
-    <meta http-equiv='pragma' content='no-cache'>
     <title>Altater Cup Final Potatoes</title>
 
     <link rel="icon" href="https://images.neopets.com/medieval/potato_welcome.gif" type="image/x-icon">
@@ -33,7 +30,7 @@
         h1 {
             font-family: Verdana, Helvetica, sans-serif;
             text-align: center;
-            font-size: 60px;
+            font-size: 50px;
             margin: 20px;
             font-weight: bold;
             color: #C67612;
@@ -93,7 +90,7 @@
             align-items: flex-start;
             width: 100%;
             gap: 10px;
-            margin-bottom: 20px;
+            margin: 50px;
         }
 
         #prize-selection, #random-number {
@@ -117,6 +114,12 @@
             text-align: center;
         }
 
+        #welcome {
+            flex: 1;
+            max-width: 300px;
+            text-align: center;
+        }
+
         #random-number span {
             display: inline-block;
             margin: 10px 0;
@@ -134,11 +137,6 @@
             font-weight: bold;
         }
 
-        #top-container img {
-            max-width: 50%;
-            height: auto;
-            flex: 1;
-        }
 
         @media (max-width: 768px) {
             #top-container {
@@ -146,8 +144,7 @@
                 align-items: center;
             }
 
-            #top-container > div,
-            #top-container img {
+            #top-container > div {
                 max-width: 100%;
             }
 
@@ -163,15 +160,15 @@
         <div id="potato-count"><b>Potatoes Left in Pile:</b> 0<br><br></div>
         <div id="username-order"><b>Prize Selection Order</b></div>
     </div>
+    <div id="welcome"><img src="https://images.neopets.com/neopedia/170_potato.gif">
+        <h1>Alton's Potato Pile</h1></div>
     <div id="random-number">
         Random Number: <span id="random-value">-</span><br>
         <button id="generate-number">Pick Next Potato</button>
     </div>
 
-    <img src="https://images.neopets.com/neopedia/170_potato.gif" alt="Potato Image">
 </div>
 
-<h1>Alton's Potato Pile</h1>
 <div id="spuds"></div>
 
 <script>
