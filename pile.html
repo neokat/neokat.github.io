@@ -74,7 +74,7 @@
             border: 5px solid #C67612;
         }
 
-        #username-order {
+        #prize-selection {
             position: absolute;
             top: 20px;
             left: 20px;
@@ -116,8 +116,8 @@
 </head>
 <body>
 <center>
-    <div id="username-order">
-        <b>Prize Selection Order:</b>
+    <div id="prize-selection">
+        <div id="username-order"></div><b>Prize Selection Order</b></div>
         <div id="potato-count"><b>Potatoes Left in Pile:</b> 0</div>
     </div>
     <div id="random-number">Random Number: <span id="random-value">-</span><br>
@@ -213,7 +213,7 @@
 
         function updateUsernameOrderDisplay() {
             const orderDiv = document.getElementById('username-order');
-            orderDiv.innerHTML = '<b>Prize Selection Order:</b><br>' + usernameOrder.map((username, index) => `${index + 1}. ${username}`).join('<br>');
+            orderDiv.innerHTML = '<b>Prize Selection Order</b><br>' + usernameOrder.map((username, index) => `${index + 1}. ${username}`).join('<br>');
         }
 
         function generateRandomNumber() {
@@ -221,7 +221,7 @@
             potatoBoxes.forEach(box => box.classList.remove('highlight')); // Remove any previous highlight
             if (remainingPotatoes > 0) {
                 const randomValue = crypto.getRandomValues(new Uint32Array(1))[0] % remainingPotatoes + 1;
-                document.getElementById('random-value').textContent = `${randomValue}`;
+                document.getElementById('random-value').innerHTML = `<b>${randomValue}</b>`;
                 potatoBoxes[randomValue - 1].classList.add('highlight');
             } else {
                 document.getElementById('random-value').textContent = '-';
