@@ -124,12 +124,30 @@
             padding: 20px;
             width: 100%;
             box-sizing: border-box;
+            gap: 10px;
+        }
+
+        #top-container > div,
+        #top-container > img {
+            flex-basis: 30%; /* This controls how much space each item takes */
+            flex-grow: 1; /* This allows the items to grow if there's extra space */
+            max-width: 30%; /* Limit the max width of each item to avoid overlap */
         }
 
         #top-container img {
             max-width: 100%;
             height: auto;
+            align-self: center;
         }
+
+        @media (max-width: 768px) {
+            #top-container > div,
+            #top-container > img {
+                flex-basis: 100%; /* Stack elements on smaller screens */
+                max-width: 100%;
+            }
+        }
+
 
     </style>
 </head>
