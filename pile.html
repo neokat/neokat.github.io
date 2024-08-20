@@ -30,7 +30,7 @@
         h1 {
             font-family: Verdana, Helvetica, sans-serif;
             text-align: center;
-            font-size: 50px;
+            font-size: 40px;
             margin: 20px;
             font-weight: bold;
             color: #C67612;
@@ -102,7 +102,7 @@
 
         #prize-selection {
             flex: 1;
-            max-width: 300px;
+            max-width: 30%;
             max-height: 200px;
             overflow-y: auto;
         }
@@ -110,13 +110,13 @@
         #random-number {
             font-size: 24px;
             flex: 1;
-            max-width: 300px;
+            max-width: 30%;
             text-align: center;
         }
 
         #welcome {
             flex: 1;
-            max-width: 300px;
+            max-width: 40%;
             text-align: center;
         }
 
@@ -142,6 +142,18 @@
             #top-container {
                 flex-direction: column;
                 align-items: center;
+            }
+
+            #welcome {
+                order: 1;
+            }
+
+            #prize-selection {
+                order: 2;
+            }
+
+            #random-number {
+                order: 3;
             }
 
             #top-container > div {
