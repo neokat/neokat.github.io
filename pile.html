@@ -19,6 +19,15 @@
             justify-content: center;
             background-image: url("https://i.imgur.com/Q1ImfNW.png");
             background-repeat: repeat;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100%;
+            padding: 0 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         h1 {
@@ -78,34 +87,43 @@
             border: 5px solid #C67612;
         }
 
-        #prize-selection {
-            position: absolute;
-            top: 20px;
-            left: 20px;
+        #top-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            width: 100%;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        #prize-selection, #random-number {
             background-color: #d9d9d9;
             padding: 10px;
             border: 1px solid #ccc;
             font-family: Verdana, Helvetica, sans-serif;
-            font-size: 16px;
-            max-width: 250px;
+        }
+
+        #prize-selection {
+            flex: 1;
+            max-width: 300px;
             max-height: 200px;
             overflow-y: auto;
-            text-align: left;
         }
 
         #random-number {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            background-color: #d9d9d9;
-            padding: 10px;
-            border: 1px solid #ccc;
-            font-family: Verdana, Helvetica, sans-serif;
             font-size: 24px;
+            flex: 1;
+            max-width: 300px;
+            text-align: center;
+        }
+
+        #random-number span {
+            display: inline-block;
+            margin: 10px 0;
+            font-weight: bold;
         }
 
         #generate-number {
-            margin-top: 10px;
             padding: 5px 10px;
             background-color: #C67612;
             color: black;
@@ -116,31 +134,10 @@
             font-weight: bold;
         }
 
-        #top-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            padding: 20px;
-            width: 100%;
-            box-sizing: border-box;
-            gap: 10px;
-        }
-
-        #top-container > div {
-            flex: 1;
-            max-width: 48%;
-        }
-
         #top-container img {
-            flex: 1;
-            max-width: 48%;
+            max-width: 50%;
             height: auto;
-        }
-
-        #title {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 3vw;
+            flex: 1;
         }
 
         @media (max-width: 768px) {
@@ -154,133 +151,129 @@
                 max-width: 100%;
             }
 
-            #title {
-                font-size: 6vw;
+            h1 {
+                font-size: 8vw;
             }
         }
     </style>
 </head>
 <body>
-<center>
-    <div id="top-container">
-        <div id="prize-selection">
-            <div id="potato-count"><b>Potatoes Left in Pile:</b> 0<br><br></div>
-            <div id="username-order"><b>Prize Selection Order</b></div>
-        </div>
-        <div id="random-number">Random Number: <span id="random-value">-</span><br>
-            <button id="generate-number">Pick Next Potato</button>
-        </div>
-
-        <img src="https://images.neopets.com/neopedia/170_potato.gif">
+<div id="top-container">
+    <div id="prize-selection">
+        <div id="potato-count"><b>Potatoes Left in Pile:</b> 0<br><br></div>
+        <div id="username-order"><b>Prize Selection Order</b></div>
     </div>
-    <h1>Alton's Potato Pile</h1>
+    <div id="random-number">
+        Random Number: <span id="random-value">-</span><br>
+        <button id="generate-number">Pick Next Potato</button>
+    </div>
 
-    <div id="spuds"></div>
+    <img src="https://images.neopets.com/neopedia/170_potato.gif" alt="Potato Image">
+</div>
 
-    <script>
-        let usernameOrder = [];
-        let potatoBoxes = [];
-        let potatoCount = 0;
+<h1>Alton's Potato Pile</h1>
+<div id="spuds"></div>
 
-        function randomPotatoNumber() {
-            return Math.floor(Math.random() * 4) + 1;
-        }
+<script>
+    let usernameOrder = [];
+    let potatoBoxes = [];
+    let potatoCount = 0;
 
-        document.addEventListener('DOMContentLoaded', function () {
-            fetch('data/potato_pile.json')
-                .then(response => response.json())
-                .then(potato_pile => {
-                    console.log(potato_pile.length);
+    function randomPotatoNumber() {
+        return Math.floor(Math.random() * 4) + 1;
+    }
 
-                    const spuds = document.getElementById('spuds');
-                    let potato_id = 1;
+    document.addEventListener('DOMContentLoaded', function () {
+        fetch('data/potato_pile.json')
+            .then(response => response.json())
+            .then(potato_pile => {
+                const spuds = document.getElementById('spuds');
+                let potato_id = 1;
 
-                    potato_pile.forEach(potato => {
-                        const box = document.createElement('div');
-                        box.className = 'potato-box';
-                        box.dataset.username = potato.username;
+                potato_pile.forEach(potato => {
+                    const box = document.createElement('div');
+                    box.className = 'potato-box';
+                    box.dataset.username = potato.username;
 
-                        const img = document.createElement('img');
-                        img.src = `https://neokat.github.io/potatoes/${potato.team}${randomPotatoNumber()}.png`;
+                    const img = document.createElement('img');
+                    img.src = `https://neokat.github.io/potatoes/${potato.team}${randomPotatoNumber()}.png`;
 
-                        const txt = document.createElement('div');
-                        txt.innerHTML = `${potato.username}<br><b>${potato_id}</b>`;
-                        potato_id++;
+                    const txt = document.createElement('div');
+                    txt.innerHTML = `${potato.username}<br><b>${potato_id}</b>`;
+                    potato_id++;
 
-                        const btn = document.createElement('button');
-                        btn.className = 'remove-btn';
-                        btn.innerText = 'X';
-                        btn.addEventListener('click', function () {
-                            removePotatoes(potato.username);
-                        });
-
-                        box.appendChild(img);
-                        box.appendChild(txt);
-                        box.appendChild(btn);
-                        spuds.appendChild(box);
-
-                        potatoBoxes.push(box);
+                    const btn = document.createElement('button');
+                    btn.className = 'remove-btn';
+                    btn.innerText = 'X';
+                    btn.addEventListener('click', function () {
+                        removePotatoes(potato.username);
                     });
-                    potatoCount = potatoBoxes.length;
-                    updatePotatoCountDisplay();
-                }).catch(error => {
-                console.error('Error fetching the JSON data you are such a loser:', error);
-            });
 
-            document.getElementById('generate-number').addEventListener('click', generateRandomNumber);
+                    box.appendChild(img);
+                    box.appendChild(txt);
+                    box.appendChild(btn);
+                    spuds.appendChild(box);
+
+                    potatoBoxes.push(box);
+                });
+                potatoCount = potatoBoxes.length;
+                updatePotatoCountDisplay();
+            }).catch(error => {
+            console.error('Error fetching the JSON data:', error);
         });
 
-        function removePotatoes(username) {
-            potatoBoxes = potatoBoxes.filter(box => {
-                if (box.dataset.username === username) {
-                    box.remove();
-                    return false;
-                }
-                return true;
-            });
+        document.getElementById('generate-number').addEventListener('click', generateRandomNumber);
+    });
 
-            if (!usernameOrder.includes(username)) {
-                usernameOrder.push(username);
-                updateUsernameOrderDisplay();
+    function removePotatoes(username) {
+        potatoBoxes = potatoBoxes.filter(box => {
+            if (box.dataset.username === username) {
+                box.remove();
+                return false;
             }
-            potatoCount = potatoBoxes.length;
-            console.log(`Updated Potato Count: ${potatoCount}`); // Debugging line to check the count
-            updatePotatoCountDisplay();
-            reNumberPotatoes();
+            return true;
+        });
 
-            document.getElementById('random-value').textContent = "-";
+        if (!usernameOrder.includes(username)) {
+            usernameOrder.push(username);
+            updateUsernameOrderDisplay();
         }
+        potatoCount = potatoBoxes.length;
+        updatePotatoCountDisplay();
+        reNumberPotatoes();
 
-        function reNumberPotatoes() {
-            let potato_id = 1;
-            potatoBoxes.forEach(box => {
-                const txt = box.querySelector('div');
-                txt.innerHTML = `${box.dataset.username}<br><b>${potato_id}</b>`;
-                potato_id++;
-            });
-        }
+        document.getElementById('random-value').textContent = "-";
+    }
 
-        function updateUsernameOrderDisplay() {
-            const orderDiv = document.getElementById('username-order');
-            orderDiv.innerHTML = '<b>Prize Selection Order</b><br>' + usernameOrder.map((username, index) => `${index + 1}. ${username}`).join('<br>');
-        }
+    function reNumberPotatoes() {
+        let potato_id = 1;
+        potatoBoxes.forEach(box => {
+            const txt = box.querySelector('div');
+            txt.innerHTML = `${box.dataset.username}<br><b>${potato_id}</b>`;
+            potato_id++;
+        });
+    }
 
-        function generateRandomNumber() {
-            const remainingPotatoes = potatoBoxes.length;
-            potatoBoxes.forEach(box => box.classList.remove('highlight')); // Remove any previous highlight
-            if (remainingPotatoes > 0) {
-                const randomValue = crypto.getRandomValues(new Uint32Array(1))[0] % remainingPotatoes + 1;
-                document.getElementById('random-value').innerHTML = `<b>${randomValue}</b>`;
-                potatoBoxes[randomValue - 1].classList.add('highlight');
-            } else {
-                document.getElementById('random-value').textContent = '-';
-            }
-        }
+    function updateUsernameOrderDisplay() {
+        const orderDiv = document.getElementById('username-order');
+        orderDiv.innerHTML = '<b>Prize Selection Order</b><br>' + usernameOrder.map((username, index) => `${index + 1}. ${username}`).join('<br>');
+    }
 
-        function updatePotatoCountDisplay() {
-            document.getElementById('potato-count').innerHTML = `<b>Potatoes Left in Pile:</b> ${potatoCount}<br><br>`;
+    function generateRandomNumber() {
+        const remainingPotatoes = potatoBoxes.length;
+        potatoBoxes.forEach(box => box.classList.remove('highlight')); // Remove any previous highlight
+        if (remainingPotatoes > 0) {
+            const randomValue = crypto.getRandomValues(new Uint32Array(1))[0] % remainingPotatoes + 1;
+            document.getElementById('random-value').innerHTML = `<b>${randomValue}</b>`;
+            potatoBoxes[randomValue - 1].classList.add('highlight');
+        } else {
+            document.getElementById('random-value').textContent = '-';
         }
-    </script>
-</center>
+    }
+
+    function updatePotatoCountDisplay() {
+        document.getElementById('potato-count').innerHTML = `<b>Potatoes Left in Pile:</b> ${potatoCount}<br><br>`;
+    }
+</script>
 </body>
 </html>
