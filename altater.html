@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:title" content="Exodus Altater Cup Leaderboard">
     <meta property="og:description" content="How do you stack up to other potatoes?">
     <meta property="og:url" content="https://neokat.github.io/altater">
-    <meta http-equiv='cache-control' content='no-cache'> 
-    <meta http-equiv='expires' content='0'> 
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
     <meta http-equiv='pragma' content='no-cache'>
     <title>Exodus Altater Cup Leaderboard</title>
 
-    <link rel="icon" href="https://imagizer.imageshack.com/img922/9420/eRxVah.png " type="image/x-icon">
+    <link rel="icon" href="https://imagizer.imageshack.com/img922/9420/eRxVah.png" type="image/x-icon">
 
     <style>
         html, body {
-            overflow-x: hidden;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            height: 100%;
         }
 
         body {
@@ -22,10 +25,36 @@
             background-repeat: repeat;
         }
 
+        #header {
+            width: 100%;
+            text-align: center;
+            align-items: center;
+            box-sizing: border-box;
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+            transition: height 0.3s, padding 0.3s;
+        }
+
+        #header img {
+            width: 60%; /* Adjust the size as needed */
+            height: auto;
+        }
+
+        #content {
+            width: 100%;
+            box-sizing: border-box;
+            overflow-y: auto;
+            position: relative; /* Added positioning context */
+            top: 0; /* Initially set to 0 */
+            max-height: calc(100vh - 70px); /* Adjust based on the header height */
+        }
+
         #spuds {
             font-family: Verdana, Helvetica, sans-serif;
             border-collapse: collapse;
             width: 85%;
+            margin: auto;
         }
 
         #spuds td, #spuds th {
@@ -41,7 +70,6 @@
         #spuds tr:nth-child(odd) {
             background-color: #d9d9d9;
         }
-
 
         #spuds th {
             padding-top: 12px;
@@ -69,31 +97,28 @@
         .yellow-box {
             background-color: #EBC84D;
             padding: 4px;
-            display: inline-block;
             font-family: Verdana, Helvetica, sans-serif;
             width: 85%;
+            margin: auto;
             box-sizing: border-box;
-            font-size: 12px;
-
         }
     </style>
 </head>
 <body>
-<center>
-    <img src="https://imagizer.imageshack.com/img924/9630/m2LMWs.png" width="60%"><br>
+<div id="header">
+    <img src="https://imagizer.imageshack.com/img924/9630/m2LMWs.png" alt="Exodus Altater Cup Banner">
+</div>
 
+<div id="content">
     <div class="yellow-box">
         <b>NOTE: This scoreboard is updated semi-automatically!</b> Every time we visit your stats page, the data is
         scraped and populates on the scoreboard. The "last updated" column tells when the data was last pulled for each
-        person. If you aren't seeing up-to-date stats, first try to do a hard refresh (<b> command + shift + R</b> on
-        mac or <b> ctrl + shift + R</b> on windows) to make your browser pull fresh data. If it's still out-of-date, bug
-        Kat or Samara to refresh it :P 
+        person. If you aren't seeing up-to-date stats, first try to do a hard refresh <b>(cmd+shift+R</b> on
+        mac or <b>ctrl+shift+R</b> on windows) to make your browser pull fresh data. If it's still out-of-date, bug
+        Kat or Samara to refresh it :P
     </div>
-    <br><br><br><br>
+    <br><br>
     <table id="spuds">
-        <!--        <tr>-->
-        <!--            <th id="lu" colspan="9" style="text-align: center !important;"></th>-->
-        <!--        </tr>-->
         <thead>
         <tr>
             <th>TEAM</th>
@@ -110,67 +135,102 @@
         <tbody>
         <!-- Data will be populated here -->
         </tbody>
-
     </table>
     <br><br><br><br>
-    <script>
-        // build table body
+</div>
 
-        document.addEventListener('DOMContentLoaded', function () {
-            fetch('altater_scores.json')
-                .then(response => response.json())
-                .then(scores => {
-                    scores.sort((a, b) => b.total_score - a.total_score);
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
 
-                    const scoresTableBody = document.getElementById('spuds').getElementsByTagName('tbody')[0];
+        // Initial setting of the margin-top for #content
+        let headerImg = document.querySelector('#header img');
+        let contentBox = document.querySelector('#content');
 
-                    scores.forEach(score => {
-                        const row = scoresTableBody.insertRow();
+        function adjustContentTop() {
+            let headerHeight = headerImg.getBoundingClientRect().height;
+            contentBox.style.top = headerHeight + 'px';
+            contentBox.style.maxHeight = `calc(100vh - ${headerHeight}px)`;
+        }
 
-                        const cellTeamLogo = row.insertCell();
-                        const img = document.createElement('img');
-                        img.src = score.team_logo;
-                        img.height = 40;
-                        img.alt = score.team_name;
-                        cellTeamLogo.style.setProperty("text-align", "center", "important");
-                        cellTeamLogo.appendChild(img);
+        // Initial setting of the margin-top for #content
+        adjustContentTop();
 
-                        const cellUsername = row.insertCell();
-                        const link = document.createElement('a');
-                        link.href = 'https://www.neopets.com/altador/colosseum/userstats.phtml?username=' + score.username;
-                        link.textContent = score.username;
-                        link.target = '_blank';
-                        cellUsername.appendChild(link);
+        // Adjust the margin dynamically based on header image size
+        window.addEventListener('resize', adjustContentTop);
 
-                        const cellYybWins = row.insertCell();
-                        cellYybWins.textContent = score.yyb_wins;
 
-                        const cellSlslGames = row.insertCell();
-                        cellSlslGames.textContent = score.slsl_wins;
+        fetch('altater_scores.json')
+            .then(response => response.json())
+            .then(scores => {
+                scores.sort((a, b) => b.total_score - a.total_score);
 
-                        const cellMsnPlays = row.insertCell();
-                        cellMsnPlays.textContent = score.msn_plays;
+                const scoresTableBody = document.getElementById('spuds').getElementsByTagName('tbody')[0];
 
-                        const cellSosdPlays = row.insertCell();
-                        cellSosdPlays.textContent = score.sosd_plays;
+                scores.forEach(score => {
+                    const row = scoresTableBody.insertRow();
 
-                        const cellTotalScore = row.insertCell();
-                        cellTotalScore.textContent = score.total_score;
+                    const cellTeamLogo = row.insertCell();
+                    const img = document.createElement('img');
+                    img.src = score.team_logo;
+                    img.height = 40;
+                    img.alt = score.team_name;
+                    cellTeamLogo.style.setProperty("text-align", "center", "important");
+                    cellTeamLogo.appendChild(img);
 
-                        const cellRank = row.insertCell();
-                        cellRank.textContent = score.rank;
+                    const cellUsername = row.insertCell();
+                    const link = document.createElement('a');
+                    link.href = 'https://www.neopets.com/altador/colosseum/userstats.phtml?username=' + score.username;
+                    link.textContent = score.username;
+                    link.target = '_blank';
+                    cellUsername.appendChild(link);
 
-                        const cellLastUpdated = row.insertCell();
-                        cellLastUpdated.textContent = score.last_updated;
-                    });
-                })
-                .catch(error => {
-                    console.error('Error fetching the JSON data you are such a loser:', error);
+                    const cellYybWins = row.insertCell();
+                    cellYybWins.textContent = score.yyb_wins;
+
+                    const cellSlslGames = row.insertCell();
+                    cellSlslGames.textContent = score.slsl_wins;
+
+                    const cellMsnPlays = row.insertCell();
+                    cellMsnPlays.textContent = score.msn_plays;
+
+                    const cellSosdPlays = row.insertCell();
+                    cellSosdPlays.textContent = score.sosd_plays;
+
+                    const cellTotalScore = row.insertCell();
+                    cellTotalScore.textContent = score.total_score;
+
+                    const cellRank = row.insertCell();
+                    cellRank.textContent = score.rank;
+
+                    const cellLastUpdated = row.insertCell();
+                    cellLastUpdated.textContent = score.last_updated;
                 });
+            })
+            .catch(error => {
+                console.error('Error fetching the JSON data:', error);
+            });
+
+        function adjustHeaderOnScroll() {
+            // Calculate the scroll percentage
+            let scrollTop = contentBox.scrollTop;
+            let maxScrollTop = contentBox.scrollHeight - contentBox.clientHeight;
+            let scrollPercentage = scrollTop / maxScrollTop;
+
+            // Adjust the header image width based on scroll percentage
+            let newWidth = Math.max(30, 60 - scrollPercentage * 30); // Example range from 60% to 30%
+            headerImg.style.width = newWidth + '%';
+        }
+
+        // Add scroll event listener to contentBox
+        contentBox.addEventListener('scroll', function (){
+            adjustHeaderOnScroll();
+            adjustContentTop();
         });
-    </script>
 
+        // Initial adjustment
+        adjustHeaderOnScroll();
+    });
 
-</center>
+</script>
 </body>
 </html>
