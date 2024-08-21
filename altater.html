@@ -168,8 +168,10 @@
             requestAnimationFrame(adjustContentTop);
         }
 
-        // Initial adjustment of the content position
-        adjustLayout();
+        // Add onload event listener to the header image
+        headerImg.onload = function () {
+            adjustLayout();
+        };
 
         // Adjust the margin dynamically based on header image size
         window.addEventListener('resize', adjustContentTop);
