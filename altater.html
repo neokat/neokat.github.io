@@ -161,9 +161,6 @@
             contentBox.style.maxHeight = `calc(100vh - ${headerHeight}px)`;
         }
 
-        // Initial setting of the margin-top for #content
-        adjustContentTop();
-
         // Adjust the margin dynamically based on header image size
         window.addEventListener('resize', adjustContentTop);
 
@@ -238,6 +235,7 @@
 
         // Initial adjustment
         adjustHeaderOnScroll();
+        adjustContentTop();
     });
 
 </script>
