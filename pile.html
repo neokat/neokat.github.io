@@ -43,11 +43,10 @@
             flex-wrap: wrap;
             gap: 5px;
             justify-content: center;
+            align-content: flex-start;
             max-width: 100%;
-            flex-direction: column;
-            flex-grow: 1; /* Fill remaining space */
-            /*margin-top: 200px; !* Adjust to match the height of top-container *!*/
-            /*height: calc(100vh - 200px); !* Same adjustment, leave space for top-container *!*/
+            margin-top: 410px;
+            height: calc(100vh - 410px);
             overflow-y: auto;
         }
 
@@ -112,12 +111,12 @@
             flex: 1;
             width: 250px;
             max-width: 250px;
-            max-height: 370px;
+            max-height: 360px;
         }
 
         #username-order {
             overflow-y: auto;
-            max-height: 330px;
+            max-height: 320px;
         }
 
         #random-number {
@@ -202,8 +201,9 @@
         <div id="potato-count"><b>Potatoes Left in Pile:</b> 0<br><br></div>
         <div id="username-order"><b>Prize Selection Order</b></div>
     </div>
-    <div id="welcome"><img src="https://neokat.github.io/img/potatopile.png">
-        <h1>Alton's Potato Pile</h1></div>
+    <div id="welcome">
+        <img src="https://neokat.github.io/img/potatopile.png">
+    </div>
     <div id="random-number">
         Random Number <span id="random-value">-</span>
         <button id="generate-number">Pick Next Potato</button>
