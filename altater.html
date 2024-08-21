@@ -157,7 +157,6 @@
 
         function adjustContentTop() {
             let headerHeight = headerImg.getBoundingClientRect().height;
-            console.log(`Header height is ${headerHeight}`)
             contentBox.style.top = headerHeight + 'px';
             contentBox.style.maxHeight = `calc(100vh - ${headerHeight}px)`;
         }
@@ -170,7 +169,7 @@
 
         // Add onload event listener to the header image
         headerImg.onload = function () {
-            adjustLayout();
+            adjustContentTop();
         };
 
         // Adjust the margin dynamically based on header image size
