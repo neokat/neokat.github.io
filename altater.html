@@ -161,6 +161,14 @@
             contentBox.style.maxHeight = `calc(100vh - ${headerHeight}px)`;
         }
 
+        function adjustLayout() {
+            // Ensure that contentBox's top and maxHeight are adjusted after rendering
+            requestAnimationFrame(adjustContentTop);
+        }
+
+        // Initial adjustment of the content position
+        adjustLayout();
+
         // Adjust the margin dynamically based on header image size
         window.addEventListener('resize', adjustContentTop);
 
@@ -232,10 +240,6 @@
             adjustHeaderOnScroll();
             adjustContentTop();
         });
-
-        // Initial adjustment
-        adjustHeaderOnScroll();
-        adjustContentTop();
     });
 
 </script>
