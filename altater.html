@@ -92,6 +92,15 @@
             #spuds th:nth-child(9) {
                 display: none;
             }
+
+            .yellow-box {
+                font-size: 10px;
+            }
+
+            #header img {
+                width: 80%; /* Adjust the size as needed */
+                height: auto;
+            }
         }
 
         .yellow-box {
@@ -101,6 +110,7 @@
             width: 85%;
             margin: auto;
             box-sizing: border-box;
+            text-align: center;
         }
     </style>
 </head>
@@ -222,7 +232,7 @@
         }
 
         // Add scroll event listener to contentBox
-        contentBox.addEventListener('scroll', function (){
+        contentBox.addEventListener('scroll', function () {
             adjustHeaderOnScroll();
             adjustContentTop();
         });
