@@ -157,6 +157,7 @@
 
         function adjustContentTop() {
             let headerHeight = headerImg.getBoundingClientRect().height;
+            console.log(`Header height is ${headerHeight}`)
             contentBox.style.top = headerHeight + 'px';
             contentBox.style.maxHeight = `calc(100vh - ${headerHeight}px)`;
         }
