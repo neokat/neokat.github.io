@@ -14,7 +14,7 @@
             margin: 0;
             display: flex;
             justify-content: center;
-            background-image: url("https://i.imgur.com/Q1ImfNW.png");
+            background-image: url("https://imagizer.imageshack.com/img924/2866/t2in6l.png");
             background-repeat: repeat;
             box-sizing: border-box;
         }
@@ -44,6 +44,9 @@
             gap: 5px;
             justify-content: center;
             max-width: 100%;
+            margin-top: 200px; /* Adjust to match the height of top-container */
+            height: calc(100vh - 200px); /* Same adjustment, leave space for top-container */
+            overflow-y: auto;
         }
 
         .potato-box {
@@ -85,6 +88,8 @@
         }
 
         #top-container {
+            position: fixed;
+            top: 0;
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
