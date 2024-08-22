@@ -17,23 +17,6 @@
     "last_updated": "8/20/2024, 3:57:00 PM"
   },
   {
-    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
-    "team_name": "Krelutarqua daMerivale",
-    "username": "sosunub",
-    "yyb_wins": 5,
-    "yyb_draws": 0,
-    "yyb_high_score": 32,
-    "slsl_wins": 50,
-    "slsl_high_score": 1020,
-    "msn_plays": 160,
-    "msn_high_score": 6439,
-    "sosd_plays": 1300,
-    "sosd_high_score": 1208,
-    "total_score": 4950,
-    "rank": "All-Star",
-    "last_updated": "8/20/2024, 3:57:44 PM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
     "team_name": "Haunted Darfennia Virtumyst",
     "username": "polarnights",
@@ -814,5 +797,22 @@
     "total_score": 4993,
     "rank": "All-Star",
     "last_updated": "8/21/2024, 6:00:29 PM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
+    "team_name": "Krelutarqua daMerivale",
+    "username": "sosunub",
+    "yyb_wins": 5,
+    "yyb_draws": 0,
+    "yyb_high_score": 32,
+    "slsl_wins": 50,
+    "slsl_high_score": 1020,
+    "msn_plays": 160,
+    "msn_high_score": 6439,
+    "sosd_plays": 1305,
+    "sosd_high_score": 1208,
+    "total_score": 4965,
+    "rank": "All-Star",
+    "last_updated": "8/21/2024, 6:00:32 PM"
   }
 ]
