@@ -1,22 +1,5 @@
 [
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
-    "team_name": "roo island",
-    "username": "kat_bus",
-    "yyb_wins": 116,
-    "yyb_draws": 0,
-    "yyb_high_score": 1064,
-    "slsl_wins": 0,
-    "slsl_high_score": 0,
-    "msn_plays": 0,
-    "msn_high_score": 0,
-    "sosd_plays": 4015,
-    "sosd_high_score": 1178,
-    "total_score": 13669,
-    "rank": "All-Star",
-    "last_updated": "8/20/2024, 4:16:43 PM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/kreludor/logo.png",
     "team_name": "kreludor",
     "username": "rawbeee",
@@ -202,5 +185,22 @@
     "total_score": 20490,
     "rank": "All-Star",
     "last_updated": "8/22/2024, 7:17:36 AM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
+    "team_name": "roo island",
+    "username": "kat_bus",
+    "yyb_wins": 145,
+    "yyb_draws": 0,
+    "yyb_high_score": 1330,
+    "slsl_wins": 0,
+    "slsl_high_score": 0,
+    "msn_plays": 0,
+    "msn_high_score": 0,
+    "sosd_plays": 4356,
+    "sosd_high_score": 1180,
+    "total_score": 15098,
+    "rank": "All-Star",
+    "last_updated": "8/22/2024, 7:17:43 AM"
   }
 ]
