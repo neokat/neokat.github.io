@@ -1,22 +1,5 @@
 [
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/meridell/logo.png",
-    "team_name": "meridell",
-    "username": "layces",
-    "yyb_wins": 348,
-    "yyb_draws": 0,
-    "yyb_high_score": 3411,
-    "slsl_wins": 0,
-    "slsl_high_score": 0,
-    "msn_plays": 0,
-    "msn_high_score": 0,
-    "sosd_plays": 0,
-    "sosd_high_score": 0,
-    "total_score": 4872,
-    "rank": "Level 19",
-    "last_updated": "8/20/2024, 4:16:56 PM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/lostdesert/logo.png",
     "team_name": "lost desert",
     "username": "sunbathr",
@@ -202,5 +185,22 @@
     "total_score": 5010,
     "rank": "All-Star",
     "last_updated": "8/22/2024, 7:17:56 AM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/meridell/logo.png",
+    "team_name": "meridell",
+    "username": "layces",
+    "yyb_wins": 355,
+    "yyb_draws": 0,
+    "yyb_high_score": 3484,
+    "slsl_wins": 0,
+    "slsl_high_score": 0,
+    "msn_plays": 0,
+    "msn_high_score": 0,
+    "sosd_plays": 0,
+    "sosd_high_score": 0,
+    "total_score": 4970,
+    "rank": "All-Star",
+    "last_updated": "8/22/2024, 7:17:58 AM"
   }
 ]
