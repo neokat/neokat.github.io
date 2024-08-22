@@ -27,6 +27,16 @@
             align-items: center;
         }
 
+        h1 {
+            font-family: Verdana, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 40px;
+            margin: 10px;
+            font-weight: bold;
+            color: #C67612;
+            width: 100%;
+        }
+
         #spuds {
             font-family: Verdana, Helvetica, sans-serif;
             display: flex;
@@ -35,8 +45,8 @@
             justify-content: center;
             align-content: flex-start;
             max-width: 100%;
-            margin-top: 320px;
-            height: calc(100vh - 320px);
+            margin-top: 410px;
+            height: calc(100vh - 410px);
             overflow-y: auto;
         }
 
@@ -85,8 +95,8 @@
             justify-content: space-between;
             align-items: flex-start;
             gap: 10px;
-            width: 95%;
-            margin: 20px;
+            width: 90%;
+            margin: 20px 50px;
             flex-shrink: 0; /* Prevent shrinking */
         }
 
@@ -95,26 +105,26 @@
             padding: 10px;
             border: none;
             font-family: Verdana, Helvetica, sans-serif;
-            flex-shrink: 0; /* Prevent shrinking */
         }
 
         #prize-selection {
             flex: 1;
             width: 250px;
-            width: 250px;
-            max-height: 260px;
+            max-width: 250px;
+            max-height: 360px;
         }
 
         #username-order {
             overflow-y: auto;
-            max-height: 220px;
+            max-height: 320px;
         }
 
         #random-number {
-            font-size: 18px;
+            font-size: 24px;
             flex: 1;
-            width: 140px;
-            height: 100px;
+            width: 250px;
+            max-width: 250px;
+            height: 110px;
             text-align: center;
             display: flex;
             justify-content: center;
@@ -130,11 +140,7 @@
             align-items: center;
             justify-content: center;
             text-align: center;
-        }
-
-        #welcome img {
-            width: 1100px; /* Reduce image size for smaller screens */
-            /*max-width: 100%; !* Ensure it doesn’t exceed container width *!*/
+            max-width: 40vw;
         }
 
         #random-number span {
@@ -148,7 +154,7 @@
             color: black;
             border: none;
             cursor: pointer;
-            font-size: 16px;
+            font-size: 18px;
             font-family: Georgia, serif;
             font-weight: bold;
         }
@@ -180,6 +186,10 @@
 
             #top-container > div {
                 max-width: 100%;
+            }
+
+            h1 {
+                font-size: 8vw;
             }
 
             .remove-btn {
