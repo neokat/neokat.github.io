@@ -1,22 +1,5 @@
 [
   {
-    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
-    "team_name": "Krelutarqua daMerivale",
-    "username": "_new_cassalla_",
-    "yyb_wins": 37,
-    "yyb_draws": 1,
-    "yyb_high_score": 171,
-    "slsl_wins": 6,
-    "slsl_high_score": 440,
-    "msn_plays": 40,
-    "msn_high_score": 5424,
-    "sosd_plays": 150,
-    "sosd_high_score": 1157,
-    "total_score": 1148,
-    "rank": "Level 7",
-    "last_updated": "8/22/2024, 7:12:30 AM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
     "team_name": "Lost Roorawkuudor Mountain",
     "username": "claimedxscribblez",
@@ -814,5 +797,22 @@
     "total_score": 1681,
     "rank": "Level 9",
     "last_updated": "8/24/2024, 8:34:15 PM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
+    "team_name": "Krelutarqua daMerivale",
+    "username": "_new_cassalla_",
+    "yyb_wins": 37,
+    "yyb_draws": 1,
+    "yyb_high_score": 171,
+    "slsl_wins": 6,
+    "slsl_high_score": 440,
+    "msn_plays": 43,
+    "msn_high_score": 5424,
+    "sosd_plays": 150,
+    "sosd_high_score": 1157,
+    "total_score": 1157,
+    "rank": "Level 7",
+    "last_updated": "8/24/2024, 8:34:20 PM"
   }
 ]
