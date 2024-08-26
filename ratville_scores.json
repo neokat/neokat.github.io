@@ -34,23 +34,6 @@
     "last_updated": "8/24/2024, 8:42:40 PM"
   },
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/kreludor/logo.png",
-    "team_name": "kreludor",
-    "username": "rawbeee",
-    "yyb_wins": 300,
-    "yyb_draws": 0,
-    "yyb_high_score": 3336,
-    "slsl_wins": 30,
-    "slsl_high_score": 1081,
-    "msn_plays": 0,
-    "msn_high_score": 0,
-    "sosd_plays": 2700,
-    "sosd_high_score": 1178,
-    "total_score": 12600,
-    "rank": "All-Star",
-    "last_updated": "8/24/2024, 8:42:45 PM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/shenkuu/logo.png",
     "team_name": "shenkuu",
     "username": "ssushami",
@@ -219,5 +202,22 @@
     "total_score": 13794,
     "rank": "All-Star",
     "last_updated": "8/25/2024, 7:51:07 PM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/kreludor/logo.png",
+    "team_name": "kreludor",
+    "username": "rawbeee",
+    "yyb_wins": 300,
+    "yyb_draws": 0,
+    "yyb_high_score": 3336,
+    "slsl_wins": 30,
+    "slsl_high_score": 1081,
+    "msn_plays": 0,
+    "msn_high_score": 0,
+    "sosd_plays": 2700,
+    "sosd_high_score": 1178,
+    "total_score": 12600,
+    "rank": "All-Star",
+    "last_updated": "8/25/2024, 7:51:10 PM"
   }
 ]
