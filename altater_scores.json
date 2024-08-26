@@ -17,23 +17,6 @@
     "last_updated": "8/25/2024, 7:49:00 PM"
   },
   {
-    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
-    "team_name": "Lost Roorawkuudor Mountain",
-    "username": "merpiie",
-    "yyb_wins": 28,
-    "yyb_draws": 0,
-    "yyb_high_score": 193,
-    "slsl_wins": 3,
-    "slsl_high_score": 760,
-    "msn_plays": 0,
-    "msn_high_score": 0,
-    "sosd_plays": 0,
-    "sosd_high_score": 0,
-    "total_score": 422,
-    "rank": "Level 3",
-    "last_updated": "8/25/2024, 7:49:08 PM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
     "team_name": "Haunted Darfennia Virtumyst",
     "username": "yerimiese",
@@ -814,5 +797,22 @@
     "total_score": 422,
     "rank": "Level 3",
     "last_updated": "8/26/2024, 4:31:23 PM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/8383/k73tN2.png",
+    "team_name": "Lost Roorawkuudor Mountain",
+    "username": "merpiie",
+    "yyb_wins": 28,
+    "yyb_draws": 0,
+    "yyb_high_score": 193,
+    "slsl_wins": 3,
+    "slsl_high_score": 760,
+    "msn_plays": 0,
+    "msn_high_score": 0,
+    "sosd_plays": 0,
+    "sosd_high_score": 0,
+    "total_score": 422,
+    "rank": "Level 3",
+    "last_updated": "8/26/2024, 4:31:25 PM"
   }
 ]
