@@ -51,23 +51,6 @@
     "last_updated": "8/25/2024, 7:51:21 PM"
   },
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/hauntedwoods/logo.png",
-    "team_name": "haunted woods",
-    "username": "blumaroocrazy21",
-    "yyb_wins": 0,
-    "yyb_draws": 0,
-    "yyb_high_score": 0,
-    "slsl_wins": 0,
-    "slsl_high_score": 0,
-    "msn_plays": 0,
-    "msn_high_score": 0,
-    "sosd_plays": 297,
-    "sosd_high_score": 1187,
-    "total_score": 891,
-    "rank": "Level 6",
-    "last_updated": "8/25/2024, 7:51:27 PM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/faerieland/logo.png",
     "team_name": "faerieland",
     "username": "the_gecko_dude_ii",
@@ -219,5 +202,22 @@
     "total_score": 1157,
     "rank": "Level 7",
     "last_updated": "8/26/2024, 4:46:22 PM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/hauntedwoods/logo.png",
+    "team_name": "haunted woods",
+    "username": "blumaroocrazy21",
+    "yyb_wins": 0,
+    "yyb_draws": 0,
+    "yyb_high_score": 0,
+    "slsl_wins": 0,
+    "slsl_high_score": 0,
+    "msn_plays": 0,
+    "msn_high_score": 0,
+    "sosd_plays": 297,
+    "sosd_high_score": 1187,
+    "total_score": 891,
+    "rank": "Level 6",
+    "last_updated": "8/26/2024, 4:46:24 PM"
   }
 ]
