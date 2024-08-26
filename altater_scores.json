@@ -1,22 +1,5 @@
 [
   {
-    "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
-    "team_name": "Haunted Darfennia Virtumyst",
-    "username": "classicmess",
-    "yyb_wins": 360,
-    "yyb_draws": 0,
-    "yyb_high_score": 3275,
-    "slsl_wins": 10,
-    "slsl_high_score": 306,
-    "msn_plays": 1030,
-    "msn_high_score": 7541,
-    "sosd_plays": 4222,
-    "sosd_high_score": 1184,
-    "total_score": 20896,
-    "rank": "All-Star",
-    "last_updated": "8/24/2024, 8:31:51 PM"
-  },
-  {
     "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
     "team_name": "Krelutarqua daMerivale",
     "username": "eleganza_lights",
@@ -814,5 +797,22 @@
     "total_score": 16448,
     "rank": "All-Star",
     "last_updated": "8/25/2024, 7:51:03 PM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img924/456/f7NYld.png",
+    "team_name": "Haunted Darfennia Virtumyst",
+    "username": "classicmess",
+    "yyb_wins": 360,
+    "yyb_draws": 0,
+    "yyb_high_score": 3275,
+    "slsl_wins": 10,
+    "slsl_high_score": 306,
+    "msn_plays": 1030,
+    "msn_high_score": 7541,
+    "sosd_plays": 4222,
+    "sosd_high_score": 1184,
+    "total_score": 20896,
+    "rank": "All-Star",
+    "last_updated": "8/25/2024, 7:54:08 PM"
   }
 ]
