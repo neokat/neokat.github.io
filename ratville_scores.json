@@ -1,22 +1,5 @@
 [
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/lostdesert/logo.png",
-    "team_name": "lost desert",
-    "username": "sunbathr",
-    "yyb_wins": 0,
-    "yyb_draws": 0,
-    "yyb_high_score": 0,
-    "slsl_wins": 0,
-    "slsl_high_score": 0,
-    "msn_plays": 4,
-    "msn_high_score": 6103,
-    "sosd_plays": 609,
-    "sosd_high_score": 1144,
-    "total_score": 1839,
-    "rank": "Level 10",
-    "last_updated": "8/25/2024, 7:51:21 PM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
     "team_name": "roo island",
     "username": "kat_bus",
@@ -219,5 +202,22 @@
     "total_score": 5283,
     "rank": "All-Star",
     "last_updated": "9/1/2024, 7:38:34 AM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/lostdesert/logo.png",
+    "team_name": "lost desert",
+    "username": "sunbathr",
+    "yyb_wins": 0,
+    "yyb_draws": 0,
+    "yyb_high_score": 0,
+    "slsl_wins": 0,
+    "slsl_high_score": 0,
+    "msn_plays": 4,
+    "msn_high_score": 6103,
+    "sosd_plays": 609,
+    "sosd_high_score": 1144,
+    "total_score": 1839,
+    "rank": "Level 10",
+    "last_updated": "9/1/2024, 7:38:36 AM"
   }
 ]
