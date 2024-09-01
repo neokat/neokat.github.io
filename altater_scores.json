@@ -2,23 +2,6 @@
   {
     "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
     "team_name": "Krelutarqua daMerivale",
-    "username": "nostalgia",
-    "yyb_wins": 645,
-    "yyb_draws": 0,
-    "yyb_high_score": 7818,
-    "slsl_wins": 61,
-    "slsl_high_score": 1408,
-    "msn_plays": 3146,
-    "msn_high_score": 9176,
-    "sosd_plays": 5471,
-    "sosd_high_score": 1205,
-    "total_score": 35491,
-    "rank": "All-Star",
-    "last_updated": "8/29/2024, 8:11:19 PM"
-  },
-  {
-    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
-    "team_name": "Krelutarqua daMerivale",
     "username": "zilaena",
     "yyb_wins": 477,
     "yyb_draws": 0,
@@ -814,5 +797,22 @@
     "total_score": 0,
     "rank": "Beginner",
     "last_updated": "8/29/2024, 8:16:38 PM"
+  },
+  {
+    "team_logo": "https://imagizer.imageshack.com/img922/6522/hoKvtN.png",
+    "team_name": "Krelutarqua daMerivale",
+    "username": "nostalgia",
+    "yyb_wins": 696,
+    "yyb_draws": 0,
+    "yyb_high_score": 8453,
+    "slsl_wins": 114,
+    "slsl_high_score": 1408,
+    "msn_plays": 3388,
+    "msn_high_score": 9540,
+    "sosd_plays": 5808,
+    "sosd_high_score": 1205,
+    "total_score": 38472,
+    "rank": "All-Star",
+    "last_updated": "9/1/2024, 7:24:15 AM"
   }
 ]
