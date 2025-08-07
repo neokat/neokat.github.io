@@ -81,9 +81,10 @@
 
             function updateScores(fileName, data) {
                 return gmXhrRequest('GET', fileName).then(response => {
+                    console.log(response);
                     const responseData = JSON.parse(response.responseText);
                     const gitSha = responseData.sha;
-                    const scores = JSON.parse(atob(responseData.content));
+                    const scores = JSON.parse(atob(responseData.content.trim()));
 
                     const existingEntry = getExistingEntry(scores, data.username);
 
@@ -109,7 +110,7 @@
                     const base64Content = btoa(unescape(encodeURIComponent(fileContent)));
 
                     const updateData = {
-                        message: `Update scores.json for ${data.username} in ${fileName} at ${data.timestamp} NST`,
+                        message: `Update bd_scores.json for ${data.username} in ${fileName} at ${data.timestamp} NST`,
                         content: base64Content,
                         branch: `main`,
                         sha: gitSha
