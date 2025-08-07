@@ -8,5 +8,15 @@
     "current_wins": 0,
     "current_score": 0,
     "last_updated": "10/7/2025, 5:55:15 PM"
+  },
+  {
+    "potato_logo": "potatoes/marathon.png",
+    "username": "superkathiee",
+    "starting_wins": 11374,
+    "starting_score": 3217607,
+    "starting_stats_captured": "8/7/2025, 4:45:02 PM",
+    "current_wins": 11374,
+    "current_score": 3217607,
+    "last_updated": "8/7/2025, 4:45:02 PM"
   }
 ]
