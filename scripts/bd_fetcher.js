@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         Altador Cup Score Fetcher
+// @name         Exodus Battledome Score Fetcher
 // @version      0.1
-// @description  Writes scores to json file for Altater Cup and Ratville Scoreboard
+// @description  Writes battledome wins and scores to json file for Exodus Battledome Challenge.
 // @author       Kat
-// @match        *www.neopets.com/altador/colosseum/userstats.phtml?username=*
+// @match        *www.neopets.com/dome/record.phtml?username=*
 // @grant        GM.xmlHttpRequest
 // @grant        GM_addElement
 // @connect      api.github.com
