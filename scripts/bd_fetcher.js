@@ -42,8 +42,8 @@
             data.current_wins = parseInt(totalWinsText.replace(/,/g, ''), 10);
             data.current_score = parseInt(totalScoreText.replace(/,/g, ''), 10);
 
-            console.log('Total Wins:', totalWins);
-            console.log('Total Score:', totalScore);
+            console.log('Current Wins:', data.current_wins);
+            console.log('Current Score:', data.current_score);
 
             // get current timestamp
             data.timestamp = new Date().toLocaleString('en-US', {timeZone: 'America/Los_Angeles'});
