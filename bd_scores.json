@@ -661,5 +661,18 @@
     "total_wins": 0,
     "total_score": 0,
     "opted_in": false
+  },
+  {
+    "potato_logo": "potatoes/marathon.png",
+    "username": "alethiometry",
+    "starting_wins": 8646,
+    "starting_score": 1491555,
+    "starting_stats_captured": "8/7/2025, 8:11:54 PM",
+    "current_wins": 8646,
+    "current_score": 1491555,
+    "last_updated": "8/7/2025, 8:11:54 PM",
+    "total_wins": 0,
+    "total_score": 0,
+    "opted_in": false
   }
 ]
