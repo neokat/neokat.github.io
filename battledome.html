@@ -178,43 +178,45 @@
                 const scoresTableBody = document.getElementById('spuds').getElementsByTagName('tbody')[0];
 
                 scores.forEach(score => {
-                    const row = scoresTableBody.insertRow();
+                    if (score.opted_in === true) {
+                        const row = scoresTableBody.insertRow();
 
-                    const cellLogo = row.insertCell();
-                    const img = document.createElement('img');
-                    img.src = score.potato_logo;
-                    img.height = 40;
-                    img.alt = score.username;
-                    cellLogo.style.setProperty("text-align", "center", "important");
-                    cellLogo.appendChild(img);
+                        const cellLogo = row.insertCell();
+                        const img = document.createElement('img');
+                        img.src = score.potato_logo;
+                        img.height = 40;
+                        img.alt = score.username;
+                        cellLogo.style.setProperty("text-align", "center", "important");
+                        cellLogo.appendChild(img);
 
-                    const cellUsername = row.insertCell();
-                    const link = document.createElement('a');
-                    link.href = 'https://www.neopets.com/dome/record.phtml?username=' + score.username;
-                    link.textContent = score.username;
-                    link.target = '_blank';
-                    cellUsername.appendChild(link);
+                        const cellUsername = row.insertCell();
+                        const link = document.createElement('a');
+                        link.href = 'https://www.neopets.com/dome/record.phtml?username=' + score.username;
+                        link.textContent = score.username;
+                        link.target = '_blank';
+                        cellUsername.appendChild(link);
 
-                    const cellStartingWins = row.insertCell();
-                    cellStartingWins.textContent = score.starting_wins.toLocaleString();;
+                        const cellStartingWins = row.insertCell();
+                        cellStartingWins.textContent = score.starting_wins.toLocaleString();
 
-                    const cellStartingScore = row.insertCell();
-                    cellStartingScore.textContent = score.starting_score.toLocaleString();;
+                        const cellStartingScore = row.insertCell();
+                        cellStartingScore.textContent = score.starting_score.toLocaleString();
 
-                    const cellCurrentWins = row.insertCell();
-                    cellCurrentWins.textContent = score.current_wins.toLocaleString();;
+                        const cellCurrentWins = row.insertCell();
+                        cellCurrentWins.textContent = score.current_wins.toLocaleString();
 
-                    const cellCurrentScore = row.insertCell();
-                    cellCurrentScore.textContent = score.current_score.toLocaleString();;
+                        const cellCurrentScore = row.insertCell();
+                        cellCurrentScore.textContent = score.current_score.toLocaleString();
 
-                    const cellTotalWins = row.insertCell();
-                    cellTotalWins.textContent = score.total_wins.toLocaleString();;
+                        const cellTotalWins = row.insertCell();
+                        cellTotalWins.textContent = score.total_wins.toLocaleString();
 
-                    const cellTotalScore = row.insertCell();
-                    cellTotalScore.textContent = score.total_score.toLocaleString();;
+                        const cellTotalScore = row.insertCell();
+                        cellTotalScore.textContent = score.total_score.toLocaleString();
 
-                    const cellLastUpdated = row.insertCell();
-                    cellLastUpdated.textContent = score.last_updated;
+                        const cellLastUpdated = row.insertCell();
+                        cellLastUpdated.textContent = score.last_updated;
+                    }
                 });
             })
             .catch(error => {

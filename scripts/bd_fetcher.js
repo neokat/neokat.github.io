@@ -18,12 +18,77 @@
 
         const EXODUS_PLAYERS = [
             "goosesticks",
-            "superkathiee",
-            "nostalgia",
             "hunni_bun_137",
             "ferulax",
             "hilary_duff_fan_16",
-            "rhianafaeriedoll"
+            "superkathiee",
+            "classicmess",
+            "sosunub",
+            "kio______lake",
+            "orlytheowl",
+            "doglover99_8",
+            "midnightswish",
+            "honorrolle",
+            "reply",
+            "xeyota__fh",
+            "merpiie",
+            "atritas",
+            "eleganza_lights",
+            "catchinglights",
+            "ayumijen",
+            "elhiwe",
+            "butseriously",
+            "mahnoosh",
+            "puppylover9161",
+            "i_will_always_luv_me",
+            "toastedmarshmallows",
+            "ckgknyangel",
+            "sweetestdeal",
+            "scizor07",
+            "polarnights",
+            "taty_87",
+            "nostalgia",
+            "d_a_r_e",
+            "mysticferret15",
+            "pequepanda",
+            "zilaena",
+            "angel709317",
+            "claimedxscribblez",
+            "nella_fantasia",
+            "_new_cassalla_",
+            "moonzywolfgirl",
+            "justiquen",
+            "wasted_sky",
+            "yerimiese",
+            "idlegoth",
+            "juliadoglover11405",
+            "nurnurnur199",
+            "shpridge",
+            "aangchan",
+            "digitally_cool",
+            "alex_bubbly",
+            "ninetendogamecube",
+            "mbug1991",
+            "mizsango",
+            "howlsilver",
+            "evilduckeh",
+            "ris1994",
+            "callisto2002",
+            "lennekegirl123",
+            "zanzibar37",
+            "gamemaster32792",
+            "kuulai",
+            "alethiometry",
+            "bellababyfly_7",
+            "rhianafaeriedoll",
+            "tinyroses18",
+            "darkenxhearts",
+            "x_niko",
+            "macosten",
+            "faeriefalls",
+            "ocicats_rock",
+            "apostrasia",
+            "summer_11_11"
         ]
 
         const data = {};
@@ -87,7 +152,7 @@
 
                     const existingEntry = getExistingEntry(scores, data.username);
 
-                     if (existingEntry) {
+                    if (existingEntry) {
                         existingEntry.current_wins = data.current_wins;
                         existingEntry.current_score = data.current_score;
                         existingEntry.last_updated = data.timestamp;
@@ -104,7 +169,8 @@
                             "current_score": data.current_score,
                             "last_updated": data.timestamp,
                             "total_wins": 0,
-                            "total_score": 0
+                            "total_score": 0,
+                            "opted_in": false
                         });
                     }
 
