@@ -388,5 +388,18 @@
     "total_wins": 0,
     "total_score": 0,
     "opted_in": false
+  },
+  {
+    "potato_logo": "potatoes/marathon.png",
+    "username": "polarnights",
+    "starting_wins": 488,
+    "starting_score": 76501,
+    "starting_stats_captured": "8/7/2025, 7:50:38 PM",
+    "current_wins": 488,
+    "current_score": 76501,
+    "last_updated": "8/7/2025, 7:50:38 PM",
+    "total_wins": 0,
+    "total_score": 0,
+    "opted_in": false
   }
 ]
