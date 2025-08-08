@@ -49,7 +49,7 @@
     "last_updated": "8/7/2025, 7:33:17 PM",
     "total_wins": 0,
     "total_score": 0,
-    "opted_in": false
+    "opted_in": true
   },
   {
     "potato_logo": "potatoes/marathon.png",
@@ -62,7 +62,7 @@
     "last_updated": "8/7/2025, 7:33:29 PM",
     "total_wins": 0,
     "total_score": 0,
-    "opted_in": false
+    "opted_in": true
   },
   {
     "potato_logo": "potatoes/marathon.png",
@@ -140,7 +140,7 @@
     "last_updated": "8/7/2025, 7:40:01 PM",
     "total_wins": 0,
     "total_score": 0,
-    "opted_in": false
+    "opted_in": true
   },
   {
     "potato_logo": "potatoes/marathon.png",
@@ -322,7 +322,7 @@
     "last_updated": "8/7/2025, 7:48:57 PM",
     "total_wins": 0,
     "total_score": 0,
-    "opted_in": false
+    "opted_in": true
   },
   {
     "potato_logo": "potatoes/marathon.png",
@@ -348,7 +348,7 @@
     "last_updated": "8/7/2025, 7:49:30 PM",
     "total_wins": 0,
     "total_score": 0,
-    "opted_in": false
+    "opted_in": true
   },
   {
     "potato_logo": "potatoes/marathon.png",
@@ -439,7 +439,7 @@
     "last_updated": "8/7/2025, 7:51:17 PM",
     "total_wins": 0,
     "total_score": 0,
-    "opted_in": false
+    "opted_in": true
   },
   {
     "potato_logo": "potatoes/marathon.png",
@@ -621,7 +621,7 @@
     "last_updated": "8/7/2025, 8:06:30 PM",
     "total_wins": 0,
     "total_score": 0,
-    "opted_in": false
+    "opted_in": true
   },
   {
     "potato_logo": "potatoes/marathon.png",
@@ -634,6 +634,6 @@
     "last_updated": "8/7/2025, 8:07:25 PM",
     "total_wins": 0,
     "total_score": 0,
-    "opted_in": false
+    "opted_in": true
   }
 ]
