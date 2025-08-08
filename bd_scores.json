@@ -582,7 +582,7 @@
     "last_updated": "8/7/2025, 7:54:02 PM",
     "total_wins": 0,
     "total_score": 0,
-    "opted_in": false
+    "opted_in": true
   },
   {
     "potato_logo": "potatoes/marathon.png",
@@ -751,7 +751,7 @@
     "last_updated": "8/7/2025, 8:23:29 PM",
     "total_wins": 0,
     "total_score": 0,
-    "opted_in": false
+    "opted_in": true
   },
   {
     "potato_logo": "potatoes/marathon.png",
