@@ -557,5 +557,18 @@
     "total_wins": 0,
     "total_score": 0,
     "opted_in": false
+  },
+  {
+    "potato_logo": "potatoes/marathon.png",
+    "username": "_new_cassalla_",
+    "starting_wins": 5964,
+    "starting_score": 834895,
+    "starting_stats_captured": "8/7/2025, 7:53:38 PM",
+    "current_wins": 5964,
+    "current_score": 834895,
+    "last_updated": "8/7/2025, 7:53:38 PM",
+    "total_wins": 0,
+    "total_score": 0,
+    "opted_in": false
   }
 ]
