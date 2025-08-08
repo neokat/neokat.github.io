@@ -111,6 +111,14 @@
             box-sizing: border-box;
             text-align: center;
         }
+
+        #guild-totals {
+            font-family: Verdana, Helvetica, sans-serif;
+            font-size: 36px;
+            color: #d08526;
+            text-align: center;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -127,10 +135,10 @@
         Kat or Anna to refresh it :P
     </div>
     <br><br>
-    <div id="guildTotals"
-         style="text-align: center; font-family: Verdana, Helvetica, sans-serif; font-size: 16px; color: #d08526;">
+    <div id="guild-totals">
         <!-- guild totals will be displayed here -->
     </div>
+    <br><br>
     <table id="spuds">
         <thead>
         <tr>
@@ -182,7 +190,7 @@
                 scores.sort((a, b) => b.total_score - a.total_score);
 
                 const scoresTableBody = document.getElementById('spuds').getElementsByTagName('tbody')[0];
-                const guildTotalsDiv = document.getElementById('guildTotals');
+                const guildTotalsDiv = document.getElementById('guild-totals');
 
 
                 scores.forEach(score => {
