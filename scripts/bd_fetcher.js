@@ -93,6 +93,8 @@
                         existingEntry.current_wins = data.current_wins;
                         existingEntry.current_score = data.current_score;
                         existingEntry.last_updated = data.timestamp;
+                        existingEntry.total_wins = data.current_wins - existingEntry.starting_wins;
+                        existingEntry.total_score = data.current_score - existingEntry.starting_score;
                     } else {
                         scores.push({
                             "potato_logo": "potatoes/marathon.png",
@@ -102,7 +104,9 @@
                             "starting_stats_captured": data.timestamp,
                             "current_wins": data.current_wins,
                             "current_score": data.current_score,
-                            "last_updated": data.timestamp
+                            "last_updated": data.timestamp,
+                            "total_wins": 0,
+                            "total_score": 0
                         });
                     }
 
