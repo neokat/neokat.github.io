@@ -24,5 +24,18 @@
     "total_wins": 0,
     "total_score": 0,
     "opted_in": false
+  },
+  {
+    "potato_logo": "potatoes/marathon.png",
+    "username": "ferulax",
+    "starting_wins": 2471,
+    "starting_score": 249561,
+    "starting_stats_captured": "8/7/2025, 7:33:08 PM",
+    "current_wins": 2471,
+    "current_score": 249561,
+    "last_updated": "8/7/2025, 7:33:08 PM",
+    "total_wins": 0,
+    "total_score": 0,
+    "opted_in": false
   }
 ]
