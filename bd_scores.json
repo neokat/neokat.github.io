@@ -206,5 +206,18 @@
     "total_wins": 0,
     "total_score": 0,
     "opted_in": false
+  },
+  {
+    "potato_logo": "potatoes/marathon.png",
+    "username": "ayumijen",
+    "starting_wins": 18364,
+    "starting_score": 3019522,
+    "starting_stats_captured": "8/7/2025, 7:46:29 PM",
+    "current_wins": 18364,
+    "current_score": 3019522,
+    "last_updated": "8/7/2025, 7:46:29 PM",
+    "total_wins": 0,
+    "total_score": 0,
+    "opted_in": false
   }
 ]
