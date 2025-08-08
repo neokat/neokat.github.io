@@ -492,5 +492,18 @@
     "total_wins": 0,
     "total_score": 0,
     "opted_in": false
+  },
+  {
+    "potato_logo": "potatoes/marathon.png",
+    "username": "zilaena",
+    "starting_wins": 19558,
+    "starting_score": 7927612,
+    "starting_stats_captured": "8/7/2025, 7:52:17 PM",
+    "current_wins": 19558,
+    "current_score": 7927612,
+    "last_updated": "8/7/2025, 7:52:17 PM",
+    "total_wins": 0,
+    "total_score": 0,
+    "opted_in": false
   }
 ]
