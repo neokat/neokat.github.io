@@ -141,5 +141,18 @@
     "total_wins": 0,
     "total_score": 0,
     "opted_in": false
+  },
+  {
+    "potato_logo": "potatoes/marathon.png",
+    "username": "honorrolle",
+    "starting_wins": 22199,
+    "starting_score": 9567953,
+    "starting_stats_captured": "8/7/2025, 7:42:13 PM",
+    "current_wins": 22199,
+    "current_score": 9567953,
+    "last_updated": "8/7/2025, 7:42:13 PM",
+    "total_wins": 0,
+    "total_score": 0,
+    "opted_in": false
   }
 ]
