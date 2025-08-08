@@ -127,6 +127,10 @@
         Kat or Anna to refresh it :P
     </div>
     <br><br>
+    <div id="guildTotals"
+         style="text-align: center; font-family: Verdana, Helvetica, sans-serif; font-size: 16px; color: #d08526;">
+        <!-- guild totals will be displayed here -->
+    </div>
     <table id="spuds">
         <thead>
         <tr>
@@ -169,6 +173,8 @@
         // Adjust the margin dynamically based on header image size
         window.addEventListener('resize', adjustContentTop);
 
+        let guild_wins = 0;
+        let guild_score = 0;
 
         fetch('bd_scores.json')
             .then(response => response.json())
@@ -176,6 +182,8 @@
                 scores.sort((a, b) => b.total_score - a.total_score);
 
                 const scoresTableBody = document.getElementById('spuds').getElementsByTagName('tbody')[0];
+                const guildTotalsDiv = document.getElementById('guildTotals');
+
 
                 scores.forEach(score => {
                     if (score.opted_in === true) {
@@ -216,8 +224,13 @@
 
                         const cellLastUpdated = row.insertCell();
                         cellLastUpdated.textContent = score.last_updated;
+
+                        guild_score += score.total_score;
+                        guild_wins += score.total_wins;
                     }
                 });
+                guildTotalsDiv.textContent = `GUILD WINS: ${guild_wins.toLocaleString()} | GUILD SCORE: ${guild_score.toLocaleString()}`;
+
             })
             .catch(error => {
                 console.error('Error fetching the JSON data:', error);
