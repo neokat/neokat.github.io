@@ -518,5 +518,18 @@
     "total_wins": 0,
     "total_score": 0,
     "opted_in": false
+  },
+  {
+    "potato_logo": "potatoes/marathon.png",
+    "username": "claimedxscribblez",
+    "starting_wins": 2439,
+    "starting_score": 306224,
+    "starting_stats_captured": "8/7/2025, 7:53:07 PM",
+    "current_wins": 2439,
+    "current_score": 306224,
+    "last_updated": "8/7/2025, 7:53:07 PM",
+    "total_wins": 0,
+    "total_score": 0,
+    "opted_in": false
   }
 ]
