@@ -232,5 +232,18 @@
     "total_wins": 0,
     "total_score": 0,
     "opted_in": false
+  },
+  {
+    "potato_logo": "potatoes/marathon.png",
+    "username": "elhiwe",
+    "starting_wins": 6787,
+    "starting_score": 1020556,
+    "starting_stats_captured": "8/7/2025, 7:47:33 PM",
+    "current_wins": 6787,
+    "current_score": 1020556,
+    "last_updated": "8/7/2025, 7:47:33 PM",
+    "total_wins": 0,
+    "total_score": 0,
+    "opted_in": false
   }
 ]
