@@ -323,5 +323,18 @@
     "total_wins": 0,
     "total_score": 0,
     "opted_in": false
+  },
+  {
+    "potato_logo": "potatoes/marathon.png",
+    "username": "toastedmarshmallows",
+    "starting_wins": 0,
+    "starting_score": 0,
+    "starting_stats_captured": "8/7/2025, 7:49:09 PM",
+    "current_wins": 0,
+    "current_score": 0,
+    "last_updated": "8/7/2025, 7:49:09 PM",
+    "total_wins": 0,
+    "total_score": 0,
+    "opted_in": false
   }
 ]
