@@ -117,7 +117,6 @@
             font-size: 36px;
             color: #d08526;
             text-align: center;
-            font-weight: bold;
         }
     </style>
 </head>
@@ -237,7 +236,7 @@
                         guild_wins += score.total_wins;
                     }
                 });
-                guildTotalsDiv.textContent = `GUILD WINS: ${guild_wins.toLocaleString()} | GUILD SCORE: ${guild_score.toLocaleString()}`;
+                guildTotalsDiv.textContent = `GUILD WINS: <b>${guild_wins.toLocaleString()}</b> | GUILD SCORE: <b>${guild_score.toLocaleString()}</b>`;
 
             })
             .catch(error => {
