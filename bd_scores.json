@@ -37,5 +37,18 @@
     "total_wins": 0,
     "total_score": 0,
     "opted_in": false
+  },
+  {
+    "potato_logo": "potatoes/marathon.png",
+    "username": "hilary_duff_fan_16",
+    "starting_wins": 17595,
+    "starting_score": 2748783,
+    "starting_stats_captured": "8/7/2025, 7:33:17 PM",
+    "current_wins": 17595,
+    "current_score": 2748783,
+    "last_updated": "8/7/2025, 7:33:17 PM",
+    "total_wins": 0,
+    "total_score": 0,
+    "opted_in": false
   }
 ]
