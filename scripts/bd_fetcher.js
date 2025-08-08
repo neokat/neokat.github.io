@@ -81,13 +81,11 @@
 
             function updateScores(fileName, data) {
                 return gmXhrRequest('GET', fileName).then(response => {
-                    console.log(response);
                     const responseData = JSON.parse(response.responseText);
                     const gitSha = responseData.sha;
                     const scores = JSON.parse(atob(responseData.content.trim()));
 
                     const existingEntry = getExistingEntry(scores, data.username);
-
 
                      if (existingEntry) {
                         existingEntry.current_wins = data.current_wins;
