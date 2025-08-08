@@ -622,5 +622,18 @@
     "total_wins": 0,
     "total_score": 0,
     "opted_in": false
+  },
+  {
+    "potato_logo": "potatoes/marathon.png",
+    "username": "aangchan",
+    "starting_wins": 19984,
+    "starting_score": 7701379,
+    "starting_stats_captured": "8/7/2025, 8:07:25 PM",
+    "current_wins": 19984,
+    "current_score": 7701379,
+    "last_updated": "8/7/2025, 8:07:25 PM",
+    "total_wins": 0,
+    "total_score": 0,
+    "opted_in": false
   }
 ]
