@@ -88,7 +88,8 @@
             "faeriefalls",
             "ocicats_rock",
             "apostrasia",
-            "summer_11_11"
+            "summer_11_11",
+            "xxx_boo"
         ]
 
         const data = {};
