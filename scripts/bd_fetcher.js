@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Exodus Battledome Score Fetcher
-// @version      0.1
+// @version      0.2
 // @description  Writes battledome wins and scores to json file for Exodus Battledome Challenge.
 // @author       Kat
 // @match        *www.neopets.com/dome/record.phtml?username=*
@@ -16,7 +16,7 @@
 
         // FIRST TIME USERS MUST FILL IN THESE DETAILS!!!!
         const SECRET_GITHUB_TOKEN = 'abcdefghijklmnopqrstuvwxyz1234567890'
-        const MY_INTERNET_IS_FAST = false;
+        const AUTO_REFRESH_ON_FAILURE = false;
         const MY_NAME = "Kat";
 
         const EXODUS_PLAYERS = [
@@ -232,7 +232,7 @@
                         console.log(`Response status: ${parsedResponse.status}`);
                         if (parsedResponse.status && parsedResponse.status === "409") {
                             showErrorBox();
-                            if (MY_INTERNET_IS_FAST) {
+                            if (AUTO_REFRESH_ON_FAILURE) {
                                 location.reload();
                             }
                             throw new Error('Speedy McQuick over here, try again');
