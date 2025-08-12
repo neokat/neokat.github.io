@@ -8,6 +8,7 @@
 // @grant        GM_addElement
 // @connect      api.github.com
 // @require      https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js
+// @icon         https://github.com/neokat/neokat.github.io/blob/main/potatoes/drenched_icon.png?raw=true
 // ==/UserScript==
 
 (function () {
