@@ -13,9 +13,6 @@
 (function () {
         'use strict';
 
-        const MAX_RETRIES = 5; // Maximum number of retries
-        const BASE_DELAY = 100; // Initial delay in milliseconds
-
         // FIRST TIME USERS MUST FILL IN THESE DETAILS!!!!
         const SECRET_GITHUB_TOKEN = 'abcdefghijklmnopqrstuvwxyz1234567890'
 
@@ -149,63 +146,50 @@
             }
 
             function updateScores(fileName, data) {
-                async function retryUpdate(attempt) {
-                    try {
-                        const response = await gmXhrRequest('GET', fileName);
-                        const responseData = JSON.parse(response.responseText);
-                        const gitSha = responseData.sha;
-                        const scores = JSON.parse(atob(responseData.content.trim()));
+                return gmXhrRequest('GET', fileName).then(response => {
+                    const responseData = JSON.parse(response.responseText);
+                    const gitSha = responseData.sha;
+                    const scores = JSON.parse(atob(responseData.content.trim()));
 
-                        const existingEntry = getExistingEntry(scores, data.username);
+                    const existingEntry = getExistingEntry(scores, data.username);
 
-                        if (existingEntry) {
-                            existingEntry.current_wins = data.current_wins;
-                            existingEntry.current_score = data.current_score;
-                            existingEntry.last_updated = data.timestamp;
-                            existingEntry.total_wins = data.current_wins - existingEntry.starting_wins;
-                            existingEntry.total_score = data.current_score - existingEntry.starting_score;
-                        } else {
-                            scores.push({
-                                "potato_logo": "potatoes/marathon.png",
-                                "username": data.username,
-                                "starting_wins": data.current_wins,
-                                "starting_score": data.current_score,
-                                "starting_stats_captured": data.timestamp,
-                                "current_wins": data.current_wins,
-                                "current_score": data.current_score,
-                                "last_updated": data.timestamp,
-                                "total_wins": 0,
-                                "total_score": 0,
-                                "opted_in": false
-                            });
-                        }
-
-                        const fileContent = JSON.stringify(scores, null, 2);
-                        const base64Content = btoa(unescape(encodeURIComponent(fileContent)));
-
-                        const updateData = {
-                            message: `Update bd_scores.json for ${data.username} in ${fileName} at ${data.timestamp} NST`,
-                            content: base64Content,
-                            branch: `main`,
-                            sha: gitSha
-                        };
-
-                        await gmXhrRequest('PUT', fileName, JSON.stringify(updateData));
-                        console.log(`Updated successfully for ${data.username} in ${fileName}`);
-                    } catch (error) {
-                        if (error.response && error.response.status === 409 && attempt < MAX_RETRIES) {
-                            const delay = BASE_DELAY * Math.pow(2, attempt); // Exponential backoff
-                            console.warn(`Conflict detected. Retrying in ${delay}ms... (Attempt ${attempt + 1}/${MAX_RETRIES})`);
-                            await new Promise(resolve => setTimeout(resolve, delay));
-                            return retryUpdate(attempt + 1);
-                        } else {
-                            console.error('Error updating file:', error.response ? JSON.parse(error.responseText) : error.message);
-                            throw error; // Rethrow the error if retries are exhausted or it's not a conflict
-                        }
+                    if (existingEntry) {
+                        existingEntry.current_wins = data.current_wins;
+                        existingEntry.current_score = data.current_score;
+                        existingEntry.last_updated = data.timestamp;
+                        existingEntry.total_wins = data.current_wins - existingEntry.starting_wins;
+                        existingEntry.total_score = data.current_score - existingEntry.starting_score;
+                    } else {
+                        scores.push({
+                            "potato_logo": "potatoes/marathon.png",
+                            "username": data.username,
+                            "starting_wins": data.current_wins,
+                            "starting_score": data.current_score,
+                            "starting_stats_captured": data.timestamp,
+                            "current_wins": data.current_wins,
+                            "current_score": data.current_score,
+                            "last_updated": data.timestamp,
+                            "total_wins": 0,
+                            "total_score": 0,
+                            "opted_in": false
+                        });
                     }
-                }
 
-                return retryUpdate(0); // Start with the first attempt
+                    const fileContent = JSON.stringify(scores, null, 2);
+                    const base64Content = btoa(unescape(encodeURIComponent(fileContent)));
+
+                    const updateData = {
+                        message: `Update bd_scores.json for ${data.username} in ${fileName} at ${data.timestamp} NST`,
+                        content: base64Content,
+                        branch: `main`,
+                        sha: gitSha
+                    };
+                    return gmXhrRequest('PUT', fileName, JSON.stringify(updateData)).then(response => {
+                        console.log(`Updated successfully for ${data.username} in ${fileName}`, JSON.parse(response.responseText));
+                    }).catch(error => {
+                        console.error('Error updating file:', error.response ? JSON.parse(error.responseText) : error.message);
+                    });
+                });
             }
 
             const updateIfParticipant = async () => {
