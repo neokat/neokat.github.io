@@ -16,6 +16,8 @@
 
         // FIRST TIME USERS MUST FILL IN THESE DETAILS!!!!
         const SECRET_GITHUB_TOKEN = 'abcdefghijklmnopqrstuvwxyz1234567890'
+        const MY_INTERNET_IS_FAST = false;
+        const MY_NAME = "Kat";
 
         const EXODUS_PLAYERS = [
             "goosesticks",
@@ -146,6 +148,45 @@
                 }
             }
 
+            function showErrorBox() {
+                const errorBox = document.createElement('div');
+                errorBox.textContent = 'FAILED :(';
+                errorBox.style.position = 'fixed';
+                errorBox.style.top = '50%';
+                errorBox.style.left = '50%';
+                errorBox.style.width = '500px';
+                errorBox.style.height = '200px';
+                errorBox.style.backgroundColor = 'red';
+                errorBox.style.color = 'white';
+                errorBox.style.fontSize = '75px';
+                errorBox.style.fontWeight = 'bold';
+                errorBox.style.display = 'flex';
+                errorBox.style.flexDirection = 'column';
+                errorBox.style.justifyContent = 'center';
+                errorBox.style.alignItems = 'center';
+                errorBox.style.zIndex = '9999';
+                errorBox.style.transform = 'translate(-50%, -50%)'; // Center the box
+
+                const refreshButton = document.createElement('button');
+                refreshButton.textContent = 'Try Again :)';
+                refreshButton.style.marginTop = '20px';
+                refreshButton.style.padding = '10px 20px';
+                refreshButton.style.fontSize = '40px';
+                refreshButton.style.cursor = 'pointer';
+                refreshButton.style.border = 'none';
+                refreshButton.style.borderRadius = '5px';
+                refreshButton.style.backgroundColor = 'white';
+                refreshButton.style.color = 'red';
+                refreshButton.style.fontWeight = 'bold';
+
+                refreshButton.addEventListener('click', () => {
+                    location.reload();
+                });
+
+                errorBox.appendChild(refreshButton);
+                document.body.appendChild(errorBox);
+            }
+
             function updateScores(fileName, data) {
                 return gmXhrRequest('GET', fileName).then(response => {
                     const responseData = JSON.parse(response.responseText);
@@ -180,13 +221,24 @@
                     const base64Content = btoa(unescape(encodeURIComponent(fileContent)));
 
                     const updateData = {
-                        message: `Update bd_scores.json for ${data.username} in ${fileName} at ${data.timestamp} NST`,
+                        message: `Update ${data.username} score in ${fileName} by ${MY_NAME} at ${data.timestamp} NST`,
                         content: base64Content,
                         branch: `main`,
                         sha: gitSha
                     };
                     return gmXhrRequest('PUT', fileName, JSON.stringify(updateData)).then(response => {
-                        console.log(`Updated successfully for ${data.username} in ${fileName}`, JSON.parse(response.responseText));
+                        const parsedResponse = JSON.parse(response.responseText);
+                        console.log(parsedResponse)
+                        console.log(`Response status: ${parsedResponse.status}`);
+                        if (parsedResponse.status && parsedResponse.status === "409") {
+                            showErrorBox();
+                            if (MY_INTERNET_IS_FAST) {
+                                location.reload();
+                            }
+                            throw new Error('Speedy McQuick over here, try again');
+                        } else {
+                            console.log(`Update ${data.username} score in ${fileName} by ${MY_NAME}`, JSON.parse(response.responseText));
+                        }
                     }).catch(error => {
                         console.error('Error updating file:', error.response ? JSON.parse(error.responseText) : error.message);
                     });
