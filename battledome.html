@@ -130,9 +130,8 @@
     <div class="yellow-box">
         <b>NOTE: This scoreboard is updated semi-automatically!</b> Every time we visit your stats page, the data is
         scraped and populates on the scoreboard. The "last updated" column tells when the data was last pulled for each
-        person. If you aren't seeing up-to-date stats, first try to do a hard refresh <b>(cmd+shift+R</b> on
-        mac or <b>ctrl+shift+R</b> on windows) to make your browser pull fresh data. If it's still out-of-date, bug
-        Kat or Anna to refresh it :P
+        person. If you aren't seeing up-to-date stats, first try to do a hard refresh <b>(cmd/ctrl+shift+R)</b> to make
+        your browser pull fresh data. If it's still out-of-date, tag the "@can i pretty please get a scoreboard refresh" role!
     </div>
     <br><br>
     <div id="guild-totals">
@@ -192,14 +191,18 @@
                 const scoresTableBody = document.getElementById('spuds').getElementsByTagName('tbody')[0];
                 const guildTotalsDiv = document.getElementById('guild-totals');
 
-
+                let place = 1;
                 scores.forEach(score => {
                     if (score.opted_in === true) {
                         const row = scoresTableBody.insertRow();
 
                         const cellLogo = row.insertCell();
                         const img = document.createElement('img');
-                        img.src = score.potato_logo;
+                        if(place > 3) {
+                            img.src = score.potato_logo; // default icon for non-top 3
+                        } else {
+                            img.src = `potatoes/marathon${place}.png`; // top 3 icons
+                        }
                         img.height = 40;
                         img.alt = score.username;
                         cellLogo.style.setProperty("text-align", "center", "important");
@@ -235,6 +238,8 @@
 
                         guild_score += score.total_score;
                         guild_wins += score.total_wins;
+
+                        place++;
                     }
                 });
                 guildTotalsDiv.textContent = `GUILD WINS: ${guild_wins.toLocaleString()} || GUILD SCORE: ${guild_score.toLocaleString()}`;
