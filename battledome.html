@@ -147,8 +147,8 @@
             <th>STARTING SCORE</th>
             <th>CURRENT WINS</th>
             <th>CURRENT SCORE</th>
-            <th>TOTAL WINS</th>
-            <th>TOTAL SCORE</th>
+            <th id="sort-wins" style="cursor:pointer">TOTAL WINS ⬍</th>
+            <th id="sort-score" style="cursor:pointer">TOTAL SCORE ⬍</th>
             <th>LAST UPDATED (NST)</th>
         </tr>
         </thead>
@@ -180,74 +180,80 @@
         // Adjust the margin dynamically based on header image size
         window.addEventListener('resize', adjustContentTop);
 
-        let guild_wins = 0;
-        let guild_score = 0;
+        let scoresData = []; // store fetched data
+        let currentSort = "score"; // default
+
+        function renderTable() {
+            const scoresTableBody = document.getElementById('spuds').getElementsByTagName('tbody')[0];
+            scoresTableBody.innerHTML = ""; // clear table
+            let place = 1;
+            guild_score = 0;
+            guild_wins = 0;
+
+            scoresData.forEach(score => {
+                if (score.opted_in === true) {
+                    const row = scoresTableBody.insertRow();
+
+                    const cellLogo = row.insertCell();
+                    const img = document.createElement('img');
+                    img.src = place > 3 ? score.potato_logo : `potatoes/marathon_${place}.png`;
+                    img.height = 50;
+                    img.alt = score.username;
+                    cellLogo.style.setProperty("text-align", "center", "important");
+                    cellLogo.appendChild(img);
+
+                    const cellUsername = row.insertCell();
+                    const link = document.createElement('a');
+                    link.href = 'https://www.neopets.com/dome/record.phtml?username=' + score.username;
+                    link.textContent = score.username;
+                    link.target = '_blank';
+                    cellUsername.appendChild(link);
+
+                    row.insertCell().textContent = score.starting_wins.toLocaleString();
+                    row.insertCell().textContent = score.starting_score.toLocaleString();
+                    row.insertCell().textContent = score.current_wins.toLocaleString();
+                    row.insertCell().textContent = score.current_score.toLocaleString();
+                    row.insertCell().textContent = score.total_wins.toLocaleString();
+                    row.insertCell().textContent = score.total_score.toLocaleString();
+                    row.insertCell().textContent = score.last_updated;
+
+                    guild_score += score.total_score;
+                    guild_wins += score.total_wins;
+                    place++;
+                }
+            });
+            document.getElementById('guild-totals').textContent =
+                `GUILD WINS: ${guild_wins.toLocaleString()} || GUILD SCORE: ${guild_score.toLocaleString()}`;
+        }
+
+        function sortAndRender() {
+            if (currentSort === "score") {
+                scoresData.sort((a, b) => b.total_score - a.total_score);
+            } else {
+                scoresData.sort((a, b) => b.total_wins - a.total_wins);
+            }
+            renderTable();
+        }
+
+        document.getElementById("sort-wins").addEventListener("click", () => {
+            currentSort = "wins";
+            sortAndRender();
+        });
+
+        document.getElementById("sort-score").addEventListener("click", () => {
+            currentSort = "score";
+            sortAndRender();
+        });
+
 
         fetch('bd_scores.json')
             .then(response => response.json())
             .then(scores => {
-                scores.sort((a, b) => b.total_score - a.total_score);
+                scoresData = scores; // store it globally
+                sortAndRender();     // do first render (default score sort)
+        })
+        .catch(error => console.error('Error fetching the JSON data:', error));
 
-                const scoresTableBody = document.getElementById('spuds').getElementsByTagName('tbody')[0];
-                const guildTotalsDiv = document.getElementById('guild-totals');
-
-                let place = 1;
-                scores.forEach(score => {
-                    if (score.opted_in === true) {
-                        const row = scoresTableBody.insertRow();
-
-                        const cellLogo = row.insertCell();
-                        const img = document.createElement('img');
-                        if(place > 3) {
-                            img.src = score.potato_logo; // default icon for non-top 3
-                        } else {
-                            img.src = `potatoes/marathon_${place}.png`; // top 3 icons
-                        }
-                        img.height = 50;
-                        img.alt = score.username;
-                        cellLogo.style.setProperty("text-align", "center", "important");
-                        cellLogo.appendChild(img);
-
-                        const cellUsername = row.insertCell();
-                        const link = document.createElement('a');
-                        link.href = 'https://www.neopets.com/dome/record.phtml?username=' + score.username;
-                        link.textContent = score.username;
-                        link.target = '_blank';
-                        cellUsername.appendChild(link);
-
-                        const cellStartingWins = row.insertCell();
-                        cellStartingWins.textContent = score.starting_wins.toLocaleString();
-
-                        const cellStartingScore = row.insertCell();
-                        cellStartingScore.textContent = score.starting_score.toLocaleString();
-
-                        const cellCurrentWins = row.insertCell();
-                        cellCurrentWins.textContent = score.current_wins.toLocaleString();
-
-                        const cellCurrentScore = row.insertCell();
-                        cellCurrentScore.textContent = score.current_score.toLocaleString();
-
-                        const cellTotalWins = row.insertCell();
-                        cellTotalWins.textContent = score.total_wins.toLocaleString();
-
-                        const cellTotalScore = row.insertCell();
-                        cellTotalScore.textContent = score.total_score.toLocaleString();
-
-                        const cellLastUpdated = row.insertCell();
-                        cellLastUpdated.textContent = score.last_updated;
-
-                        guild_score += score.total_score;
-                        guild_wins += score.total_wins;
-
-                        place++;
-                    }
-                });
-                guildTotalsDiv.textContent = `GUILD WINS: ${guild_wins.toLocaleString()} || GUILD SCORE: ${guild_score.toLocaleString()}`;
-
-            })
-            .catch(error => {
-                console.error('Error fetching the JSON data:', error);
-            });
 
         function adjustHeaderOnScroll() {
             // Calculate the scroll percentage
@@ -270,3 +276,4 @@
 </script>
 </body>
 </html>
+
