@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Exodus Battledome Leaderboard">
+    <meta property="og:description" content="How do you stack up to other potatoes?">
+    <meta property="og:url" content="https://neokat.github.io/battledome">
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+    <title>Exodus Battledome Leaderboard</title>
+
+    <link rel="icon" href="potatoes/drenched_icon.png" type="image/x-icon">
+
+    <style>
+        html, body {
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        body {
+            background-image: url("https://imagizer.imageshack.com/img923/3796/vK5CCI.png");
+            background-repeat: repeat;
+        }
+
+        #header {
+            width: 100%;
+            text-align: center;
+            align-items: center;
+            box-sizing: border-box;
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+            transition: height 0.3s, padding 0.3s;
+        }
+
+        #header img {
+            width: 60%; /* Adjust the size as needed */
+            height: auto;
+        }
+
+        #content {
+            width: 100%;
+            box-sizing: border-box;
+            overflow-y: auto;
+            position: relative; /* Added positioning context */
+            max-height: calc(100vh - 70px); /* Adjust based on the header height */
+        }
+
+        #spuds {
+            font-family: Verdana, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 85%;
+            margin: auto;
+        }
+
+        #spuds td, #spuds th {
+            border: 2px solid #4f4f4f;
+            padding: 4px;
+            text-align: right !important;
+        }
+
+        #spuds tr:nth-child(even) {
+            background-color: #e9c184;
+        }
+
+        #spuds tr:nth-child(odd) {
+            background-color: #fbf0dc;
+        }
+
+        #spuds th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #d08526;
+            color: #000000;
+        }
+
+        @media only screen and (max-width: 730px) {
+            #spuds td:nth-child(3),
+            #spuds th:nth-child(3),
+            #spuds td:nth-child(4),
+            #spuds th:nth-child(4),
+            #spuds td:nth-child(5),
+            #spuds th:nth-child(5),
+            #spuds td:nth-child(6),
+            #spuds th:nth-child(6),
+            #spuds td:nth-child(9),
+            #spuds th:nth-child(9) {
+                display: none;
+            }
+
+            .yellow-box {
+                font-size: 10px;
+            }
+
+            #header img {
+                width: 80%; /* Adjust the size as needed */
+                height: auto;
+            }
+        }
+
+        .yellow-box {
+            background-color: #d08526;
+            padding: 4px;
+            font-family: Verdana, Helvetica, sans-serif;
+            width: 85%;
+            margin: auto;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        #guild-totals {
+            font-family: Verdana, Helvetica, sans-serif;
+            font-size: 36px;
+            color: #d08526;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div id="header">
+    <img src="potatoes/drenched.png" alt="Exodus Battledome Challenge Banner">
+</div>
+
+<div id="content">
+    <div class="yellow-box">
+        <b>THIS IS THE BATTLEDOME BACKEND PAGE</b>. Don't share this link with the guild. It includes everyone in the guild's scores, not just the people who opted in for prizes! 
+    </div>
+    <br><br>
+    <div id="guild-totals">
+        <!-- guild totals will be displayed here -->
+    </div>
+    <br><br>
+    <table id="spuds">
+        <thead>
+        <tr>
+            <th>POTATO</th>
+            <th>USERNAME</th>
+            <th>STARTING WINS</th>
+            <th>STARTING SCORE</th>
+            <th>CURRENT WINS</th>
+            <th>CURRENT SCORE</th>
+            <th id="sort-wins" style="cursor:pointer">TOTAL WINS ⬍</th>
+            <th id="sort-score" style="cursor:pointer">TOTAL SCORE ⬍</th>
+            <th>LAST UPDATED (NST)</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- Data will be populated here -->
+        </tbody>
+    </table>
+    <br><br><br><br>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+
+        // Initial setting of the margin-top for #content
+        let headerImg = document.querySelector('#header img');
+        let contentBox = document.querySelector('#content');
+
+        function adjustContentTop() {
+            let headerHeight = headerImg.getBoundingClientRect().height;
+            contentBox.style.top = headerHeight + 'px';
+            contentBox.style.maxHeight = `calc(100vh - ${headerHeight}px)`;
+        }
+
+        // Add onload event listener to the header image
+        headerImg.onload = function () {
+            adjustContentTop();
+        };
+
+        // Adjust the margin dynamically based on header image size
+        window.addEventListener('resize', adjustContentTop);
+
+        let scoresData = []; // store fetched data
+        let currentSort = "score"; // default
+
+        function renderTable() {
+            const scoresTableBody = document.getElementById('spuds').getElementsByTagName('tbody')[0];
+            scoresTableBody.innerHTML = ""; // clear table
+            let place = 1;
+            guild_score = 0;
+            guild_wins = 0;
+
+            scoresData.forEach(score => {
+                if (score.username !== "honorrolle") {
+                    const row = scoresTableBody.insertRow();
+
+                    const cellLogo = row.insertCell();
+                    const img = document.createElement('img');
+                    img.src = place > 3 ? score.potato_logo : `potatoes/marathon_${place}.png`;
+                    img.height = 50;
+                    img.alt = score.username;
+                    cellLogo.style.setProperty("text-align", "center", "important");
+                    cellLogo.appendChild(img);
+
+                    const cellUsername = row.insertCell();
+                    const link = document.createElement('a');
+                    link.href = 'https://www.neopets.com/dome/record.phtml?username=' + score.username;
+                    link.textContent = score.username;
+                    link.target = '_blank';
+                    cellUsername.appendChild(link);
+
+                    row.insertCell().textContent = score.starting_wins.toLocaleString();
+                    row.insertCell().textContent = score.starting_score.toLocaleString();
+                    row.insertCell().textContent = score.current_wins.toLocaleString();
+                    row.insertCell().textContent = score.current_score.toLocaleString();
+                    row.insertCell().textContent = score.total_wins.toLocaleString();
+                    row.insertCell().textContent = score.total_score.toLocaleString();
+                    row.insertCell().textContent = score.last_updated;
+
+                    guild_score += score.total_score;
+                    guild_wins += score.total_wins;
+                    place++;
+                }
+            });
+            document.getElementById('guild-totals').textContent =
+                `GUILD WINS: ${guild_wins.toLocaleString()} || GUILD SCORE: ${guild_score.toLocaleString()}`;
+        }
+
+        function sortAndRender() {
+            if (currentSort === "score") {
+                scoresData.sort((a, b) => b.total_score - a.total_score);
+            } else {
+                scoresData.sort((a, b) => b.total_wins - a.total_wins);
+            }
+            renderTable();
+        }
+
+        document.getElementById("sort-wins").addEventListener("click", () => {
+            currentSort = "wins";
+            sortAndRender();
+        });
+
+        document.getElementById("sort-score").addEventListener("click", () => {
+            currentSort = "score";
+            sortAndRender();
+        });
+
+
+        fetch('bd_scores.json')
+            .then(response => response.json())
+            .then(scores => {
+                scoresData = scores; // store it globally
+                sortAndRender();     // do first render (default score sort)
+        })
+        .catch(error => console.error('Error fetching the JSON data:', error));
+
+
+        function adjustHeaderOnScroll() {
+            // Calculate the scroll percentage
+            let scrollTop = contentBox.scrollTop;
+            let maxScrollTop = contentBox.scrollHeight - contentBox.clientHeight;
+            let scrollPercentage = scrollTop / maxScrollTop;
+
+            // Adjust the header image width based on scroll percentage
+            let newWidth = Math.max(30, 60 - scrollPercentage * 30); // Example range from 60% to 30%
+            headerImg.style.width = newWidth + '%';
+        }
+
+        // Add scroll event listener to contentBox
+        contentBox.addEventListener('scroll', function () {
+            adjustHeaderOnScroll();
+            adjustContentTop();
+        });
+    });
+
+</script>
+</body>
+</html>
