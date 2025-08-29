@@ -196,7 +196,7 @@
 
                     const cellLogo = row.insertCell();
                     const img = document.createElement('img');
-                    img.src = place > 3 ? score.potato_logo : `potatoes/marathon_${place}.png`;
+                    img.src = place > 5 ? score.potato_logo : `potatoes/marathon_${place}.png`;
                     img.height = 50;
                     img.alt = score.username;
                     cellLogo.style.setProperty("text-align", "center", "important");
@@ -276,4 +276,5 @@
 </script>
 </body>
 </html>
+
 
