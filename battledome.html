@@ -128,10 +128,8 @@
 
 <div id="content">
     <div class="yellow-box">
-        <b>NOTE: This scoreboard is updated semi-automatically!</b> Every time we visit your stats page, the data is
-        scraped and populates on the scoreboard. The "last updated" column tells when the data was last pulled for each
-        person. If you aren't seeing up-to-date stats, first try to do a hard refresh <b>(cmd/ctrl+shift+R)</b> to make
-        your browser pull fresh data. If it's still out-of-date, tag the <b>@can i pretty please get a scoreboard refresh</b> role!
+        <b>This page is final!</b> The guild battledome challenge has concluded and we will no longer be capturing scores for this page. 
+        Thank you all for battling your hardest this month, we appreciate it so much! Stay tuned for the <b>prize raffle</b> coming soon!
     </div>
     <br><br>
     <div id="guild-totals">
@@ -246,7 +244,7 @@
         });
 
 
-        fetch('bd_scores.json')
+        fetch('archive/guild_bd_2025.json')
             .then(response => response.json())
             .then(scores => {
                 scoresData = scores; // store it globally
@@ -276,5 +274,6 @@
 </script>
 </body>
 </html>
+
 
 
