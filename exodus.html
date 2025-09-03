@@ -201,14 +201,14 @@
             if (currentSort === "rank") {
                 const rankOrder = ["Queen Potato", "Mama Spud", "Pojaeto", "Kelly Fries", "Anna", "Petty Potato", "Sweet Potato", "Hash Brown", "Tater Tot", "Small Fry"];
                 membersData.sort((a, b) => {
-                    const rankA = rankOrder.indexOf(a.rank);
-                    const rankB = rankOrder.indexOf(b.rank);
+                    const rankA = rankOrder.indexOf(a.rank) !== -1 ? rankOrder.indexOf(a.rank) : rankOrder.length;
+                    const rankB = rankOrder.indexOf(b.rank) !== -1 ? rankOrder.indexOf(b.rank) : rankOrder.length;
                     return rankA - rankB;
                 });
             } else if (currentSort === "posts") {
-                membersData.sort((a, b) => b.monthly_posts - a.monthly_posts);
-            } else {
-                membersData.sort((a, b) => a.username.localeCompare(b.username));
+                membersData.sort((a, b) => (b.monthly_posts || 0) - (a.monthly_posts || 0));
+            } else if (currentSort === "username") {
+                membersData.sort((a, b) => (a.username || "").localeCompare(b.username || "", undefined, {sensitivity: "base"}));
             }
             renderTable();
         }
