@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Exodus Battledome Score Fetcher
+// @name         Exodus Member Page Fetcher
 // @version      0.2
 // @description  Writes battledome wins and scores to json file for Exodus Battledome Challenge.
 // @author       Kat
