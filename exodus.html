@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Exodus Members Page">
+    <meta property="og:description" content="How chatty are your potatoes this month?">
+    <meta property="og:url" content="https://neokat.github.io/exodus">
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+    <title>Exodus Members Page</title>
+
+    <link rel="icon" href="potatoes/drenched_icon.png" type="image/x-icon">
+
+    <style>
+        html, body {
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        body {
+            background-image: url("https://imagizer.imageshack.com/img923/3796/vK5CCI.png");
+            background-repeat: repeat;
+        }
+
+        #header {
+            width: 100%;
+            text-align: center;
+            align-items: center;
+            box-sizing: border-box;
+            position: fixed;
+            top: 0;
+            z-index: 1000;
+            transition: height 0.3s, padding 0.3s;
+        }
+
+        #header img {
+            width: 60%; /* Adjust the size as needed */
+            height: auto;
+        }
+
+        #content {
+            width: 100%;
+            box-sizing: border-box;
+            overflow-y: auto;
+            position: relative; /* Added positioning context */
+            max-height: calc(100vh - 70px); /* Adjust based on the header height */
+        }
+
+        #spuds {
+            font-family: Verdana, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 85%;
+            margin: auto;
+        }
+
+        #spuds td, #spuds th {
+            border: 2px solid #4f4f4f;
+            padding: 4px;
+            text-align: right !important;
+        }
+
+        #spuds tr:nth-child(even) {
+            background-color: #e9c184;
+        }
+
+        #spuds tr:nth-child(odd) {
+            background-color: #fbf0dc;
+        }
+
+        #spuds th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #d08526;
+            color: #000000;
+        }
+
+        @media only screen and (max-width: 730px) {
+            #spuds td:nth-child(3),
+            #spuds th:nth-child(3),
+            #spuds td:nth-child(4),
+            #spuds th:nth-child(4),
+            #spuds td:nth-child(2),
+            #spuds th:nth-child(2) {
+                display: none;
+            }
+
+            .yellow-box {
+                font-size: 10px;
+            }
+
+            #header img {
+                width: 80%; /* Adjust the size as needed */
+                height: auto;
+            }
+        }
+
+        .yellow-box {
+            background-color: #d08526;
+            padding: 4px;
+            font-family: Verdana, Helvetica, sans-serif;
+            width: 85%;
+            margin: auto;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        #guild-totals {
+            font-family: Verdana, Helvetica, sans-serif;
+            font-size: 36px;
+            color: #d08526;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div id="header">
+    <img src="potatoes/drenched.png" alt="Exodus Battledome Challenge Banner">
+</div>
+
+<div id="content">
+    <div class="yellow-box">
+        <b>Started tracking on September 3, 2025.</b> This is an internal page to track how chatty your potatoes are!
+    </div>
+    <br><br>
+    <div id="guild-totals">
+        <!-- guild totals will be displayed here -->
+    </div>
+    <br><br>
+    <table id="spuds">
+        <thead>
+        <tr>
+            <th id="sort-username" style="cursor:pointer">USERNAME ⬍</th>
+            <th id="sort-rank" style="cursor:pointer">RANK</th>
+            <th>STARTING POSTS</th>
+            <th>CURRENT POSTS</th>
+            <th id="sort-posts" style="cursor:pointer">MONTHLY POSTS ⬍</th>
+            <th>LAST UPDATED (NST)</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- Data will be populated here -->
+        </tbody>
+    </table>
+    <br><br><br><br>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+
+        // Initial setting of the margin-top for #content
+        let headerImg = document.querySelector('#header img');
+        let contentBox = document.querySelector('#content');
+
+        function adjustContentTop() {
+            let headerHeight = headerImg.getBoundingClientRect().height;
+            contentBox.style.top = headerHeight + 'px';
+            contentBox.style.maxHeight = `calc(100vh - ${headerHeight}px)`;
+        }
+
+        // Add onload event listener to the header image
+        headerImg.onload = function () {
+            adjustContentTop();
+        };
+
+        // Adjust the margin dynamically based on header image size
+        window.addEventListener('resize', adjustContentTop);
+
+        let membersData = []; // store fetched data
+        let currentSort = "rank"; // default
+
+        function renderTable() {
+            const scoresTableBody = document.getElementById('spuds').getElementsByTagName('tbody')[0];
+            scoresTableBody.innerHTML = ""; // clear table
+
+
+            membersData.forEach(member => {
+                const row = scoresTableBody.insertRow();
+
+                const cellUsername = row.insertCell();
+                const link = document.createElement('a');
+                link.href = 'https://www.neopets.com/randomfriend.phtml?user=' + member.username;
+                link.textContent = member.username;
+                link.target = '_blank';
+                cellUsername.appendChild(link);
+
+                row.insertCell().textContent = member.rank;
+                row.insertCell().textContent = member.starting_post_count.toLocaleString();
+                row.insertCell().textContent = member.current_post_count.toLocaleString();
+                row.insertCell().textContent = member.monthly_posts.toLocaleString();
+                row.insertCell().textContent = member.last_updated;
+            });
+        }
+
+        function sortAndRender() {
+            if (currentSort === "rank") {
+                membersData.sort((a, b) => b.total_score - a.total_score);
+            } else if (currentSort === "posts") {
+                membersData.sort((a, b) => b.monthly_posts - a.monthly_posts);
+            } else {
+                membersData.sort((a, b) => b.username - a.username);
+            }
+            renderTable();
+        }
+
+        document.getElementById("sort-username").addEventListener("click", () => {
+            currentSort = "username";
+            sortAndRender();
+        });
+
+        document.getElementById("sort-rank").addEventListener("click", () => {
+            currentSort = "rank";
+            sortAndRender();
+        });
+
+        document.getElementById("sort-posts").addEventListener("click", () => {
+            currentSort = "posts";
+            sortAndRender();
+        });
+
+
+        fetch('members.json')
+            .then(response => response.json())
+            .then(members => {
+                membersData = members; // store it globally
+                sortAndRender();     // do first render (default score sort)
+            })
+            .catch(error => console.error('Error fetching the JSON data:', error));
+
+
+        function adjustHeaderOnScroll() {
+            // Calculate the scroll percentage
+            let scrollTop = contentBox.scrollTop;
+            let maxScrollTop = contentBox.scrollHeight - contentBox.clientHeight;
+            let scrollPercentage = scrollTop / maxScrollTop;
+
+            // Adjust the header image width based on scroll percentage
+            let newWidth = Math.max(30, 60 - scrollPercentage * 30); // Example range from 60% to 30%
+            headerImg.style.width = newWidth + '%';
+        }
+
+        // Add scroll event listener to contentBox
+        contentBox.addEventListener('scroll', function () {
+            adjustHeaderOnScroll();
+            adjustContentTop();
+        });
+    });
+
+</script>
+</body>
+</html>
+
+
+

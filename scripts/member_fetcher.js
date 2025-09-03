@@ -79,6 +79,7 @@
                 memberData.forEach(member => {
                     const existingMember = membersJson.find(m => m.username === member.username);
                     if (existingMember) {
+                        existingMember.monthly_posts = member.current_post_count - existingMember.starting_post_count;
                         existingMember.current_post_count = member.current_post_count;
                         existingMember.rank = member.rank;
                         existingMember.last_updated = rightNow;
@@ -88,6 +89,7 @@
                             rank: member.rank,
                             starting_post_count: member.current_post_count,
                             current_post_count: member.current_post_count,
+                            monthly_posts: 0,
                             added_on: rightNow,
                             last_updated: rightNow
                         });
