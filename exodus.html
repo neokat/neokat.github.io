@@ -54,7 +54,6 @@
             border-collapse: collapse;
             width: 85%;
             margin: auto;
-            font-size: 20px;
         }
 
         #spuds td, #spuds th {
@@ -84,8 +83,8 @@
             #spuds th:nth-child(3),
             #spuds td:nth-child(4),
             #spuds th:nth-child(4),
-            #spuds td:nth-child(2),
-            #spuds th:nth-child(2) {
+            #spuds td:nth-child(5),
+            #spuds th:nth-child(5) {
                 display: none;
             }
 
@@ -126,10 +125,6 @@
 <div id="content">
     <div class="yellow-box">
         <b>Started tracking on September 3, 2025.</b> This is an internal page to track how chatty your potatoes are!
-    </div>
-    <br><br>
-    <div id="guild-totals">
-        <!-- guild totals will be displayed here -->
     </div>
     <br><br>
     <table id="spuds">
@@ -178,9 +173,16 @@
             const scoresTableBody = document.getElementById('spuds').getElementsByTagName('tbody')[0];
             scoresTableBody.innerHTML = ""; // clear table
 
-
             membersData.forEach(member => {
                 const row = scoresTableBody.insertRow();
+
+                const cellLogo = row.insertCell();
+                const img = document.createElement('img');
+                img.src = `potatoes/chatting.png`;
+                img.height = 50;
+                img.alt = member.username;
+                cellLogo.style.setProperty("text-align", "center", "important");
+                cellLogo.appendChild(img);
 
                 const cellUsername = row.insertCell();
                 const link = document.createElement('a');
