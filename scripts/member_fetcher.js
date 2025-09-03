@@ -18,7 +18,7 @@
     const MY_NAME = "Kat";
 
     const FILE_NAME = 'members.json';
-    const rightNow = new Date().toLocaleString('en-US', { timeZone: 'America/Los_Angeles' });
+    const rightNow = new Date().toLocaleString('en-US', {timeZone: 'America/Los_Angeles'});
     const memberRows = document.querySelectorAll("table table tr");
 
     function getMemberData(memberRows) {
@@ -30,10 +30,29 @@
                 const username = cols[0].innerText.trim().replace(/\s+/g, " ");
                 const rank = cols[1].innerText.trim();
                 const posts = parseInt(cols[3].innerText.trim(), 10) || 0;
-                members.push({ username, rank, current_post_count: posts });
+                members.push({username, rank, current_post_count: posts});
             }
         });
         return members;
+    }
+
+    // Helper function to make HTTP requests with GM.xmlHttpRequest
+    function gmXhrRequest(method, fileName, data) {
+        let url = `https://api.github.com/repos/neokat/neokat.github.io/contents/${fileName}`
+        let headers = {
+            Authorization: `token ${SECRET_GITHUB_TOKEN}`,
+            Accept: 'application/vnd.github.v3+json'
+        }
+        return new Promise((resolve, reject) => {
+            GM.xmlHttpRequest({
+                method: method,
+                url: url,
+                headers: headers,
+                data: data,
+                onload: (response) => resolve(response),
+                onerror: (error) => reject(error)
+            });
+        });
     }
 
     function updateMembersJson(fileName, memberData) {
@@ -79,6 +98,11 @@
     }
 
     const memberData = getMemberData(memberRows);
-    updateMembersJson(FILE_NAME, memberData);
-
+    updateMembersJson(FILE_NAME, memberData)
+        .then(() => {
+            console.log('members file updated successfully.');
+        })
+        .catch((error) => {
+            console.error('failed to update members file:', error);
+        });
 })();
