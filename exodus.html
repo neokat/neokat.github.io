@@ -63,18 +63,18 @@
         }
 
         #spuds tr:nth-child(even) {
-            background-color: #e9c184;
+            background-color: #d1b360;
         }
 
         #spuds tr:nth-child(odd) {
-            background-color: #fbf0dc;
+            background-color: #fee08e;
         }
 
         #spuds th {
             padding-top: 12px;
             padding-bottom: 12px;
             text-align: left;
-            background-color: #d08526;
+            background-color: #bb8356;
             color: #000000;
         }
 
@@ -164,6 +164,19 @@
         let currentSort = "rank"; // default
 
         function renderTable() {
+            const rankToImageDict = {
+                "Queen Potato": "potatoes/ranks/council.png",
+                "Mama Spud": "potatoes/ranks/council.png",
+                "Pojaeto": "potatoes/ranks/council.png",
+                "Kelly Fries": "potatoes/ranks/council.png",
+                "Anna": "potatoes/ranks/council.png",
+                "Petty Potato": "potatoes/ranks/sub.png",
+                "Sweet Potato": "potatoes/ranks/sweetpotato.png",
+                "Hash Brown": "potatoes/ranks/hashbrown.png",
+                "Tater Tot": "potatoes/ranks/tatertot.png",
+                "Small Fry": "potatoes/ranks/smallfry.png"
+            };
+
             const scoresTableBody = document.getElementById('spuds').getElementsByTagName('tbody')[0];
             scoresTableBody.innerHTML = ""; // clear table
 
@@ -172,9 +185,13 @@
 
                 const cellLogo = row.insertCell();
                 const img = document.createElement('img');
-                img.src = `potatoes/chatting.png`;
+                if (member.username === "exodus_guild") {
+                    img.src = "potatoes/ranks/robot.png";
+                } else {
+                    img.src = rankToImageDict[member.rank] || "potatoes/chatting.png";
+                }
                 img.height = 50;
-                img.alt = member.username;
+                img.alt = member.rank;
                 cellLogo.style.setProperty("text-align", "center", "important");
                 cellLogo.appendChild(img);
 

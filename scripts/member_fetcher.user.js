@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         Exodus Member Page Fetcher
 // @version      0.2
-// @description  Writes battledome wins and scores to json file for Exodus Battledome Challenge.
+// @description  Writes member post data to a json file for Exodus.
 // @author       Kat
 // @match        *www.neopets.com/guilds/guild_members.phtml?id=4182838*
 // @grant        GM.xmlHttpRequest
 // @grant        GM_addElement
 // @connect      api.github.com
 // @require      https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js
-// @icon         https://github.com/neokat/neokat.github.io/blob/main/potatoes/drenched_icon.png?raw=true
+// @icon         https://github.com/neokat/neokat.github.io/blob/main/potatoes/chatting.png?raw=true
 // ==/UserScript==
 
 (function () {
