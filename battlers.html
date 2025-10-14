@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Guild Battledome Challenge Raffle">
+    <meta property="og:description" content="Alton FINALLY finished counting them all!">
+    <meta property="og:url" content="https://neokat.github.io/potatoes.html">
+    <title>Guild Battledome Challenge Raffle</title>
+
+    <link rel="icon" href="https://images.neopets.com/medieval/potato_welcome.gif" type="image/x-icon">
+
+    <style>
+        html, body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-image: url("https://imagizer.imageshack.com/img923/3796/vK5CCI.png");
+            background-repeat: repeat;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100%;
+            padding: 0 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            font-family: Verdana, Helvetica, sans-serif;
+            text-align: center;
+            font-size: 40px;
+            margin: 10px;
+            font-weight: bold;
+            color: #C67612;
+            width: 100%;
+        }
+
+        #spuds {
+            font-family: Verdana, Helvetica, sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            justify-content: center;
+            align-content: flex-start;
+            max-width: 100%;
+            margin-top: 380px;
+            height: calc(100vh - 380px);
+            overflow-y: auto;
+        }
+
+        .potato-box {
+            width: 105px;
+            background-color: #d9d9d9;
+            margin: 2px;
+            padding: 2px;
+            align-items: center;
+            text-align: center;
+            font-size: 11px;
+            position: relative;
+        }
+
+        .potato-box img {
+            height: 75px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .remove-btn {
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            background-color: #C67612;
+            color: #000000;
+            border: none;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+        }
+
+        .highlight {
+            border: 5px solid #C67612;
+        }
+
+        #top-container {
+            position: fixed;
+            top: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 10px;
+            width: 90%;
+            margin: 20px 50px;
+            flex-shrink: 0; /* Prevent shrinking */
+        }
+
+        #prize-selection, #random-number {
+            background-color: #d9d9d9;
+            padding: 10px;
+            border: none;
+            font-family: Verdana, Helvetica, sans-serif;
+        }
+
+        #prize-selection {
+            flex: 1;
+            width: 250px;
+            max-width: 250px;
+            max-height: 340px;
+        }
+
+        #username-order {
+            overflow-y: auto;
+            max-height: 280px;
+        }
+
+        #random-number {
+            font-size: 18px;
+            flex: 1;
+            width: 180px;
+            max-width: 180px;
+            height: 90px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        #welcome {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            max-width: 40vw;
+        }
+
+        #welcome img {
+            width: 75vw;
+        }
+
+        #random-number span {
+            display: block;
+            font-weight: bold;
+        }
+
+        #generate-number {
+            padding: 5px 10px;
+            background-color: #C67612;
+            color: black;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            font-family: Georgia, serif;
+            font-weight: bold;
+        }
+
+
+        @media (max-width: 768px) {
+            #top-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            #welcome {
+                order: 1;
+                width: 100%;
+            }
+
+            #welcome img {
+                width: 80%; /* Reduce image size for smaller screens */
+                max-width: 100%; /* Ensure it doesn’t exceed container width */
+            }
+
+            #prize-selection {
+                order: 2;
+            }
+
+            #random-number {
+                order: 3;
+            }
+
+            #top-container > div {
+                max-width: 100%;
+            }
+
+            h1 {
+                font-size: 8vw;
+            }
+
+            .remove-btn {
+                width: 20px;
+                height: 20px;
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="top-container">
+    <div id="prize-selection">
+        <div id="potato-count"><b>Tickets Left to Draw:</b> 0<br><br></div>
+        <div id="username-order"><b>Prize Selection Order</b></div>
+    </div>
+    <div id="welcome">
+        <img src="potatoes/drenched.png">
+    </div>
+    <div id="random-number">
+        Random Number <span id="random-value">-</span>
+        <button id="generate-number">Pick Next Ticket</button>
+    </div>
+
+</div>
+
+<div id="spuds"></div>
+
+<script>
+    let usernameOrder = [];
+    let potatoBoxes = [];
+    let potatoCount = 0;
+
+    document.addEventListener('DOMContentLoaded', function () {
+        fetch('data/battle_tickets.json')
+            .then(response => response.json())
+            .then(battle_tickets => {
+                const spuds = document.getElementById('spuds');
+                let ticket_id = 1;
+
+                battle_tickets.forEach(ticket => {
+                    const box = document.createElement('div');
+                    box.className = 'potato-box';
+                    box.dataset.username = ticket.username;
+
+                    const img = document.createElement('img');
+                    img.src = ticket.img;
+
+                    const txt = document.createElement('div');
+                    txt.innerHTML = `${ticket.username}<br><b>${ticket_id}</b>`;
+                    ticket_id++;
+
+                    const btn = document.createElement('button');
+                    btn.className = 'remove-btn';
+                    btn.innerText = 'X';
+                    btn.addEventListener('click', function () {
+                        removePotatoes(ticket.username);
+                    });
+
+                    box.appendChild(img);
+                    box.appendChild(txt);
+                    box.appendChild(btn);
+                    spuds.appendChild(box);
+
+                    potatoBoxes.push(box);
+                });
+                potatoCount = potatoBoxes.length;
+                updatePotatoCountDisplay();
+            }).catch(error => {
+            console.error('Error fetching the JSON data:', error);
+        });
+
+        document.getElementById('generate-number').addEventListener('click', generateRandomNumber);
+    });
+
+    function removePotatoes(username) {
+        potatoBoxes = potatoBoxes.filter(box => {
+            if (box.dataset.username === username) {
+                box.remove();
+                return false;
+            }
+            return true;
+        });
+
+        if (!usernameOrder.includes(username)) {
+            usernameOrder.push(username);
+            updateUsernameOrderDisplay();
+        }
+        potatoCount = potatoBoxes.length;
+        updatePotatoCountDisplay();
+        reNumberPotatoes();
+
+        document.getElementById('random-value').textContent = "-";
+    }
+
+    function reNumberPotatoes() {
+        let ticket_id = 1;
+        potatoBoxes.forEach(box => {
+            const txt = box.querySelector('div');
+            txt.innerHTML = `${box.dataset.username}<br><b>${ticket_id}</b>`;
+            ticket_id++;
+        });
+    }
+
+    function updateUsernameOrderDisplay() {
+        const orderDiv = document.getElementById('username-order');
+        orderDiv.innerHTML = '<b>Prize Selection Order</b><br>' + usernameOrder.map((username, index) => `<b>${index + 1}.</b> ${username}`).join('<br>');
+    }
+
+    function generateRandomNumber() {
+        const remainingPotatoes = potatoBoxes.length;
+        potatoBoxes.forEach(box => box.classList.remove('highlight')); // Remove any previous highlight
+        if (remainingPotatoes > 0) {
+            const randomValue = crypto.getRandomValues(new Uint32Array(1))[0] % remainingPotatoes + 1;
+            document.getElementById('random-value').innerHTML = `<b>${randomValue}</b>`;
+            potatoBoxes[randomValue - 1].classList.add('highlight');
+        } else {
+            document.getElementById('random-value').textContent = '-';
+        }
+    }
+
+    function updatePotatoCountDisplay() {
+        document.getElementById('potato-count').innerHTML = `<b>Tickets Left to Draw:</b> ${potatoCount}<br><br>`;
+    }
+</script>
+</body>
+</html>
