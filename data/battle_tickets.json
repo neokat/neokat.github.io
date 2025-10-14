@@ -1,123 +1,18 @@
 [
     {
-        "username": "rhianafaeriedoll",
-        "tier": "Gold",
-        "img": "potatoes/marathon_4.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "hilary_duff_fan_16",
+        "username": "hunni_bun_137",
         "tier": "Silver",
-        "img": "pea.png"
-    },
-    {
-        "username": "superkathiee",
-        "tier": "Gold",
-        "img": "potatoes/marathon_5.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "superkathiee",
-        "tier": "Gold",
-        "img": "potatoes/marathon_5.png"
-    },
-    {
-        "username": "superkathiee",
-        "tier": "Gold",
-        "img": "potatoes/marathon_5.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
+        "img": "potatoes/activities.png"
     },
     {
         "username": "moonzywolfgirl",
         "tier": "Gold",
         "img": "potatoes/marathon_3.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "hunni_bun_137",
-        "tier": "Silver",
-        "img": "marathon.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "rhianafaeriedoll",
-        "tier": "Gold",
-        "img": "potatoes/marathon_4.png"
-    },
-    {
-        "username": "eleganza_lights",
-        "tier": "Silver",
-        "img": "marathon.png"
     },
     {
         "username": "angel709317",
         "tier": "Silver",
-        "img": "pea.png"
-    },
-    {
-        "username": "nella_fantasia",
-        "tier": "Bronze",
-        "img": "wand.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "hilary_duff_fan_16",
-        "tier": "Silver",
-        "img": "marathon.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "hunni_bun_137",
-        "tier": "Silver",
-        "img": "pea.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
+        "img": "potatoes/marathon.png"
     },
     {
         "username": "moonzywolfgirl",
@@ -125,41 +20,6 @@
         "img": "potatoes/marathon_3.png"
     },
     {
-        "username": "catchinglights",
-        "tier": "Silver",
-        "img": "wand.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "goosesticks",
-        "tier": "Silver",
-        "img": "marathon.png"
-    },
-    {
-        "username": "gamemaster32792",
-        "tier": "Bronze",
-        "img": "activities.png"
-    },
-    {
-        "username": "hilary_duff_fan_16",
-        "tier": "Silver",
-        "img": "activities.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
         "username": "zanzibar37",
         "tier": "Gold",
         "img": "potatoes/marathon_1.png"
@@ -170,9 +30,9 @@
         "img": "potatoes/marathon_2.png"
     },
     {
-        "username": "i_will_always_luv_me",
-        "tier": "Silver",
-        "img": "activities.png"
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
     },
     {
         "username": "superkathiee",
@@ -180,149 +40,19 @@
         "img": "potatoes/marathon_5.png"
     },
     {
-        "username": "i_will_always_luv_me",
-        "tier": "Silver",
-        "img": "pea.png"
-    },
-    {
-        "username": "d_a_r_e",
-        "tier": "Bronze",
-        "img": "activities.png"
-    },
-    {
-        "username": "justiquen",
-        "tier": "Bronze",
-        "img": "wand.png"
-    },
-    {
-        "username": "aangchan",
-        "tier": "Bronze",
-        "img": "wand.png"
-    },
-    {
-        "username": "moonzywolfgirl",
-        "tier": "Gold",
-        "img": "potatoes/marathon_3.png"
-    },
-    {
-        "username": "hilary_duff_fan_16",
-        "tier": "Silver",
-        "img": "wand.png"
-    },
-    {
-        "username": "angel709317",
-        "tier": "Silver",
-        "img": "pea.png"
-    },
-    {
         "username": "nostalgia",
         "tier": "Gold",
         "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "superkathiee",
+        "tier": "Gold",
+        "img": "potatoes/marathon_5.png"
     },
     {
         "username": "butseriously",
         "tier": "Bronze",
-        "img": "pea.png"
-    },
-    {
-        "username": "moonzywolfgirl",
-        "tier": "Gold",
-        "img": "potatoes/marathon_3.png"
-    },
-    {
-        "username": "angel709317",
-        "tier": "Silver",
-        "img": "activities.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "ckgknyangel",
-        "tier": "Bronze",
-        "img": "marathon.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "aangchan",
-        "tier": "Bronze",
-        "img": "pea.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "angel709317",
-        "tier": "Silver",
-        "img": "marathon.png"
-    },
-    {
-        "username": "i_will_always_luv_me",
-        "tier": "Silver",
-        "img": "marathon.png"
-    },
-    {
-        "username": "aangchan",
-        "tier": "Bronze",
-        "img": "pea.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "rhianafaeriedoll",
-        "tier": "Gold",
-        "img": "potatoes/marathon_4.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "goosesticks",
-        "tier": "Silver",
-        "img": "wand.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
+        "img": "potatoes/pea.png"
     },
     {
         "username": "superkathiee",
@@ -330,54 +60,19 @@
         "img": "potatoes/marathon_5.png"
     },
     {
-        "username": "goosesticks",
-        "tier": "Silver",
-        "img": "marathon.png"
-    },
-    {
-        "username": "hilary_duff_fan_16",
-        "tier": "Silver",
-        "img": "marathon.png"
+        "username": "rhianafaeriedoll",
+        "tier": "Gold",
+        "img": "potatoes/marathon_4.png"
     },
     {
         "username": "zanzibar37",
         "tier": "Gold",
         "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "ferulax",
-        "tier": "Bronze",
-        "img": "marathon.png"
-    },
-    {
-        "username": "eleganza_lights",
-        "tier": "Silver",
-        "img": "activities.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
     },
     {
         "username": "alethiometry",
         "tier": "Silver",
-        "img": "activities.png"
+        "img": "potatoes/activities.png"
     },
     {
         "username": "zanzibar37",
@@ -385,19 +80,19 @@
         "img": "potatoes/marathon_1.png"
     },
     {
-        "username": "nostalgia",
+        "username": "zanzibar37",
         "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
+        "img": "potatoes/marathon_1.png"
     },
     {
-        "username": "goosesticks",
+        "username": "angel709317",
         "tier": "Silver",
-        "img": "pea.png"
+        "img": "potatoes/pea.png"
     },
     {
-        "username": "hunni_bun_137",
+        "username": "angel709317",
         "tier": "Silver",
-        "img": "wand.png"
+        "img": "potatoes/marathon.png"
     },
     {
         "username": "superkathiee",
@@ -405,154 +100,9 @@
         "img": "potatoes/marathon_5.png"
     },
     {
-        "username": "moonzywolfgirl",
-        "tier": "Gold",
-        "img": "potatoes/marathon_3.png"
-    },
-    {
-        "username": "rhianafaeriedoll",
-        "tier": "Gold",
-        "img": "potatoes/marathon_4.png"
-    },
-    {
         "username": "nostalgia",
         "tier": "Gold",
         "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "rhianafaeriedoll",
-        "tier": "Gold",
-        "img": "potatoes/marathon_4.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "xeyota__fh",
-        "tier": "Bronze",
-        "img": "marathon.png"
-    },
-    {
-        "username": "rhianafaeriedoll",
-        "tier": "Gold",
-        "img": "potatoes/marathon_4.png"
-    },
-    {
-        "username": "superkathiee",
-        "tier": "Gold",
-        "img": "potatoes/marathon_5.png"
-    },
-    {
-        "username": "i_will_always_luv_me",
-        "tier": "Silver",
-        "img": "wand.png"
-    },
-    {
-        "username": "angel709317",
-        "tier": "Silver",
-        "img": "activities.png"
-    },
-    {
-        "username": "butseriously",
-        "tier": "Bronze",
-        "img": "activities.png"
-    },
-    {
-        "username": "moonzywolfgirl",
-        "tier": "Gold",
-        "img": "potatoes/marathon_3.png"
-    },
-    {
-        "username": "butseriously",
-        "tier": "Bronze",
-        "img": "pea.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "angel709317",
-        "tier": "Silver",
-        "img": "marathon.png"
-    },
-    {
-        "username": "moonzywolfgirl",
-        "tier": "Gold",
-        "img": "potatoes/marathon_3.png"
-    },
-    {
-        "username": "nella_fantasia",
-        "tier": "Bronze",
-        "img": "marathon.png"
-    },
-    {
-        "username": "moonzywolfgirl",
-        "tier": "Gold",
-        "img": "potatoes/marathon_3.png"
-    },
-    {
-        "username": "alethiometry",
-        "tier": "Silver",
-        "img": "pea.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "butseriously",
-        "tier": "Bronze",
-        "img": "wand.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "midnightswish",
-        "tier": "Bronze",
-        "img": "wand.png"
-    },
-    {
-        "username": "ckgknyangel",
-        "tier": "Bronze",
-        "img": "marathon.png"
-    },
-    {
-        "username": "rhianafaeriedoll",
-        "tier": "Gold",
-        "img": "potatoes/marathon_4.png"
-    },
-    {
-        "username": "butseriously",
-        "tier": "Bronze",
-        "img": "wand.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "aangchan",
-        "tier": "Bronze",
-        "img": "activities.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
     },
     {
         "username": "zanzibar37",
@@ -567,7 +117,12 @@
     {
         "username": "bellababyfly_7",
         "tier": "Bronze",
-        "img": "wand.png"
+        "img": "potatoes/pea.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
     },
     {
         "username": "zanzibar37",
@@ -575,79 +130,19 @@
         "img": "potatoes/marathon_1.png"
     },
     {
-        "username": "rhianafaeriedoll",
+        "username": "zanzibar37",
         "tier": "Gold",
-        "img": "potatoes/marathon_4.png"
+        "img": "potatoes/marathon_1.png"
     },
     {
-        "username": "rhianafaeriedoll",
-        "tier": "Gold",
-        "img": "potatoes/marathon_4.png"
-    },
-    {
-        "username": "rhianafaeriedoll",
-        "tier": "Gold",
-        "img": "potatoes/marathon_4.png"
-    },
-    {
-        "username": "i_will_always_luv_me",
-        "tier": "Silver",
-        "img": "pea.png"
-    },
-    {
-        "username": "hunni_bun_137",
-        "tier": "Silver",
-        "img": "pea.png"
-    },
-    {
-        "username": "superkathiee",
-        "tier": "Gold",
-        "img": "potatoes/marathon_5.png"
-    },
-    {
-        "username": "hunni_bun_137",
-        "tier": "Silver",
-        "img": "wand.png"
-    },
-    {
-        "username": "alethiometry",
-        "tier": "Silver",
-        "img": "marathon.png"
-    },
-    {
-        "username": "bellababyfly_7",
+        "username": "aangchan",
         "tier": "Bronze",
-        "img": "marathon.png"
+        "img": "potatoes/activities.png"
     },
     {
-        "username": "hunni_bun_137",
-        "tier": "Silver",
-        "img": "wand.png"
-    },
-    {
-        "username": "zanzibar37",
+        "username": "moonzywolfgirl",
         "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "hilary_duff_fan_16",
-        "tier": "Silver",
-        "img": "activities.png"
-    },
-    {
-        "username": "ferulax",
-        "tier": "Bronze",
-        "img": "pea.png"
-    },
-    {
-        "username": "superkathiee",
-        "tier": "Gold",
-        "img": "potatoes/marathon_5.png"
-    },
-    {
-        "username": "rhianafaeriedoll",
-        "tier": "Gold",
-        "img": "potatoes/marathon_4.png"
+        "img": "potatoes/marathon_3.png"
     },
     {
         "username": "nostalgia",
@@ -658,56 +153,6 @@
         "username": "zanzibar37",
         "tier": "Gold",
         "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "rhianafaeriedoll",
-        "tier": "Gold",
-        "img": "potatoes/marathon_4.png"
-    },
-    {
-        "username": "catchinglights",
-        "tier": "Silver",
-        "img": "marathon.png"
-    },
-    {
-        "username": "eleganza_lights",
-        "tier": "Silver",
-        "img": "pea.png"
-    },
-    {
-        "username": "eleganza_lights",
-        "tier": "Silver",
-        "img": "activities.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "i_will_always_luv_me",
-        "tier": "Silver",
-        "img": "activities.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "catchinglights",
-        "tier": "Silver",
-        "img": "wand.png"
-    },
-    {
-        "username": "angel709317",
-        "tier": "Silver",
-        "img": "wand.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
     },
     {
         "username": "nostalgia",
@@ -717,417 +162,12 @@
     {
         "username": "eleganza_lights",
         "tier": "Silver",
-        "img": "marathon.png"
-    },
-    {
-        "username": "midnightswish",
-        "tier": "Bronze",
-        "img": "wand.png"
-    },
-    {
-        "username": "bellababyfly_7",
-        "tier": "Bronze",
-        "img": "pea.png"
-    },
-    {
-        "username": "catchinglights",
-        "tier": "Silver",
-        "img": "pea.png"
-    },
-    {
-        "username": "bellababyfly_7",
-        "tier": "Bronze",
-        "img": "activities.png"
-    },
-    {
-        "username": "i_will_always_luv_me",
-        "tier": "Silver",
-        "img": "pea.png"
-    },
-    {
-        "username": "ckgknyangel",
-        "tier": "Bronze",
-        "img": "wand.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "superkathiee",
-        "tier": "Gold",
-        "img": "potatoes/marathon_5.png"
-    },
-    {
-        "username": "superkathiee",
-        "tier": "Gold",
-        "img": "potatoes/marathon_5.png"
-    },
-    {
-        "username": "angel709317",
-        "tier": "Silver",
-        "img": "pea.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "alethiometry",
-        "tier": "Silver",
-        "img": "wand.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "aangchan",
-        "tier": "Bronze",
-        "img": "activities.png"
-    },
-    {
-        "username": "rhianafaeriedoll",
-        "tier": "Gold",
-        "img": "potatoes/marathon_4.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "alethiometry",
-        "tier": "Silver",
-        "img": "wand.png"
-    },
-    {
-        "username": "hunni_bun_137",
-        "tier": "Silver",
-        "img": "wand.png"
-    },
-    {
-        "username": "rhianafaeriedoll",
-        "tier": "Gold",
-        "img": "potatoes/marathon_4.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "moonzywolfgirl",
-        "tier": "Gold",
-        "img": "potatoes/marathon_3.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "superkathiee",
-        "tier": "Gold",
-        "img": "potatoes/marathon_5.png"
-    },
-    {
-        "username": "moonzywolfgirl",
-        "tier": "Gold",
-        "img": "potatoes/marathon_3.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "bellababyfly_7",
-        "tier": "Bronze",
-        "img": "pea.png"
-    },
-    {
-        "username": "aangchan",
-        "tier": "Bronze",
-        "img": "pea.png"
-    },
-    {
-        "username": "catchinglights",
-        "tier": "Silver",
-        "img": "marathon.png"
-    },
-    {
-        "username": "catchinglights",
-        "tier": "Silver",
-        "img": "pea.png"
-    },
-    {
-        "username": "goosesticks",
-        "tier": "Silver",
-        "img": "activities.png"
-    },
-    {
-        "username": "hilary_duff_fan_16",
-        "tier": "Silver",
-        "img": "pea.png"
-    },
-    {
-        "username": "catchinglights",
-        "tier": "Silver",
-        "img": "activities.png"
-    },
-    {
-        "username": "midnightswish",
-        "tier": "Bronze",
-        "img": "activities.png"
-    },
-    {
-        "username": "superkathiee",
-        "tier": "Gold",
-        "img": "potatoes/marathon_5.png"
-    },
-    {
-        "username": "superkathiee",
-        "tier": "Gold",
-        "img": "potatoes/marathon_5.png"
-    },
-    {
-        "username": "alethiometry",
-        "tier": "Silver",
-        "img": "activities.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "i_will_always_luv_me",
-        "tier": "Silver",
-        "img": "pea.png"
-    },
-    {
-        "username": "moonzywolfgirl",
-        "tier": "Gold",
-        "img": "potatoes/marathon_3.png"
-    },
-    {
-        "username": "hilary_duff_fan_16",
-        "tier": "Silver",
-        "img": "wand.png"
-    },
-    {
-        "username": "alethiometry",
-        "tier": "Silver",
-        "img": "activities.png"
-    },
-    {
-        "username": "i_will_always_luv_me",
-        "tier": "Silver",
-        "img": "pea.png"
-    },
-    {
-        "username": "goosesticks",
-        "tier": "Silver",
-        "img": "marathon.png"
-    },
-    {
-        "username": "superkathiee",
-        "tier": "Gold",
-        "img": "potatoes/marathon_5.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "hilary_duff_fan_16",
-        "tier": "Silver",
-        "img": "wand.png"
-    },
-    {
-        "username": "moonzywolfgirl",
-        "tier": "Gold",
-        "img": "potatoes/marathon_3.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "hunni_bun_137",
-        "tier": "Silver",
-        "img": "wand.png"
-    },
-    {
-        "username": "bellababyfly_7",
-        "tier": "Bronze",
-        "img": "activities.png"
-    },
-    {
-        "username": "rhianafaeriedoll",
-        "tier": "Gold",
-        "img": "potatoes/marathon_4.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "midnightswish",
-        "tier": "Bronze",
-        "img": "pea.png"
-    },
-    {
-        "username": "moonzywolfgirl",
-        "tier": "Gold",
-        "img": "potatoes/marathon_3.png"
-    },
-    {
-        "username": "rhianafaeriedoll",
-        "tier": "Gold",
-        "img": "potatoes/marathon_4.png"
-    },
-    {
-        "username": "rhianafaeriedoll",
-        "tier": "Gold",
-        "img": "potatoes/marathon_4.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "moonzywolfgirl",
-        "tier": "Gold",
-        "img": "potatoes/marathon_3.png"
-    },
-    {
-        "username": "angel709317",
-        "tier": "Silver",
-        "img": "wand.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "goosesticks",
-        "tier": "Silver",
-        "img": "marathon.png"
-    },
-    {
-        "username": "superkathiee",
-        "tier": "Gold",
-        "img": "potatoes/marathon_5.png"
-    },
-    {
-        "username": "superkathiee",
-        "tier": "Gold",
-        "img": "potatoes/marathon_5.png"
-    },
-    {
-        "username": "hunni_bun_137",
-        "tier": "Silver",
-        "img": "activities.png"
-    },
-    {
-        "username": "aangchan",
-        "tier": "Bronze",
-        "img": "pea.png"
-    },
-    {
-        "username": "aangchan",
-        "tier": "Bronze",
-        "img": "activities.png"
-    },
-    {
-        "username": "superkathiee",
-        "tier": "Gold",
-        "img": "potatoes/marathon_5.png"
+        "img": "potatoes/pea.png"
     },
     {
         "username": "mizsango",
         "tier": "Bronze",
-        "img": "activities.png"
-    },
-    {
-        "username": "eleganza_lights",
-        "tier": "Silver",
-        "img": "wand.png"
-    },
-    {
-        "username": "catchinglights",
-        "tier": "Silver",
-        "img": "marathon.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "i_will_always_luv_me",
-        "tier": "Silver",
-        "img": "marathon.png"
-    },
-    {
-        "username": "rhianafaeriedoll",
-        "tier": "Gold",
-        "img": "potatoes/marathon_4.png"
+        "img": "potatoes/wand.png"
     },
     {
         "username": "nostalgia",
@@ -1138,46 +178,26 @@
         "username": "moonzywolfgirl",
         "tier": "Gold",
         "img": "potatoes/marathon_3.png"
-    },
-    {
-        "username": "eleganza_lights",
-        "tier": "Silver",
-        "img": "wand.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "superkathiee",
-        "tier": "Gold",
-        "img": "potatoes/marathon_5.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "hunni_bun_137",
-        "tier": "Silver",
-        "img": "pea.png"
     },
     {
         "username": "goosesticks",
         "tier": "Silver",
-        "img": "marathon.png"
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "bellababyfly_7",
+        "tier": "Bronze",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "catchinglights",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
     },
     {
         "username": "rhianafaeriedoll",
@@ -1185,54 +205,259 @@
         "img": "potatoes/marathon_4.png"
     },
     {
+        "username": "i_will_always_luv_me",
+        "tier": "Silver",
+        "img": "potatoes/marathon.png"
+    },
+    {
         "username": "zanzibar37",
         "tier": "Gold",
         "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "moonzywolfgirl",
+        "tier": "Gold",
+        "img": "potatoes/marathon_3.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "hunni_bun_137",
+        "tier": "Silver",
+        "img": "potatoes/activities.png"
+    },
+    {
+        "username": "goosesticks",
+        "tier": "Silver",
+        "img": "potatoes/pea.png"
+    },
+    {
+        "username": "hilary_duff_fan_16",
+        "tier": "Silver",
+        "img": "potatoes/pea.png"
+    },
+    {
+        "username": "superkathiee",
+        "tier": "Gold",
+        "img": "potatoes/marathon_5.png"
+    },
+    {
+        "username": "butseriously",
+        "tier": "Bronze",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "hilary_duff_fan_16",
+        "tier": "Silver",
+        "img": "potatoes/marathon.png"
+    },
+    {
+        "username": "hunni_bun_137",
+        "tier": "Silver",
+        "img": "potatoes/activities.png"
+    },
+    {
+        "username": "superkathiee",
+        "tier": "Gold",
+        "img": "potatoes/marathon_5.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "eleganza_lights",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "moonzywolfgirl",
+        "tier": "Gold",
+        "img": "potatoes/marathon_3.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "rhianafaeriedoll",
+        "tier": "Gold",
+        "img": "potatoes/marathon_4.png"
+    },
+    {
+        "username": "nella_fantasia",
+        "tier": "Bronze",
+        "img": "potatoes/activities.png"
+    },
+    {
+        "username": "eleganza_lights",
+        "tier": "Silver",
+        "img": "potatoes/marathon.png"
+    },
+    {
+        "username": "superkathiee",
+        "tier": "Gold",
+        "img": "potatoes/marathon_5.png"
+    },
+    {
+        "username": "rhianafaeriedoll",
+        "tier": "Gold",
+        "img": "potatoes/marathon_4.png"
+    },
+    {
+        "username": "xeyota__fh",
+        "tier": "Bronze",
+        "img": "potatoes/marathon.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "superkathiee",
+        "tier": "Gold",
+        "img": "potatoes/marathon_5.png"
+    },
+    {
+        "username": "eleganza_lights",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "eleganza_lights",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "ferulax",
+        "tier": "Bronze",
+        "img": "potatoes/marathon.png"
+    },
+    {
+        "username": "catchinglights",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "butseriously",
+        "tier": "Bronze",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "moonzywolfgirl",
+        "tier": "Gold",
+        "img": "potatoes/marathon_3.png"
+    },
+    {
+        "username": "ckgknyangel",
+        "tier": "Bronze",
+        "img": "potatoes/pea.png"
     },
     {
         "username": "angel709317",
         "tier": "Silver",
-        "img": "activities.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "midnightswish",
-        "tier": "Bronze",
-        "img": "wand.png"
+        "img": "potatoes/activities.png"
     },
     {
         "username": "nostalgia",
         "tier": "Gold",
         "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "hilary_duff_fan_16",
+        "tier": "Silver",
+        "img": "potatoes/pea.png"
+    },
+    {
+        "username": "bellababyfly_7",
+        "tier": "Bronze",
+        "img": "potatoes/activities.png"
     },
     {
         "username": "i_will_always_luv_me",
         "tier": "Silver",
-        "img": "marathon.png"
+        "img": "potatoes/wand.png"
     },
     {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
+        "username": "aangchan",
+        "tier": "Bronze",
+        "img": "potatoes/wand.png"
     },
     {
-        "username": "moonzywolfgirl",
-        "tier": "Gold",
-        "img": "potatoes/marathon_3.png"
+        "username": "butseriously",
+        "tier": "Bronze",
+        "img": "potatoes/wand.png"
     },
     {
-        "username": "moonzywolfgirl",
+        "username": "superkathiee",
         "tier": "Gold",
-        "img": "potatoes/marathon_3.png"
+        "img": "potatoes/marathon_5.png"
     },
     {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
+        "username": "i_will_always_luv_me",
+        "tier": "Silver",
+        "img": "potatoes/marathon.png"
     },
     {
         "username": "nostalgia",
@@ -1242,12 +467,167 @@
     {
         "username": "eleganza_lights",
         "tier": "Silver",
-        "img": "wand.png"
+        "img": "potatoes/marathon.png"
     },
     {
         "username": "alethiometry",
         "tier": "Silver",
-        "img": "wand.png"
+        "img": "potatoes/marathon.png"
+    },
+    {
+        "username": "eleganza_lights",
+        "tier": "Silver",
+        "img": "potatoes/marathon.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "angel709317",
+        "tier": "Silver",
+        "img": "potatoes/marathon.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "midnightswish",
+        "tier": "Bronze",
+        "img": "potatoes/activities.png"
+    },
+    {
+        "username": "i_will_always_luv_me",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "rhianafaeriedoll",
+        "tier": "Gold",
+        "img": "potatoes/marathon_4.png"
+    },
+    {
+        "username": "i_will_always_luv_me",
+        "tier": "Silver",
+        "img": "potatoes/marathon.png"
+    },
+    {
+        "username": "hunni_bun_137",
+        "tier": "Silver",
+        "img": "potatoes/marathon.png"
+    },
+    {
+        "username": "aangchan",
+        "tier": "Bronze",
+        "img": "potatoes/pea.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "superkathiee",
+        "tier": "Gold",
+        "img": "potatoes/marathon_5.png"
+    },
+    {
+        "username": "rhianafaeriedoll",
+        "tier": "Gold",
+        "img": "potatoes/marathon_4.png"
+    },
+    {
+        "username": "goosesticks",
+        "tier": "Silver",
+        "img": "potatoes/pea.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "moonzywolfgirl",
+        "tier": "Gold",
+        "img": "potatoes/marathon_3.png"
+    },
+    {
+        "username": "catchinglights",
+        "tier": "Silver",
+        "img": "potatoes/activities.png"
+    },
+    {
+        "username": "catchinglights",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "moonzywolfgirl",
+        "tier": "Gold",
+        "img": "potatoes/marathon_3.png"
+    },
+    {
+        "username": "superkathiee",
+        "tier": "Gold",
+        "img": "potatoes/marathon_5.png"
+    },
+    {
+        "username": "eleganza_lights",
+        "tier": "Silver",
+        "img": "potatoes/pea.png"
+    },
+    {
+        "username": "justiquen",
+        "tier": "Bronze",
+        "img": "potatoes/pea.png"
+    },
+    {
+        "username": "angel709317",
+        "tier": "Silver",
+        "img": "potatoes/activities.png"
+    },
+    {
+        "username": "catchinglights",
+        "tier": "Silver",
+        "img": "potatoes/pea.png"
+    },
+    {
+        "username": "i_will_always_luv_me",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "i_will_always_luv_me",
+        "tier": "Silver",
+        "img": "potatoes/marathon.png"
+    },
+    {
+        "username": "goosesticks",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "rhianafaeriedoll",
+        "tier": "Gold",
+        "img": "potatoes/marathon_4.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
     },
     {
         "username": "nostalgia",
@@ -1265,9 +645,49 @@
         "img": "potatoes/marathon_1.png"
     },
     {
-        "username": "midnightswish",
+        "username": "aangchan",
         "tier": "Bronze",
-        "img": "activities.png"
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "catchinglights",
+        "tier": "Silver",
+        "img": "potatoes/marathon.png"
+    },
+    {
+        "username": "goosesticks",
+        "tier": "Silver",
+        "img": "potatoes/activities.png"
+    },
+    {
+        "username": "hunni_bun_137",
+        "tier": "Silver",
+        "img": "potatoes/activities.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "catchinglights",
+        "tier": "Silver",
+        "img": "potatoes/marathon.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
     },
     {
         "username": "moonzywolfgirl",
@@ -1275,9 +695,154 @@
         "img": "potatoes/marathon_3.png"
     },
     {
+        "username": "alethiometry",
+        "tier": "Silver",
+        "img": "potatoes/activities.png"
+    },
+    {
+        "username": "moonzywolfgirl",
+        "tier": "Gold",
+        "img": "potatoes/marathon_3.png"
+    },
+    {
+        "username": "goosesticks",
+        "tier": "Silver",
+        "img": "potatoes/marathon.png"
+    },
+    {
+        "username": "gamemaster32792",
+        "tier": "Bronze",
+        "img": "potatoes/activities.png"
+    },
+    {
+        "username": "aangchan",
+        "tier": "Bronze",
+        "img": "potatoes/marathon.png"
+    },
+    {
+        "username": "alethiometry",
+        "tier": "Silver",
+        "img": "potatoes/activities.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "hunni_bun_137",
+        "tier": "Silver",
+        "img": "potatoes/marathon.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "midnightswish",
+        "tier": "Bronze",
+        "img": "potatoes/activities.png"
+    },
+    {
         "username": "angel709317",
         "tier": "Silver",
-        "img": "wand.png"
+        "img": "potatoes/pea.png"
+    },
+    {
+        "username": "angel709317",
+        "tier": "Silver",
+        "img": "potatoes/marathon.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "moonzywolfgirl",
+        "tier": "Gold",
+        "img": "potatoes/marathon_3.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "moonzywolfgirl",
+        "tier": "Gold",
+        "img": "potatoes/marathon_3.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "hunni_bun_137",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "midnightswish",
+        "tier": "Bronze",
+        "img": "potatoes/pea.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "ckgknyangel",
+        "tier": "Bronze",
+        "img": "potatoes/activities.png"
     },
     {
         "username": "superkathiee",
@@ -1285,14 +850,14 @@
         "img": "potatoes/marathon_5.png"
     },
     {
-        "username": "hunni_bun_137",
+        "username": "eleganza_lights",
         "tier": "Silver",
-        "img": "marathon.png"
+        "img": "potatoes/marathon.png"
     },
     {
-        "username": "angel709317",
-        "tier": "Silver",
-        "img": "marathon.png"
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
     },
     {
         "username": "nostalgia",
@@ -1303,46 +868,56 @@
         "username": "moonzywolfgirl",
         "tier": "Gold",
         "img": "potatoes/marathon_3.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "moonzywolfgirl",
+        "tier": "Gold",
+        "img": "potatoes/marathon_3.png"
+    },
+    {
+        "username": "alethiometry",
+        "tier": "Silver",
+        "img": "potatoes/activities.png"
     },
     {
         "username": "butseriously",
         "tier": "Bronze",
-        "img": "activities.png"
+        "img": "potatoes/marathon.png"
     },
     {
-        "username": "moonzywolfgirl",
+        "username": "nostalgia",
         "tier": "Gold",
-        "img": "potatoes/marathon_3.png"
+        "img": "potatoes/marathon_2.png"
     },
     {
-        "username": "atritas",
+        "username": "ferulax",
         "tier": "Bronze",
-        "img": "activities.png"
-    },
-    {
-        "username": "hilary_duff_fan_16",
-        "tier": "Silver",
-        "img": "wand.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
+        "img": "potatoes/activities.png"
     },
     {
         "username": "rhianafaeriedoll",
         "tier": "Gold",
         "img": "potatoes/marathon_4.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "rhianafaeriedoll",
+        "tier": "Gold",
+        "img": "potatoes/marathon_4.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
     },
     {
         "username": "zanzibar37",
@@ -1352,22 +927,87 @@
     {
         "username": "bellababyfly_7",
         "tier": "Bronze",
-        "img": "activities.png"
+        "img": "potatoes/activities.png"
     },
     {
-        "username": "moonzywolfgirl",
-        "tier": "Gold",
-        "img": "potatoes/marathon_3.png"
+        "username": "midnightswish",
+        "tier": "Bronze",
+        "img": "potatoes/activities.png"
+    },
+    {
+        "username": "nella_fantasia",
+        "tier": "Bronze",
+        "img": "potatoes/activities.png"
     },
     {
         "username": "hunni_bun_137",
         "tier": "Silver",
-        "img": "wand.png"
+        "img": "potatoes/pea.png"
     },
     {
-        "username": "i_will_always_luv_me",
+        "username": "angel709317",
         "tier": "Silver",
-        "img": "pea.png"
+        "img": "potatoes/pea.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "rhianafaeriedoll",
+        "tier": "Gold",
+        "img": "potatoes/marathon_4.png"
+    },
+    {
+        "username": "rhianafaeriedoll",
+        "tier": "Gold",
+        "img": "potatoes/marathon_4.png"
+    },
+    {
+        "username": "moonzywolfgirl",
+        "tier": "Gold",
+        "img": "potatoes/marathon_3.png"
+    },
+    {
+        "username": "moonzywolfgirl",
+        "tier": "Gold",
+        "img": "potatoes/marathon_3.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "hilary_duff_fan_16",
+        "tier": "Silver",
+        "img": "potatoes/activities.png"
+    },
+    {
+        "username": "rhianafaeriedoll",
+        "tier": "Gold",
+        "img": "potatoes/marathon_4.png"
+    },
+    {
+        "username": "hunni_bun_137",
+        "tier": "Silver",
+        "img": "potatoes/activities.png"
+    },
+    {
+        "username": "aangchan",
+        "tier": "Bronze",
+        "img": "potatoes/pea.png"
+    },
+    {
+        "username": "ckgknyangel",
+        "tier": "Bronze",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "goosesticks",
+        "tier": "Silver",
+        "img": "potatoes/activities.png"
     },
     {
         "username": "zanzibar37",
@@ -1375,34 +1015,9 @@
         "img": "potatoes/marathon_1.png"
     },
     {
-        "username": "moonzywolfgirl",
-        "tier": "Gold",
-        "img": "potatoes/marathon_3.png"
-    },
-    {
-        "username": "i_will_always_luv_me",
+        "username": "catchinglights",
         "tier": "Silver",
-        "img": "activities.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "moonzywolfgirl",
-        "tier": "Gold",
-        "img": "potatoes/marathon_3.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "alethiometry",
-        "tier": "Silver",
-        "img": "marathon.png"
+        "img": "potatoes/wand.png"
     },
     {
         "username": "zanzibar37",
@@ -1412,7 +1027,12 @@
     {
         "username": "goosesticks",
         "tier": "Silver",
-        "img": "activities.png"
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "aangchan",
+        "tier": "Bronze",
+        "img": "potatoes/wand.png"
     },
     {
         "username": "zanzibar37",
@@ -1420,44 +1040,44 @@
         "img": "potatoes/marathon_1.png"
     },
     {
-        "username": "i_will_always_luv_me",
-        "tier": "Silver",
-        "img": "activities.png"
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
     },
     {
         "username": "moonzywolfgirl",
         "tier": "Gold",
         "img": "potatoes/marathon_3.png"
-    },
-    {
-        "username": "rhianafaeriedoll",
-        "tier": "Gold",
-        "img": "potatoes/marathon_4.png"
-    },
-    {
-        "username": "alethiometry",
-        "tier": "Silver",
-        "img": "marathon.png"
-    },
-    {
-        "username": "alethiometry",
-        "tier": "Silver",
-        "img": "wand.png"
-    },
-    {
-        "username": "rhianafaeriedoll",
-        "tier": "Gold",
-        "img": "potatoes/marathon_4.png"
-    },
-    {
-        "username": "goosesticks",
-        "tier": "Silver",
-        "img": "pea.png"
     },
     {
         "username": "eleganza_lights",
         "tier": "Silver",
-        "img": "pea.png"
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "i_will_always_luv_me",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "midnightswish",
+        "tier": "Bronze",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "hunni_bun_137",
+        "tier": "Silver",
+        "img": "potatoes/activities.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
     },
     {
         "username": "superkathiee",
@@ -1465,49 +1085,14 @@
         "img": "potatoes/marathon_5.png"
     },
     {
-        "username": "goosesticks",
+        "username": "angel709317",
         "tier": "Silver",
-        "img": "activities.png"
+        "img": "potatoes/marathon.png"
     },
     {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "catchinglights",
-        "tier": "Silver",
-        "img": "marathon.png"
-    },
-    {
-        "username": "hunni_bun_137",
-        "tier": "Silver",
-        "img": "pea.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "hunni_bun_137",
-        "tier": "Silver",
-        "img": "pea.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
+        "username": "aangchan",
+        "tier": "Bronze",
+        "img": "potatoes/wand.png"
     },
     {
         "username": "rhianafaeriedoll",
@@ -1515,109 +1100,524 @@
         "img": "potatoes/marathon_4.png"
     },
     {
-        "username": "zanzibar37",
+        "username": "nostalgia",
         "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "aangchan",
-        "tier": "Bronze",
-        "img": "wand.png"
-    },
-    {
-        "username": "i_will_always_luv_me",
-        "tier": "Silver",
-        "img": "wand.png"
-    },
-    {
-        "username": "superkathiee",
-        "tier": "Gold",
-        "img": "potatoes/marathon_5.png"
-    },
-    {
-        "username": "hunni_bun_137",
-        "tier": "Silver",
-        "img": "activities.png"
-    },
-    {
-        "username": "eleganza_lights",
-        "tier": "Silver",
-        "img": "pea.png"
-    },
-    {
-        "username": "rhianafaeriedoll",
-        "tier": "Gold",
-        "img": "potatoes/marathon_4.png"
+        "img": "potatoes/marathon_2.png"
     },
     {
         "username": "goosesticks",
         "tier": "Silver",
-        "img": "marathon.png"
-    },
-    {
-        "username": "angel709317",
-        "tier": "Silver",
-        "img": "activities.png"
-    },
-    {
-        "username": "aangchan",
-        "tier": "Bronze",
-        "img": "marathon.png"
-    },
-    {
-        "username": "moonzywolfgirl",
-        "tier": "Gold",
-        "img": "potatoes/marathon_3.png"
-    },
-    {
-        "username": "catchinglights",
-        "tier": "Silver",
-        "img": "wand.png"
-    },
-    {
-        "username": "hunni_bun_137",
-        "tier": "Silver",
-        "img": "wand.png"
-    },
-    {
-        "username": "catchinglights",
-        "tier": "Silver",
-        "img": "pea.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "nostalgia",
-        "tier": "Gold",
-        "img": "potatoes/marathon_2.png"
-    },
-    {
-        "username": "angel709317",
-        "tier": "Silver",
-        "img": "pea.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
-    },
-    {
-        "username": "zanzibar37",
-        "tier": "Gold",
-        "img": "potatoes/marathon_1.png"
+        "img": "potatoes/activities.png"
     },
     {
         "username": "butseriously",
         "tier": "Bronze",
-        "img": "activities.png"
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "aangchan",
+        "tier": "Bronze",
+        "img": "potatoes/activities.png"
+    },
+    {
+        "username": "butseriously",
+        "tier": "Bronze",
+        "img": "potatoes/marathon.png"
     },
     {
         "username": "zanzibar37",
         "tier": "Gold",
         "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "superkathiee",
+        "tier": "Gold",
+        "img": "potatoes/marathon_5.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "d_a_r_e",
+        "tier": "Bronze",
+        "img": "potatoes/activities.png"
+    },
+    {
+        "username": "superkathiee",
+        "tier": "Gold",
+        "img": "potatoes/marathon_5.png"
+    },
+    {
+        "username": "angel709317",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "rhianafaeriedoll",
+        "tier": "Gold",
+        "img": "potatoes/marathon_4.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "goosesticks",
+        "tier": "Silver",
+        "img": "potatoes/marathon.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "hunni_bun_137",
+        "tier": "Silver",
+        "img": "potatoes/marathon.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "hunni_bun_137",
+        "tier": "Silver",
+        "img": "potatoes/pea.png"
+    },
+    {
+        "username": "rhianafaeriedoll",
+        "tier": "Gold",
+        "img": "potatoes/marathon_4.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "i_will_always_luv_me",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "hunni_bun_137",
+        "tier": "Silver",
+        "img": "potatoes/pea.png"
+    },
+    {
+        "username": "goosesticks",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "alethiometry",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "angel709317",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "rhianafaeriedoll",
+        "tier": "Gold",
+        "img": "potatoes/marathon_4.png"
+    },
+    {
+        "username": "catchinglights",
+        "tier": "Silver",
+        "img": "potatoes/activities.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "alethiometry",
+        "tier": "Silver",
+        "img": "potatoes/marathon.png"
+    },
+    {
+        "username": "superkathiee",
+        "tier": "Gold",
+        "img": "potatoes/marathon_5.png"
+    },
+    {
+        "username": "hilary_duff_fan_16",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "alethiometry",
+        "tier": "Silver",
+        "img": "potatoes/activities.png"
+    },
+    {
+        "username": "moonzywolfgirl",
+        "tier": "Gold",
+        "img": "potatoes/marathon_3.png"
+    },
+    {
+        "username": "i_will_always_luv_me",
+        "tier": "Silver",
+        "img": "potatoes/pea.png"
+    },
+    {
+        "username": "hilary_duff_fan_16",
+        "tier": "Silver",
+        "img": "potatoes/marathon.png"
+    },
+    {
+        "username": "rhianafaeriedoll",
+        "tier": "Gold",
+        "img": "potatoes/marathon_4.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "rhianafaeriedoll",
+        "tier": "Gold",
+        "img": "potatoes/marathon_4.png"
+    },
+    {
+        "username": "hilary_duff_fan_16",
+        "tier": "Silver",
+        "img": "potatoes/activities.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "superkathiee",
+        "tier": "Gold",
+        "img": "potatoes/marathon_5.png"
+    },
+    {
+        "username": "i_will_always_luv_me",
+        "tier": "Silver",
+        "img": "potatoes/pea.png"
+    },
+    {
+        "username": "bellababyfly_7",
+        "tier": "Bronze",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "angel709317",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "moonzywolfgirl",
+        "tier": "Gold",
+        "img": "potatoes/marathon_3.png"
+    },
+    {
+        "username": "aangchan",
+        "tier": "Bronze",
+        "img": "potatoes/pea.png"
+    },
+    {
+        "username": "moonzywolfgirl",
+        "tier": "Gold",
+        "img": "potatoes/marathon_3.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "rhianafaeriedoll",
+        "tier": "Gold",
+        "img": "potatoes/marathon_4.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "moonzywolfgirl",
+        "tier": "Gold",
+        "img": "potatoes/marathon_3.png"
+    },
+    {
+        "username": "rhianafaeriedoll",
+        "tier": "Gold",
+        "img": "potatoes/marathon_4.png"
+    },
+    {
+        "username": "superkathiee",
+        "tier": "Gold",
+        "img": "potatoes/marathon_5.png"
+    },
+    {
+        "username": "alethiometry",
+        "tier": "Silver",
+        "img": "potatoes/activities.png"
+    },
+    {
+        "username": "hunni_bun_137",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "alethiometry",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "i_will_always_luv_me",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "rhianafaeriedoll",
+        "tier": "Gold",
+        "img": "potatoes/marathon_4.png"
+    },
+    {
+        "username": "angel709317",
+        "tier": "Silver",
+        "img": "potatoes/pea.png"
+    },
+    {
+        "username": "hilary_duff_fan_16",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "alethiometry",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "bellababyfly_7",
+        "tier": "Bronze",
+        "img": "potatoes/activities.png"
+    },
+    {
+        "username": "superkathiee",
+        "tier": "Gold",
+        "img": "potatoes/marathon_5.png"
+    },
+    {
+        "username": "moonzywolfgirl",
+        "tier": "Gold",
+        "img": "potatoes/marathon_3.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "rhianafaeriedoll",
+        "tier": "Gold",
+        "img": "potatoes/marathon_4.png"
+    },
+    {
+        "username": "superkathiee",
+        "tier": "Gold",
+        "img": "potatoes/marathon_5.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "moonzywolfgirl",
+        "tier": "Gold",
+        "img": "potatoes/marathon_3.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "i_will_always_luv_me",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "hunni_bun_137",
+        "tier": "Silver",
+        "img": "potatoes/pea.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "hilary_duff_fan_16",
+        "tier": "Silver",
+        "img": "potatoes/pea.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "bellababyfly_7",
+        "tier": "Bronze",
+        "img": "potatoes/pea.png"
+    },
+    {
+        "username": "atritas",
+        "tier": "Bronze",
+        "img": "potatoes/marathon.png"
+    },
+    {
+        "username": "midnightswish",
+        "tier": "Bronze",
+        "img": "potatoes/marathon.png"
+    },
+    {
+        "username": "rhianafaeriedoll",
+        "tier": "Gold",
+        "img": "potatoes/marathon_4.png"
+    },
+    {
+        "username": "moonzywolfgirl",
+        "tier": "Gold",
+        "img": "potatoes/marathon_3.png"
+    },
+    {
+        "username": "catchinglights",
+        "tier": "Silver",
+        "img": "potatoes/marathon.png"
+    },
+    {
+        "username": "rhianafaeriedoll",
+        "tier": "Gold",
+        "img": "potatoes/marathon_4.png"
+    },
+    {
+        "username": "zanzibar37",
+        "tier": "Gold",
+        "img": "potatoes/marathon_1.png"
+    },
+    {
+        "username": "hilary_duff_fan_16",
+        "tier": "Silver",
+        "img": "potatoes/pea.png"
+    },
+    {
+        "username": "goosesticks",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "superkathiee",
+        "tier": "Gold",
+        "img": "potatoes/marathon_5.png"
+    },
+    {
+        "username": "hunni_bun_137",
+        "tier": "Silver",
+        "img": "potatoes/pea.png"
+    },
+    {
+        "username": "catchinglights",
+        "tier": "Silver",
+        "img": "potatoes/marathon.png"
+    },
+    {
+        "username": "superkathiee",
+        "tier": "Gold",
+        "img": "potatoes/marathon_5.png"
+    },
+    {
+        "username": "i_will_always_luv_me",
+        "tier": "Silver",
+        "img": "potatoes/wand.png"
+    },
+    {
+        "username": "nostalgia",
+        "tier": "Gold",
+        "img": "potatoes/marathon_2.png"
+    },
+    {
+        "username": "i_will_always_luv_me",
+        "tier": "Silver",
+        "img": "potatoes/marathon.png"
     },
     {
         "username": "zanzibar37",

@@ -12,7 +12,7 @@ def pick_img(user):
         rank = top_5.index(user) + 1
         return f"potatoes/marathon_{rank}.png"
     else:
-        return random.choice(random_potatoes)
+        return f"potatoes/{random.choice(random_potatoes)}"
 
 
 with open('../data/battle_entries.csv', mode='r') as counts_file:
