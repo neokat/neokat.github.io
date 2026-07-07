@@ -32,22 +32,6 @@
     "last_updated": "7/7/2026, 1:42:38 PM"
   },
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/meridell/logo.png",
-    "team_name": "meridell",
-    "username": "aangchan",
-    "yyb_wins": 36,
-    "yyb_draws": 0,
-    "yyb_high_score": 214,
-    "slsl_wins": 3,
-    "slsl_high_score": 501,
-    "msn_plays": 10,
-    "msn_high_score": 4931,
-    "sosd_plays": 10,
-    "sosd_high_score": 952,
-    "total_score": 594,
-    "last_updated": "7/7/2026, 1:42:42 PM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
     "team_name": "roo island",
     "username": "idlegoth",
@@ -230,5 +214,23 @@
     "occ_high_score": 4560,
     "total_score": 1026,
     "last_updated": "7/7/2026, 2:03:45 PM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/meridell/logo.png",
+    "team_name": "meridell",
+    "username": "aangchan",
+    "yyb_wins": 36,
+    "yyb_draws": 0,
+    "yyb_high_score": 214,
+    "slsl_wins": 3,
+    "slsl_high_score": 501,
+    "msn_plays": 10,
+    "msn_high_score": 4931,
+    "sosd_plays": 10,
+    "sosd_high_score": 952,
+    "occ_plays": 75,
+    "occ_high_score": 3846,
+    "total_score": 969,
+    "last_updated": "7/7/2026, 2:04:09 PM"
   }
 ]
