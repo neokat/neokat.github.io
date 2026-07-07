@@ -91,8 +91,8 @@
             <th>SLSL PLAYS</th>
             <th>MSN PLAYS</th>
             <th>SOSD PLAYS</th>
+            <th>OCC PLAYS</th>
             <th>TOTAL POINTS</th>
-            <th>RANK</th>
             <th>LAST UPDATED (NST)</th>
         </tr>
         </thead>
@@ -141,11 +141,11 @@
                         const cellSosdPlays = row.insertCell();
                         cellSosdPlays.textContent = score.sosd_plays;
 
+                        const cellOcc = row.insertCell();
+                        cellOcc.textContent = score.occ_plays;
+
                         const cellTotalScore = row.insertCell();
                         cellTotalScore.textContent = score.total_score;
-
-                        const cellRank = row.insertCell();
-                        cellRank.textContent = score.rank;
 
                         const cellLastUpdated = row.insertCell();
                         cellLastUpdated.textContent = score.last_updated;
