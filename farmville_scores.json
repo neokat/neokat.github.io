@@ -18,24 +18,6 @@
     "last_updated": "7/7/2026, 1:58:02 PM"
   },
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/kreludor/logo.png",
-    "team_name": "kreludor",
-    "username": "eleganza_lights",
-    "yyb_wins": 36,
-    "yyb_draws": 0,
-    "yyb_high_score": 400,
-    "slsl_wins": 2,
-    "slsl_high_score": 483,
-    "msn_plays": 1,
-    "msn_high_score": 5125,
-    "sosd_plays": 1,
-    "sosd_high_score": 842,
-    "occ_plays": 1,
-    "occ_high_score": 1592,
-    "total_score": 535,
-    "last_updated": "7/7/2026, 2:06:45 PM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/faerieland/logo.png",
     "team_name": "faerieland",
     "username": "nella_fantasia",
@@ -268,5 +250,23 @@
     "occ_high_score": 3846,
     "total_score": 2208,
     "last_updated": "7/9/2026, 10:13:42 AM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/kreludor/logo.png",
+    "team_name": "kreludor",
+    "username": "eleganza_lights",
+    "yyb_wins": 108,
+    "yyb_draws": 0,
+    "yyb_high_score": 1174,
+    "slsl_wins": 4,
+    "slsl_high_score": 537,
+    "msn_plays": 3,
+    "msn_high_score": 5125,
+    "sosd_plays": 3,
+    "sosd_high_score": 1077,
+    "occ_plays": 15,
+    "occ_high_score": 2827,
+    "total_score": 1645,
+    "last_updated": "7/9/2026, 10:17:00 AM"
   }
 ]
