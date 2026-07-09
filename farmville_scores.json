@@ -1,23 +1,5 @@
 [
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/darigancitadel/logo.png",
-    "team_name": "darigan citadel",
-    "username": "ckgknyangel",
-    "yyb_wins": 0,
-    "yyb_draws": 0,
-    "yyb_high_score": 0,
-    "slsl_wins": 1,
-    "slsl_high_score": 400,
-    "msn_plays": 2,
-    "msn_high_score": 4658,
-    "sosd_plays": 1,
-    "sosd_high_score": 1073,
-    "occ_plays": 2,
-    "occ_high_score": 2559,
-    "total_score": 29,
-    "last_updated": "7/7/2026, 2:07:04 PM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
     "team_name": "roo island",
     "username": "elhiwe",
@@ -268,5 +250,23 @@
     "occ_high_score": 1124,
     "total_score": 43,
     "last_updated": "7/9/2026, 10:17:26 AM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/darigancitadel/logo.png",
+    "team_name": "darigan citadel",
+    "username": "ckgknyangel",
+    "yyb_wins": 3,
+    "yyb_draws": 0,
+    "yyb_high_score": 19,
+    "slsl_wins": 5,
+    "slsl_high_score": 518,
+    "msn_plays": 4,
+    "msn_high_score": 5571,
+    "sosd_plays": 2,
+    "sosd_high_score": 1073,
+    "occ_plays": 61,
+    "occ_high_score": 3452,
+    "total_score": 415,
+    "last_updated": "7/9/2026, 10:17:29 AM"
   }
 ]
