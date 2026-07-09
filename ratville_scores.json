@@ -48,24 +48,6 @@
     "last_updated": "7/7/2026, 1:46:03 PM"
   },
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/kreludor/logo.png",
-    "team_name": "kreludor",
-    "username": "rawbeee",
-    "yyb_wins": 48,
-    "yyb_draws": 0,
-    "yyb_high_score": 499,
-    "slsl_wins": 11,
-    "slsl_high_score": 643,
-    "msn_plays": 1,
-    "msn_high_score": 5157,
-    "sosd_plays": 242,
-    "sosd_high_score": 1180,
-    "occ_plays": 148,
-    "occ_high_score": 3167,
-    "total_score": 2251,
-    "last_updated": "7/7/2026, 2:20:34 PM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
     "team_name": "roo island",
     "username": "superkathiee",
@@ -118,5 +100,23 @@
     "occ_high_score": 3837,
     "total_score": 2694,
     "last_updated": "7/9/2026, 10:45:27 AM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/kreludor/logo.png",
+    "team_name": "kreludor",
+    "username": "rawbeee",
+    "yyb_wins": 111,
+    "yyb_draws": 0,
+    "yyb_high_score": 1171,
+    "slsl_wins": 12,
+    "slsl_high_score": 643,
+    "msn_plays": 3,
+    "msn_high_score": 5157,
+    "sosd_plays": 726,
+    "sosd_high_score": 1184,
+    "occ_plays": 223,
+    "occ_high_score": 4017,
+    "total_score": 4976,
+    "last_updated": "7/9/2026, 10:45:29 AM"
   }
 ]
