@@ -72,24 +72,6 @@
     "last_updated": "7/7/2026, 2:46:04 PM"
   },
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/brightvale/logo.png",
-    "team_name": "brightvale",
-    "username": "kio______lake",
-    "yyb_wins": 25,
-    "yyb_draws": 0,
-    "yyb_high_score": 186,
-    "slsl_wins": 20,
-    "slsl_high_score": 612,
-    "msn_plays": 25,
-    "msn_high_score": 4725,
-    "sosd_plays": 25,
-    "sosd_high_score": 1173,
-    "occ_plays": 25,
-    "occ_high_score": 2671,
-    "total_score": 825,
-    "last_updated": "7/9/2026, 10:17:07 AM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/faerieland/logo.png",
     "team_name": "faerieland",
     "username": "nella_fantasia",
@@ -268,5 +250,23 @@
     "occ_high_score": 5572,
     "total_score": 2086,
     "last_updated": "7/9/2026, 1:48:41 PM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/brightvale/logo.png",
+    "team_name": "brightvale",
+    "username": "kio______lake",
+    "yyb_wins": 25,
+    "yyb_draws": 0,
+    "yyb_high_score": 186,
+    "slsl_wins": 25,
+    "slsl_high_score": 612,
+    "msn_plays": 25,
+    "msn_high_score": 4725,
+    "sosd_plays": 25,
+    "sosd_high_score": 1173,
+    "occ_plays": 45,
+    "occ_high_score": 3670,
+    "total_score": 975,
+    "last_updated": "7/9/2026, 1:48:47 PM"
   }
 ]
