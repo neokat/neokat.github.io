@@ -1,21 +1,5 @@
 [
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/hauntedwoods/logo.png",
-    "team_name": "haunted woods",
-    "username": "blumaroocrazy21",
-    "yyb_wins": 1,
-    "yyb_draws": 0,
-    "yyb_high_score": 2,
-    "slsl_wins": 1,
-    "slsl_high_score": 571,
-    "msn_plays": 2,
-    "msn_high_score": 4876,
-    "sosd_plays": 10,
-    "sosd_high_score": 1180,
-    "total_score": 60,
-    "last_updated": "7/7/2026, 1:45:28 PM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/mysteryisland/logo.png",
     "team_name": "mystery island",
     "username": "sunbathr",
@@ -118,5 +102,23 @@
     "occ_high_score": 4017,
     "total_score": 4976,
     "last_updated": "7/9/2026, 10:45:29 AM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/hauntedwoods/logo.png",
+    "team_name": "haunted woods",
+    "username": "blumaroocrazy21",
+    "yyb_wins": 6,
+    "yyb_draws": 0,
+    "yyb_high_score": 32,
+    "slsl_wins": 2,
+    "slsl_high_score": 587,
+    "msn_plays": 5,
+    "msn_high_score": 4876,
+    "sosd_plays": 14,
+    "sosd_high_score": 1180,
+    "occ_plays": 36,
+    "occ_high_score": 4313,
+    "total_score": 341,
+    "last_updated": "7/9/2026, 10:45:32 AM"
   }
 ]
