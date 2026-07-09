@@ -144,24 +144,6 @@
     "last_updated": "7/7/2026, 2:20:48 PM"
   },
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/krawkisland/logo.png",
-    "team_name": "krawk island",
-    "username": "alethiometry",
-    "yyb_wins": 10,
-    "yyb_draws": 1,
-    "yyb_high_score": 55,
-    "slsl_wins": 4,
-    "slsl_high_score": 459,
-    "msn_plays": 2,
-    "msn_high_score": 4206,
-    "sosd_plays": 2,
-    "sosd_high_score": 731,
-    "occ_plays": 3,
-    "occ_high_score": 2005,
-    "total_score": 207,
-    "last_updated": "7/7/2026, 2:41:40 PM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/lostdesert/logo.png",
     "team_name": "lost desert",
     "username": "xeyota__fh",
@@ -268,5 +250,23 @@
     "occ_high_score": 2671,
     "total_score": 825,
     "last_updated": "7/9/2026, 10:17:07 AM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/krawkisland/logo.png",
+    "team_name": "krawk island",
+    "username": "alethiometry",
+    "yyb_wins": 23,
+    "yyb_draws": 1,
+    "yyb_high_score": 147,
+    "slsl_wins": 10,
+    "slsl_high_score": 512,
+    "msn_plays": 71,
+    "msn_high_score": 4537,
+    "sosd_plays": 5,
+    "sosd_high_score": 887,
+    "occ_plays": 83,
+    "occ_high_score": 4240,
+    "total_score": 1065,
+    "last_updated": "7/9/2026, 10:17:10 AM"
   }
 ]
