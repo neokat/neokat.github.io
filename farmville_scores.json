@@ -90,24 +90,6 @@
     "last_updated": "7/10/2026, 8:18:05 AM"
   },
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/brightvale/logo.png",
-    "team_name": "brightvale",
-    "username": "kio______lake",
-    "yyb_wins": 30,
-    "yyb_draws": 0,
-    "yyb_high_score": 220,
-    "slsl_wins": 25,
-    "slsl_high_score": 612,
-    "msn_plays": 25,
-    "msn_high_score": 4725,
-    "sosd_plays": 25,
-    "sosd_high_score": 1173,
-    "occ_plays": 95,
-    "occ_high_score": 3967,
-    "total_score": 1295,
-    "last_updated": "7/10/2026, 8:18:11 AM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/darigancitadel/logo.png",
     "team_name": "darigan citadel",
     "username": "ckgknyangel",
@@ -268,5 +250,23 @@
     "occ_high_score": 4977,
     "total_score": 1488,
     "last_updated": "7/10/2026, 9:03:42 AM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/brightvale/logo.png",
+    "team_name": "brightvale",
+    "username": "kio______lake",
+    "yyb_wins": 36,
+    "yyb_draws": 0,
+    "yyb_high_score": 274,
+    "slsl_wins": 25,
+    "slsl_high_score": 612,
+    "msn_plays": 25,
+    "msn_high_score": 4725,
+    "sosd_plays": 25,
+    "sosd_high_score": 1173,
+    "occ_plays": 100,
+    "occ_high_score": 3967,
+    "total_score": 1404,
+    "last_updated": "7/10/2026, 9:18:17 AM"
   }
 ]
