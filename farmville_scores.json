@@ -1,23 +1,5 @@
 [
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/darigancitadel/logo.png",
-    "team_name": "darigan citadel",
-    "username": "ckgknyangel",
-    "yyb_wins": 4,
-    "yyb_draws": 1,
-    "yyb_high_score": 28,
-    "slsl_wins": 6,
-    "slsl_high_score": 518,
-    "msn_plays": 5,
-    "msn_high_score": 5571,
-    "sosd_plays": 3,
-    "sosd_high_score": 1073,
-    "occ_plays": 69,
-    "occ_high_score": 3452,
-    "total_score": 485,
-    "last_updated": "7/10/2026, 8:18:20 AM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/faerieland/logo.png",
     "team_name": "faerieland",
     "username": "nella_fantasia",
@@ -268,5 +250,23 @@
     "occ_high_score": 3967,
     "total_score": 1600,
     "last_updated": "7/13/2026, 10:35:13 AM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/darigancitadel/logo.png",
+    "team_name": "darigan citadel",
+    "username": "ckgknyangel",
+    "yyb_wins": 5,
+    "yyb_draws": 1,
+    "yyb_high_score": 34,
+    "slsl_wins": 7,
+    "slsl_high_score": 518,
+    "msn_plays": 6,
+    "msn_high_score": 5571,
+    "sosd_plays": 18,
+    "sosd_high_score": 1171,
+    "occ_plays": 85,
+    "occ_high_score": 3452,
+    "total_score": 637,
+    "last_updated": "7/13/2026, 10:35:17 AM"
   }
 ]
