@@ -1,23 +1,5 @@
 [
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/meridell/logo.png",
-    "team_name": "meridell",
-    "username": "aangchan",
-    "yyb_wins": 160,
-    "yyb_draws": 0,
-    "yyb_high_score": 771,
-    "slsl_wins": 6,
-    "slsl_high_score": 546,
-    "msn_plays": 36,
-    "msn_high_score": 5535,
-    "sosd_plays": 225,
-    "sosd_high_score": 1181,
-    "occ_plays": 98,
-    "occ_high_score": 4753,
-    "total_score": 3573,
-    "last_updated": "7/10/2026, 8:17:43 AM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/terrormountain/logo.png",
     "team_name": "terror mountain",
     "username": "classicmess",
@@ -268,5 +250,23 @@
     "occ_high_score": 2827,
     "total_score": 1645,
     "last_updated": "7/10/2026, 9:18:25 AM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/meridell/logo.png",
+    "team_name": "meridell",
+    "username": "aangchan",
+    "yyb_wins": 252,
+    "yyb_draws": 0,
+    "yyb_high_score": 1383,
+    "slsl_wins": 6,
+    "slsl_high_score": 546,
+    "msn_plays": 92,
+    "msn_high_score": 5535,
+    "sosd_plays": 559,
+    "sosd_high_score": 1181,
+    "occ_plays": 227,
+    "occ_high_score": 7075,
+    "total_score": 6676,
+    "last_updated": "7/13/2026, 10:34:45 AM"
   }
 ]
