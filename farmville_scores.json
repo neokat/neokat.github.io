@@ -1,23 +1,5 @@
 [
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/faerieland/logo.png",
-    "team_name": "faerieland",
-    "username": "nella_fantasia",
-    "yyb_wins": 16,
-    "yyb_draws": 0,
-    "yyb_high_score": 101,
-    "slsl_wins": 5,
-    "slsl_high_score": 595,
-    "msn_plays": 10,
-    "msn_high_score": 4493,
-    "sosd_plays": 10,
-    "sosd_high_score": 1137,
-    "occ_plays": 10,
-    "occ_high_score": 4046,
-    "total_score": 384,
-    "last_updated": "7/13/2026, 10:35:25 AM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/rooisland/logo.png",
     "team_name": "roo island",
     "username": "idlegoth",
@@ -268,5 +250,23 @@
     "occ_high_score": 1692,
     "total_score": 666,
     "last_updated": "7/14/2026, 12:36:04 PM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/faerieland/logo.png",
+    "team_name": "faerieland",
+    "username": "nella_fantasia",
+    "yyb_wins": 16,
+    "yyb_draws": 0,
+    "yyb_high_score": 101,
+    "slsl_wins": 5,
+    "slsl_high_score": 595,
+    "msn_plays": 10,
+    "msn_high_score": 4493,
+    "sosd_plays": 10,
+    "sosd_high_score": 1137,
+    "occ_plays": 10,
+    "occ_high_score": 4046,
+    "total_score": 384,
+    "last_updated": "7/14/2026, 12:36:06 PM"
   }
 ]
