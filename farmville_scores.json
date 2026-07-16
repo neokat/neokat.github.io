@@ -144,24 +144,6 @@
     "last_updated": "7/14/2026, 12:36:12 PM"
   },
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/kreludor/logo.png",
-    "team_name": "kreludor",
-    "username": "eleganza_lights",
-    "yyb_wins": 226,
-    "yyb_draws": 0,
-    "yyb_high_score": 2460,
-    "slsl_wins": 4,
-    "slsl_high_score": 537,
-    "msn_plays": 3,
-    "msn_high_score": 5125,
-    "sosd_plays": 103,
-    "sosd_high_score": 1173,
-    "occ_plays": 185,
-    "occ_high_score": 6024,
-    "total_score": 4447,
-    "last_updated": "7/14/2026, 6:53:50 PM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/krawkisland/logo.png",
     "team_name": "krawk island",
     "username": "alethiometry",
@@ -268,5 +250,23 @@
     "occ_high_score": 1396,
     "total_score": 4740,
     "last_updated": "7/16/2026, 1:41:13 PM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/kreludor/logo.png",
+    "team_name": "kreludor",
+    "username": "eleganza_lights",
+    "yyb_wins": 226,
+    "yyb_draws": 0,
+    "yyb_high_score": 2460,
+    "slsl_wins": 4,
+    "slsl_high_score": 537,
+    "msn_plays": 3,
+    "msn_high_score": 5125,
+    "sosd_plays": 179,
+    "sosd_high_score": 1176,
+    "occ_plays": 185,
+    "occ_high_score": 6024,
+    "total_score": 4675,
+    "last_updated": "7/16/2026, 1:41:16 PM"
   }
 ]
