@@ -54,24 +54,6 @@
     "last_updated": "7/14/2026, 12:36:04 PM"
   },
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/faerieland/logo.png",
-    "team_name": "faerieland",
-    "username": "nella_fantasia",
-    "yyb_wins": 16,
-    "yyb_draws": 0,
-    "yyb_high_score": 101,
-    "slsl_wins": 5,
-    "slsl_high_score": 595,
-    "msn_plays": 10,
-    "msn_high_score": 4493,
-    "sosd_plays": 10,
-    "sosd_high_score": 1137,
-    "occ_plays": 10,
-    "occ_high_score": 4046,
-    "total_score": 384,
-    "last_updated": "7/14/2026, 12:36:06 PM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/terrormountain/logo.png",
     "team_name": "terror mountain",
     "username": "ferulax",
@@ -268,5 +250,23 @@
     "occ_high_score": 3452,
     "total_score": 753,
     "last_updated": "7/16/2026, 1:41:32 PM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/faerieland/logo.png",
+    "team_name": "faerieland",
+    "username": "nella_fantasia",
+    "yyb_wins": 33,
+    "yyb_draws": 0,
+    "yyb_high_score": 198,
+    "slsl_wins": 20,
+    "slsl_high_score": 595,
+    "msn_plays": 20,
+    "msn_high_score": 4493,
+    "sosd_plays": 20,
+    "sosd_high_score": 1137,
+    "occ_plays": 20,
+    "occ_high_score": 4046,
+    "total_score": 882,
+    "last_updated": "7/16/2026, 1:41:35 PM"
   }
 ]
