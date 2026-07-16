@@ -144,24 +144,6 @@
     "last_updated": "7/14/2026, 12:36:12 PM"
   },
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/krawkisland/logo.png",
-    "team_name": "krawk island",
-    "username": "alethiometry",
-    "yyb_wins": 25,
-    "yyb_draws": 1,
-    "yyb_high_score": 165,
-    "slsl_wins": 10,
-    "slsl_high_score": 512,
-    "msn_plays": 100,
-    "msn_high_score": 4537,
-    "sosd_plays": 84,
-    "sosd_high_score": 1125,
-    "occ_plays": 520,
-    "occ_high_score": 5032,
-    "total_score": 3602,
-    "last_updated": "7/14/2026, 6:53:54 PM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/terrormountain/logo.png",
     "team_name": "terror mountain",
     "username": "classicmess",
@@ -268,5 +250,23 @@
     "occ_high_score": 4977,
     "total_score": 4275,
     "last_updated": "7/16/2026, 1:41:18 PM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/krawkisland/logo.png",
+    "team_name": "krawk island",
+    "username": "alethiometry",
+    "yyb_wins": 25,
+    "yyb_draws": 1,
+    "yyb_high_score": 165,
+    "slsl_wins": 10,
+    "slsl_high_score": 512,
+    "msn_plays": 100,
+    "msn_high_score": 4537,
+    "sosd_plays": 175,
+    "sosd_high_score": 1130,
+    "occ_plays": 520,
+    "occ_high_score": 5032,
+    "total_score": 3875,
+    "last_updated": "7/16/2026, 1:41:20 PM"
   }
 ]
