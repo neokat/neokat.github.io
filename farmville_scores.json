@@ -36,24 +36,6 @@
     "last_updated": "7/13/2026, 10:35:48 AM"
   },
   {
-    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/darigancitadel/logo.png",
-    "team_name": "darigan citadel",
-    "username": "ckgknyangel",
-    "yyb_wins": 5,
-    "yyb_draws": 1,
-    "yyb_high_score": 34,
-    "slsl_wins": 7,
-    "slsl_high_score": 518,
-    "msn_plays": 6,
-    "msn_high_score": 5571,
-    "sosd_plays": 24,
-    "sosd_high_score": 1171,
-    "occ_plays": 90,
-    "occ_high_score": 3452,
-    "total_score": 680,
-    "last_updated": "7/14/2026, 12:22:36 PM"
-  },
-  {
     "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/lostdesert/logo.png",
     "team_name": "lost desert",
     "username": "xeyota__fh",
@@ -268,5 +250,23 @@
     "occ_high_score": 3531,
     "total_score": 1192,
     "last_updated": "7/16/2026, 1:41:29 PM"
+  },
+  {
+    "team_logo": "https://images.neopets.com/altador/altadorcup/2010/popups/darigancitadel/logo.png",
+    "team_name": "darigan citadel",
+    "username": "ckgknyangel",
+    "yyb_wins": 5,
+    "yyb_draws": 1,
+    "yyb_high_score": 34,
+    "slsl_wins": 7,
+    "slsl_high_score": 518,
+    "msn_plays": 6,
+    "msn_high_score": 5571,
+    "sosd_plays": 35,
+    "sosd_high_score": 1174,
+    "occ_plays": 98,
+    "occ_high_score": 3452,
+    "total_score": 753,
+    "last_updated": "7/16/2026, 1:41:32 PM"
   }
 ]
